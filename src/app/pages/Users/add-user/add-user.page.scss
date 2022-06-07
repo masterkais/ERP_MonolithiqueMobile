@@ -1,0 +1,36 @@
+ion-badge {
+  position: absolute;
+  font-size: 8pt;
+  right: -5px;
+  top: 2px;
+}
+
+.ion-button {
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  // overflow: visible!important;
+}
+
+/* Setting Overflow Visible */
+.ion-button.custom-class::part(native) {
+  overflow: visible;
+}
+
+
+
+.contactFormList {
+  margin-top: 20px;
+
+  .inputs-item {
+    border: 1px solid lightcyan;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+  }
+}
+
+ion-button{
+  --border-radius: 5px;
+  margin: 10px;
+}

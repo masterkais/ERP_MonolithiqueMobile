@@ -1,0 +1,73 @@
+{
+  "_from": "cordova-plugin-x-toast",
+  "_id": "cordova-plugin-x-toast@2.7.3",
+  "_inBundle": false,
+  "_integrity": "sha512-+1aV7wJZpJdeZKTbBiagGawAJq7LOA4TFD6Et1uyTz+OUr3F4url8mXS+qLsag6kBCRftWg9WTA2bZTZv4tBjw==",
+  "_location": "/cordova-plugin-x-toast",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-x-toast",
+    "name": "cordova-plugin-x-toast",
+    "escapedName": "cordova-plugin-x-toast",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-x-toast/-/cordova-plugin-x-toast-2.7.3.tgz",
+  "_shasum": "bc642998370e15c8f02204ccf67bbe90cb27a4fc",
+  "_spec": "cordova-plugin-x-toast",
+  "_where": "D:\\expertDevSolutions\\Themes\\ionicstarterapp-10\\codecanyon-27561407-ionic-5-angular-5-ui-theme-template-app-multipurpose-starter-app\\App_Source_code\\App_code\\App_code",
+  "author": {
+    "name": "Eddy Verbruggen",
+    "email": "eddyverbruggen@gmail.com",
+    "url": "https://github.com/EddyVerbruggen"
+  },
+  "bugs": {
+    "url": "https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-x-toast",
+    "platforms": [
+      "ios",
+      "android",
+      "wp8",
+      "windows",
+      "blackberry10"
+    ]
+  },
+  "deprecated": false,
+  "description": "This plugin allows you to show a Toast. A Toast is a little non intrusive buttonless popup which automatically disappears.",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin#readme",
+  "keywords": [
+    "Toast",
+    "Notification",
+    "Message",
+    "Alert",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-wp8",
+    "cordova-windows",
+    "cordova-blackberry10"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-x-toast",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin.git"
+  },
+  "version": "2.7.3"
+}

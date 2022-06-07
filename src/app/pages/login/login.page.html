@@ -1,0 +1,60 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <!-- <ion-buttons slot="end">
+       <ion-button color='dark' (click)="startApp()" [hidden]="!showSkip">skip </ion-button>
+     </ion-buttons>-->
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen class="bg">
+  <div class="main_content_div" [class.ios_pad]="plt == 'ios'">
+
+    <!-- <ion-icon name="arrow-back-outline" (click)="goBack()"></ion-icon>-->
+
+    <div class="green_curve"></div>
+    <div class="black_curve">
+      <img src="assets/imgs/logo_sonicerp.png" class="car">
+    </div>
+    <div class="black_green_curve"></div>
+
+    <div class="form_div">
+      <!--  <ion-label class="head_lbl">Login</ion-label>-->
+      <form #loginForm="ngForm" novalidate>
+        <ion-input [(ngModel)]="login.email" type="text" placeholder="Login" name="email" #email="ngModel"
+                   spellcheck="false" autocapitalize="off" required>
+        </ion-input>
+        <ion-text>
+          <p [hidden]="email.valid || submitted == false" class="ion-padding-start" style="color:red">
+            Login requis
+          </p>
+        </ion-text>
+
+        <ion-input [(ngModel)]="login.password" name="password" placeholder="password" type="password"
+                   #password="ngModel" required>
+        </ion-input>
+        <ion-text>
+          <p [hidden]="password.valid || submitted == false" class="ion-padding-start" style="color:red">
+            Mot de passe requis
+          </p>
+        </ion-text>
+
+
+        <ion-label class="forgot">Mot de passe oublié ?</ion-label>
+
+        <ion-row class="ion-no-margin ion-no-padding">
+          <ion-col class="ion-no-margin ion-no-padding">
+            <ion-button (click)="onLogin(loginForm)" type="submit" expand="block"
+                        [disabled]="isLogin">
+              <span class="title" *ngIf="!isLogin"> Log In</span>
+              <ion-spinner name="circles" *ngIf="isLogin"></ion-spinner>
+            </ion-button>
+          </ion-col>
+        </ion-row>
+
+        <!--<ion-label class="bottom_lbl">Don't have Account ? <span class="signup_span">Sign Up</span></ion-label>
+        <br>-->
+      </form>
+
+    </div>
+  </div>
+</ion-content>

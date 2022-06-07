@@ -1,0 +1,122 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <!--- <ion-back-button mode="md"></ion-back-button>-->
+
+      <ion-menu-button></ion-menu-button>
+
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button class="ion-button custom-class" (click)="addtocart()" color="red"  fill="solid">
+        <ion-icon name="cart" style="color: white"></ion-icon>
+        <ion-badge color="danger" >{{charge_compteur()}}</ion-badge>
+      </ion-button>
+
+    </ion-buttons>
+    <ion-title style="text-align: center">Mon panier</ion-title>
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content>
+  <div class="shopping-cart">
+    <!--  Title  -->
+
+    <!--   Product #1 -->
+
+    <!--   Product #2 -->
+    <div *ngIf=" produits_commandes_list.length >0">
+      <div class="item" *ngFor="let item of produits_commandes_list">
+        <div class="buttons" *ngIf=" item['_idProd']">
+          <span class="delete-btn" (click)="delete(item['_idProd'])"></span>
+          <!-- <span class="like-btn"></span>-->
+        </div>
+
+        <div class="image">
+          <img [src]="showImage(item['_urlimgProd'])"  alt="" />
+        </div>
+
+        <div class="description">
+          <span>{{item['_nameProd']}}</span>
+          <span>{{item['_descriptionProd']}}</span>
+          <!-- <span>{{item['_buyingPriceProd']}}.00</span>-->
+        </div>
+
+        <div class="quantity"  *ngIf=" item['_idProd']">
+          <!-- <button class="plus-btn" type="button" name="button">
+             <img src="https://designmodo.com/demo/shopping-cart/plus.svg" alt="" />
+           </button>-->
+
+          <div class="last_div">
+            <ion-button (click)="plus(item['_idProd'])" size="small" fill="clear">
+              <ion-icon slot="icon-only" name="add"></ion-icon>
+            </ion-button>
+
+            <!--  <ion-label><span>{{value}}</span></ion-label> -->
+
+            <div class="text_div">
+              <div class="lbl_div">{{item['_compteur']}}</div>
+            </div>
+
+            <ion-button (click)="minus(item['_idProd'])" size="small" fill="clear">
+              <ion-icon slot="icon-only" name="remove-outline"></ion-icon>
+            </ion-button>
+          </div>
+          <!-- <input type="text" name="name" value="{{item['_compteur']}}" />
+           <button class="minus-btn" type="button" name="button">
+             <img src="https://designmodo.com/demo/shopping-cart/minus.svg" alt="" />
+           </button>-->
+        </div>
+
+        <div class="total-price">{{item['_buyingPriceProd']}}.00</div>
+
+      </div>
+    </div>
+
+
+
+
+    <br>
+    <ion-button expand="block">
+      <span class="title" style="color:white"> Procéder à la caisse</span>
+    </ion-button>
+    <br>
+
+  </div>
+  <script>
+      $('.like-btn').on('click', function() {
+          $(this).toggleClass('is-active');
+      });
+
+      $('.minus-btn').on('click', function(e) {
+          e.preventDefault();
+          var $this = $(this);
+          var $input = $this.closest('div').find('input');
+          var value = parseInt($input.val());
+
+          if (value &gt; 1) {
+              value = value - 1;
+          } else {
+              value = 0;
+          }
+
+          $input.val(value);
+
+      });
+
+      $('.plus-btn').on('click', function(e) {
+          e.preventDefault();
+          var $this = $(this);
+          var $input = $this.closest('div').find('input');
+          var value = parseInt($input.val());
+
+          if (value < 100) {
+              value = value + 1;
+          } else {
+              value =100;
+          }
+
+          $input.val(value);
+      });
+  </script>
+</ion-content>

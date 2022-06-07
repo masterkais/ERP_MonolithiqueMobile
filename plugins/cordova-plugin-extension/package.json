@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-extension@1.5.4",
+      "D:\\expertDevSolutions\\Themes\\ionicstarterapp-10\\codecanyon-27561407-ionic-5-angular-5-ui-theme-template-app-multipurpose-starter-app\\App_Source_code\\App_code\\App_code"
+    ]
+  ],
+  "_from": "cordova-plugin-extension@1.5.4",
+  "_id": "cordova-plugin-extension@1.5.4",
+  "_inBundle": false,
+  "_integrity": "sha1-k4/KDLAAa6tW/87lBiAb/hsA44Q=",
+  "_location": "/cordova-plugin-extension",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cordova-plugin-extension@1.5.4",
+    "name": "cordova-plugin-extension",
+    "escapedName": "cordova-plugin-extension",
+    "rawSpec": "1.5.4",
+    "saveSpec": null,
+    "fetchSpec": "1.5.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-extension/-/cordova-plugin-extension-1.5.4.tgz",
+  "_spec": "1.5.4",
+  "_where": "D:\\expertDevSolutions\\Themes\\ionicstarterapp-10\\codecanyon-27561407-ionic-5-angular-5-ui-theme-template-app-multipurpose-starter-app\\App_Source_code\\App_code\\App_code",
+  "author": {
+    "name": "Liming Xie",
+    "email": "rjfun.mobile@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/floatinghotpot/cordova-extension/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-extension",
+    "platforms": [
+      "android",
+      "ios",
+      "amazon-fireos"
+    ]
+  },
+  "description": "Cordova Plugin common extension with adapter interface",
+  "homepage": "https://github.com/floatinghotpot/cordova-extension#readme",
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "extension",
+    "rjfun"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-extension",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/floatinghotpot/cordova-extension.git"
+  },
+  "version": "1.5.4"
+}

@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <!--- <ion-back-button mode="md"></ion-back-button>-->
+
+      <ion-back-button defaultHref="/example5"></ion-back-button>
+
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button class="ion-button custom-class" (click)="addtocart()" color="red"  fill="solid">
+        <ion-icon name="cart" style="color: white"></ion-icon>
+        <ion-badge color="danger" >{{this.badgecount}}</ion-badge>
+      </ion-button>
+
+    </ion-buttons>
+    <ion-title style="text-align: center">produit</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="main_content_div">
+    <img [src]="showImage(urlimgProd)">
+    <ion-label class="name">{{ this.nameProd}} <span>{{this.sellingPriceProd}}.00</span></ion-label>
+    <ion-label class="desc">{{this.descriptionProd}}</ion-label>
+
+    <!--<div class="main_div">
+      <div class="flex_div">
+        <div class="round_div red" (click)="onClick(1)">
+          <ion-icon name="checkmark" *ngIf="id == 1"></ion-icon>
+        </div>
+        <div class="round_div green" (click)="onClick(2)">
+          <ion-icon name="checkmark" *ngIf="id == 2"></ion-icon>
+        </div>
+        <div class="round_div blue" (click)="onClick(3)">
+          <ion-icon name="checkmark" *ngIf="id == 3"></ion-icon>
+        </div>
+        <div class="round_div orange" (click)="onClick(4)">
+          <ion-icon name="checkmark" *ngIf="id == 4"></ion-icon>
+        </div>
+      </div>
+      <div>
+        <ion-icon class="heart_icn" name="heart"></ion-icon>
+      </div>
+    </div>-->
+
+    <div class="desc_card">
+      <ion-label class="small_header">Prix de vente</ion-label>
+      <ion-label class="pro_desc">{{this.sellingPriceProd}}.00</ion-label>
+    </div>
+    <div class="desc_card">
+      <ion-label class="small_header">Prix d'achat</ion-label>
+      <ion-label class="pro_desc">{{this.buyingPriceProd}}.00</ion-label>
+    </div>
+
+
+
+    <ion-button expand="block" (click)="addtocartform()">
+      Ajouter au panier
+    </ion-button>
+
+  </div>
+</ion-content>
