@@ -321,7 +321,6 @@ export class ChartsPage implements OnInit {
 
   }
   ngOnInit() {
-    localStorage.clear();
     this.badgecount=0;
 
     /*if (localStorage.getItem("produits_commandes") != null) {

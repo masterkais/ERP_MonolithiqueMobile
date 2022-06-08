@@ -39,6 +39,10 @@ const routes: Routes = [
     path: 'add-user',
     loadChildren: () => import('./pages/Users/add-user/add-user.module').then( m => m.AddUserPageModule)
   },
+  {
+    path: 'send-request',
+    loadChildren: () => import('./pages/ProductRequests/send-request/send-request.module').then( m => m.SendRequestPageModule)
+  },
 
 
 ];

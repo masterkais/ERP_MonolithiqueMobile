@@ -12,6 +12,9 @@ import {Observable} from "rxjs";
 import { HTTP } from '@ionic-native/http/ngx';
 import { environment } from 'src/environments/environment';
   import {DatePipe} from "@angular/common";
+  import {HttpHeaders} from "@angular/common/http";
+  import {HttpClient} from "@angular/common/http";
+  import {environmentApi} from "../../../services/rest/environnement.model";
   @Component({
     selector: 'app-add-user',
     templateUrl: './add-user.page.html',
@@ -30,7 +33,8 @@ import { environment } from 'src/environments/environment';
       private sqlite: SQLite,
       private api: RestAPIsService,
       private http: HTTP,
-      private datePipe:DatePipe
+      private datePipe:DatePipe,private httpClient:HttpClient
+      
 
   ) {
     this.startDate=format(new Date(), "yyyy-MM-dd");
@@ -94,38 +98,30 @@ import { environment } from 'src/environments/environment';
 
     }).catch(error => {
       var maDate = this.datePipe.transform(datenaiss, "yyyy-MM-ddT14:20:29");
-      let data ={
+      let data: User = {
         id:null,
-        lastName: nom,
-        firstName: prenom,
+        firstName: nom,
+        lastName:prenom,
+        login:nomutilid,
+        password: nomutilid,
+        dateNaissanced: maDate,
+        dateCreated: new Date(),
         adress: adr,
-        fax: fax,
-        email: adrmail,
+        fax:fax,
+        email:adrmail,
         city: ville,
         picture: null,
         active: true,
-        dateNaissanced:  maDate,
-        dateCreated: new Date(),
-        groupIds: 3,
-        login: nomutilid,
-        password: nomutilid,
+        groupIds: [{id:3}],
       };
-
-      this.api.post(data, 'api/user').then((data) => {
-        /* this.util.hide();
-         const info = JSON.parse(data.data);
-         console.log(info);
-         this.url = info.data;*/
-        alert('user added !')
-      }).catch(error => {
-        /*  this.util.hide();
-         console.log(error);*/
-        console.log(error);
-        this.util.showToast('Something went wrong ', 'danger', 'bottom');
+      this.saveUser(data).subscribe((data)=>{
+        console.log("succces");
       });
-
     });
 
   }
+    saveUser(user:User):Observable<User> {
+      return this.httpClient.post<User>(environmentApi.host+"/user",user);
+    }
 
 }

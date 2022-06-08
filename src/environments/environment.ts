@@ -37,7 +37,7 @@ export const environment = {
     cs: 'cs_7ea2fbb867ec8d0fb1d3cc2dbedaefc01cc1bbd3'
   },
   restURL: {
-    baseUrl: 'https://9773-196-179-94-188.eu.ngrok.io/api/',
+    baseUrl: 'https://3a13-196-179-94-188.eu.ngrok.io/api/',
     imagePath: 'https://initappz.com/rest/'
   },
   iosAdmob: {

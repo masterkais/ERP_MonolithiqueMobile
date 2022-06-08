@@ -92,4 +92,7 @@ export class MyCartPage implements OnInit {
 
     this.navCtrl.navigateRoot(['my-cart']);
   }
+  gotocaisse(){
+    this.navCtrl.navigateRoot(['send-request']);
+  }
 }

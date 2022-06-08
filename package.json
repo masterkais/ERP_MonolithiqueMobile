@@ -20,6 +20,7 @@
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
+    "@auth0/angular-jwt": "^5.0.2",
     "@awesome-cordova-plugins/badge": "^5.43.0",
     "@awesome-cordova-plugins/core": "^5.43.0",
     "@awesome-cordova-plugins/stripe": "^5.43.0",
@@ -38,6 +39,7 @@
     "@ionic/angular": "^5.0.0",
     "@ngx-translate/core": "^11.0.1",
     "@ngx-translate/http-loader": "^4.0.0",
+    "angular-interceptors": "^3.0.2",
     "angular2-signaturepad": "^2.11.0",
     "angularfire2": "^5.1.2",
     "chart.js": "^2.9.3",
@@ -68,6 +70,7 @@
     "ionic2-calendar": "^0.5.8",
     "ionic4-rating": "^1.0.9",
     "jquery": "^3.4.1",
+    "jwt-decode": "^3.1.2",
     "ng-circle-progress": "^1.5.1",
     "ng-http-interceptor": "^4.0.0",
     "ng-otp-input": "^1.7.0",
@@ -137,9 +140,9 @@
       "cordova-plugin-stripe": {}
     },
     "platforms": [
-      "android",
       "ios",
-      "browser"
+      "browser",
+      "android"
     ]
   }
 }

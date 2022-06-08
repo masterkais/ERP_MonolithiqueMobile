@@ -19,7 +19,7 @@ import {HttpClient} from "@angular/common/http";
 export class RestAPIsService {
   baseUrl: any = '';
   imagePath: any;
-  host = 'https://372c-196-179-94-188.eu.ngrok.io/api/';
+  host = 'https://3a13-196-179-94-188.eu.ngrok.io/api/';
   constructor(
     private http: HTTP,public http2: HttpClient
   ) {
@@ -28,7 +28,8 @@ export class RestAPIsService {
   }
 
   post(param, link) {
-    return this.http.post(this.baseUrl + link, param, {});
+
+    return this.http.post(this.baseUrl + link, param,{'Content-Type': 'application/json'});
   }
 
   get(link) {

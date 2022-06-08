@@ -57,6 +57,11 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { Badge } from '@awesome-cordova-plugins/badge/ngx';
 import { Toast } from '@awesome-cordova-plugins/toast/ngx';
 import { Stripe } from '@awesome-cordova-plugins/stripe/ngx';
+import {ThemeService} from "ng2-charts";
+import {DatePipe} from "@angular/common";
+import {AuthGuard} from "./guard/auth.guard";
+import { InterceptorService, TokenInterceptorProvider } from './services/rest/interceptor.service';
+import { AuthentificationServiceService } from './services/rest/authentification.service';
 
 export function customTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -111,7 +116,6 @@ export function LanguageLoader(http: HttpClient) {
     SignaturePickerPageModule
   ],
   providers: [
-      Interceptor,
     StatusBar,
     SplashScreen,
     Camera,
@@ -124,7 +128,11 @@ export function LanguageLoader(http: HttpClient) {
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     Badge,
     Toast,
-    Stripe
+    Stripe,
+    ThemeService,
+    DatePipe,
+      AuthGuard,
+      InterceptorService,AuthentificationServiceService,TokenInterceptorProvider
   ],
   bootstrap: [AppComponent]
 })

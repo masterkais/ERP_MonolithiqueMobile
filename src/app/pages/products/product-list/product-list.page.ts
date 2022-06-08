@@ -9,6 +9,8 @@ import {DomSanitizer, SafeResourceUrl} from '@angular/platform-browser';
 import { LoadingController } from '@ionic/angular';
 import { Router, NavigationExtras } from "@angular/router";
 import {Panier} from "../../../modals/Panier";
+import {Observable} from "rxjs";
+import {HttpClient} from "@angular/common/http";
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.page.html',
@@ -27,7 +29,7 @@ export class ProductListPage implements OnInit {
               private navCtrl: NavController,
               private api: RestAPIsService,
               public loadingCtrl: LoadingController,
-              private router: Router) {
+              private router: Router,private http:HttpClient) {
     this.allProducts = this.products.products;
     if (localStorage.getItem("produits_commandes") != null) {
       this.produits_commandes_list = JSON.parse(localStorage.getItem("produits_commandes"));
@@ -131,40 +133,22 @@ export class ProductListPage implements OnInit {
       //this.util.showToast(`${error}`, 'danger', 'bottom');
     });
   }
+  listProduct():Observable<Product[]>{
+   return this.http.get<Product[]>("https://3a13-196-179-94-188.eu.ngrok.io/api/product/products");
+  }
   getallproducts(){
     var prod,i,j;
 
-    this.api.get('product/products').then((data) => {
+    this.listProduct().subscribe((data) => {
 
-      const info = JSON.parse(data.data);
+     let info=data;
       //alert(info[0]['id']);
       // alert(info.length);
-      // if (info && info.status === 200) {
-      if(info.length>0) {
-        for (i = 0; i < info.length; i++) {
-
-          prod = new Product();
-          prod.setid(info[i]['id']);
-          prod.setname(info[i]['name']);
-          prod.setdescription(info[i]['description']);
-          prod.setsellingPrice(info[i]['sellingPrice']);
-          prod.setbuyingPrice(info[i]['buyingPrice']);
-          prod.setstate(info[i]['state']);
-          prod.setactive(info[i]['active']);
-          prod.setimagesIds(info[i]['imagesIds']);
-          this.imagesIds = info[i]['imagesIds'];
+          this.product_list=data;
 
 
 
-          prod.setcategoryId(info[i]['categoryId']);
-          prod.setsiteStockId(info[i]['siteStockId']);
-          this.product_list.push(prod);
-          //  alert('22222    '+this.product_list[0].geturlimg());
-
-        }
-
-
-      }
+      })
 
 
       //   if(this.img_list.length>0) {
@@ -175,12 +159,7 @@ export class ProductListPage implements OnInit {
       /* else {
        // this.util.showToast(`${info.data.message}`, 'danger', 'bottom');
        }*/
-    }).catch(error => {
-      //this.isLogin = false;
-      alert('getallproducts');
-      alert(error.message);
-      //this.util.showToast(`${error}`, 'danger', 'bottom');
-    });
+
   }
 
   mergelists( productlist, imagelist){
