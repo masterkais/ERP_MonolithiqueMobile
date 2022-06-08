@@ -92,11 +92,6 @@ import { environment } from 'src/environments/environment';
   }
   adduser(nom,prenom,adrmail,nomutilid, adr,ville,datenaiss,tel,fax){
     //alert(nomutilid);
-    this.api.get('user/findUserByUserName/'+nomutilid).then((data) => {
-      this.util.showToast('Utilisateur existe déjà', 'danger', 'bottom');
-
-
-    }).catch(error => {
       var maDate = this.datePipe.transform(datenaiss, "yyyy-MM-ddT14:20:29");
       let data: User = {
         id:null,
@@ -113,13 +108,14 @@ import { environment } from 'src/environments/environment';
         picture: null,
         active: true,
         groupIds: [{id:3}],
-      };
+      }
       this.saveUser(data).subscribe((data)=>{
         console.log("succces");
-      });
+    },(err)=>{
+      this.util.showToast('Utilisateur existe déjà', 'danger', 'bottom');
     });
-
   }
+  
     saveUser(user:User):Observable<User> {
       return this.httpClient.post<User>(environmentApi.host+"/user",user);
     }

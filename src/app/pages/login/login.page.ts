@@ -67,7 +67,7 @@ import { AuthentificationServiceService } from 'src/app/services/rest/authentifi
       this.authService.login(dataForm).subscribe(
          (resp) => {
           let jwt = resp.headers.get("Authorization");
-          this.authService.saveToken(JSON.stringify(jwt));
+          this.authService.saveToken(jwt);
           console.log("success")
           setTimeout(() => {
             this.router.navigateByUrl('/charts');;
