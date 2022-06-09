@@ -39,7 +39,7 @@ export class DummyService {
 
     {
       title: 'Déconnexion',
-      url: '/slider',
+      url: '/logout',
       icon: 'log-out'
     }
   ];
