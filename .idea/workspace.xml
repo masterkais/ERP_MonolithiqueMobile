@@ -2,10 +2,927 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acf31a66-5761-4771-a26d-bb78d7fa0eff" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/modals/LineSale.ts" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/default~pages-accordions-accordions-module~pages-user-avatar-user-avatar-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/default~pages-accordions-accordions-module~pages-user-avatar-user-avatar-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/default~pages-accordions-accordions-module~pages-user-avatar-user-avatar-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/default~pages-accordions-accordions-module~pages-user-avatar-user-avatar-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/default~pages-charts-charts-module~pages-firebase-fire-image-list-fire-image-list-module~pages-fireb~51ed4c4f-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/default~pages-charts-charts-module~pages-firebase-fire-image-list-fire-image-list-module~pages-fireb~51ed4c4f-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/default~pages-charts-charts-module~pages-firebase-fire-image-list-fire-image-list-module~pages-fireb~51ed4c4f-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/default~pages-charts-charts-module~pages-firebase-fire-image-list-fire-image-list-module~pages-fireb~51ed4c4f-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/default~pages-forms-forms2-forms2-module~pages-forms-forms3-forms3-module~pages-forms-forms4-forms4-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/default~pages-forms-forms2-forms2-module~pages-forms-forms3-forms3-module~pages-forms-forms4-forms4-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/default~pages-forms-forms2-forms2-module~pages-forms-forms3-forms3-module~pages-forms-forms4-forms4-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/default~pages-forms-forms2-forms2-module~pages-forms-forms3-forms3-module~pages-forms-forms4-forms4-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/default~pages-parallax-parallax5-parallax5-module~pages-tabs2-tabs2-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/default~pages-parallax-parallax5-parallax5-module~pages-tabs2-tabs2-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/default~pages-parallax-parallax5-parallax5-module~pages-tabs2-tabs2-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/default~pages-parallax-parallax5-parallax5-module~pages-tabs2-tabs2-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/folder-folder-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/folder-folder-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/folder-folder-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/folder-folder-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-accordions-accordions-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-accordions-accordions-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-accordions-accordions-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-accordions-accordions-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-admob-admob-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-admob-admob-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-admob-admob-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-admob-admob-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-animations-animations-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-animations-animations-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-animations-animations-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-animations-animations-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-barcode-scanner-barcode-scanner-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-barcode-scanner-barcode-scanner-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-barcode-scanner-barcode-scanner-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-barcode-scanner-barcode-scanner-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-calendars-calendars-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-calendars-calendars-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-calendars-calendars-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-calendars-calendars-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-ex1-chat-ex1-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-ex1-chat-ex1-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-ex1-chat-ex1-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-ex1-chat-ex1-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-ex2-chat-ex2-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-ex2-chat-ex2-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-ex2-chat-ex2-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-ex2-chat-ex2-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-ex3-chat-ex3-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-ex3-chat-ex3-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-ex3-chat-ex3-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-ex3-chat-ex3-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-ex4-chat-ex4-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-ex4-chat-ex4-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-ex4-chat-ex4-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-ex4-chat-ex4-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-ex5-chat-ex5-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-ex5-chat-ex5-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-ex5-chat-ex5-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-ex5-chat-ex5-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-home-chat-home-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-home-chat-home-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-home-chat-home-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-chat-chat-home-chat-home-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ck-editor-ck-editor-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ck-editor-ck-editor-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ck-editor-ck-editor-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ck-editor-ck-editor-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example-home-example-home-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example-home-example-home-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example-home-example-home-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example-home-example-home-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example1-example1-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example1-example1-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example1-example1-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example1-example1-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example10-example10-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example10-example10-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example10-example10-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example10-example10-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example2-example2-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example2-example2-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example2-example2-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example2-example2-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example3-example3-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example3-example3-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example3-example3-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example3-example3-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example4-example4-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example4-example4-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example4-example4-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example4-example4-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example5-example5-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example5-example5-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example5-example5-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-ecommerce-example5-example5-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-create-create-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-create-create-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-create-create-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-create-create-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-details-details-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-details-details-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-details-details-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-details-details-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-fire-image-create-fire-image-create-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-fire-image-create-fire-image-create-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-fire-image-create-fire-image-create-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-fire-image-create-fire-image-create-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-fire-image-detail-fire-image-detail-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-fire-image-detail-fire-image-detail-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-fire-image-detail-fire-image-detail-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-fire-image-detail-fire-image-detail-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-fire-image-list-fire-image-list-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-fire-image-list-fire-image-list-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-fire-image-list-fire-image-list-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-fire-image-list-fire-image-list-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-firebase-firebase-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-firebase-firebase-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-firebase-firebase-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-firebase-firebase-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-home-home-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-home-home-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-home-home-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-home-home-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-login-login-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-login-login-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-login-login-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-login-login-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-register-register-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-register-register-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-register-register-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-register-register-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-reset-reset-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-reset-reset-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-reset-reset-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-firebase-reset-reset-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-forms-forms-forms-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-forms-forms-forms-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-forms-forms-forms-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-forms-forms-forms-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-forms-forms1-forms1-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-forms-forms1-forms1-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-forms-forms1-forms1-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-forms-forms1-forms1-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-forms-forms2-forms2-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-forms-forms2-forms2-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-forms-forms2-forms2-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-forms-forms2-forms2-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-forms-forms3-forms3-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-forms-forms3-forms3-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-forms-forms3-forms3-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-forms-forms3-forms3-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-forms-forms4-forms4-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-forms-forms4-forms4-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-forms-forms4-forms4-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-forms-forms4-forms4-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex1-grid-ex1-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex1-grid-ex1-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex1-grid-ex1-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex1-grid-ex1-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex2-grid-ex2-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex2-grid-ex2-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex2-grid-ex2-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex2-grid-ex2-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex3-grid-ex3-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex3-grid-ex3-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex3-grid-ex3-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex3-grid-ex3-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex4-grid-ex4-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex4-grid-ex4-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex4-grid-ex4-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex4-grid-ex4-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex5-grid-ex5-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex5-grid-ex5-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex5-grid-ex5-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex5-grid-ex5-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex6-grid-ex6-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex6-grid-ex6-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex6-grid-ex6-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-ex6-grid-ex6-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-home-grid-home-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-home-grid-home-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-home-grid-home-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-gridScreens-grid-home-grid-home-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-home-home-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-home-home-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-home-home-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-home-home-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-input-mask-input-mask-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-input-mask-input-mask-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-input-mask-input-mask-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-input-mask-input-mask-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-item-ribbon-item-ribbon-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-item-ribbon-item-ribbon-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-item-ribbon-item-ribbon-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-item-ribbon-item-ribbon-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex1-login-ex1-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex1-login-ex1-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex1-login-ex1-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex1-login-ex1-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex2-login-ex2-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex2-login-ex2-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex2-login-ex2-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex2-login-ex2-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex3-login-ex3-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex3-login-ex3-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex3-login-ex3-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex3-login-ex3-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex4-login-ex4-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex4-login-ex4-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex4-login-ex4-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex4-login-ex4-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex5-login-ex5-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex5-login-ex5-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex5-login-ex5-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex5-login-ex5-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex6-login-ex6-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex6-login-ex6-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex6-login-ex6-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-ex6-login-ex6-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-home-login-home-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-home-login-home-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-home-login-home-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-loginScreens-login-home-login-home-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-maps-distance-matrix-distance-matrix-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-maps-distance-matrix-distance-matrix-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-maps-distance-matrix-distance-matrix-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-maps-distance-matrix-distance-matrix-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-maps-maps-maps-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-maps-maps-maps-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-maps-maps-maps-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-maps-maps-maps-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-maps-marker-marker-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-maps-marker-marker-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-maps-marker-marker-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-maps-marker-marker-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-maps-simple-simple-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-maps-simple-simple-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-maps-simple-simple-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-maps-simple-simple-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-maps-styled-styled-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-maps-styled-styled-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-maps-styled-styled-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-maps-styled-styled-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-offline-offline-create-offline-create-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-offline-offline-create-offline-create-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-offline-offline-create-offline-create-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-offline-offline-create-offline-create-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-offline-offline-details-offline-details-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-offline-offline-details-offline-details-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-offline-offline-details-offline-details-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-offline-offline-details-offline-details-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-offline-offline-home-offline-home-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-offline-offline-home-offline-home-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-offline-offline-home-offline-home-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-offline-offline-home-offline-home-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-parallax-parallax-home-parallax-home-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-parallax-parallax-home-parallax-home-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-parallax-parallax-home-parallax-home-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-parallax-parallax-home-parallax-home-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-parallax-parallax1-parallax1-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-parallax-parallax1-parallax1-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-parallax-parallax1-parallax1-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-parallax-parallax1-parallax1-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-parallax-parallax2-parallax2-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-parallax-parallax2-parallax2-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-parallax-parallax2-parallax2-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-parallax-parallax2-parallax2-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-parallax-parallax5-parallax5-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-parallax-parallax5-parallax5-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-parallax-parallax5-parallax5-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-parallax-parallax5-parallax5-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-paymentScreens-payment-home-payment-home-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-paymentScreens-payment-home-payment-home-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-paymentScreens-payment-home-payment-home-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-paymentScreens-payment-home-payment-home-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-paymentScreens-payment-next-payment-next-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-paymentScreens-payment-next-payment-next-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-paymentScreens-payment-next-payment-next-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-paymentScreens-payment-next-payment-next-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-paymentScreens-payment1-payment1-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-paymentScreens-payment1-payment1-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-paymentScreens-payment1-payment1-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-paymentScreens-payment1-payment1-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-paymentScreens-payment2-payment2-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-paymentScreens-payment2-payment2-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-paymentScreens-payment2-payment2-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-paymentScreens-payment2-payment2-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-paymentScreens-payment3-payment3-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-paymentScreens-payment3-payment3-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-paymentScreens-payment3-payment3-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-paymentScreens-payment3-payment3-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-ex1-profile-ex1-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-ex1-profile-ex1-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-ex1-profile-ex1-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-ex1-profile-ex1-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-ex2-profile-ex2-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-ex2-profile-ex2-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-ex2-profile-ex2-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-ex2-profile-ex2-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-ex3-profile-ex3-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-ex3-profile-ex3-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-ex3-profile-ex3-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-ex3-profile-ex3-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-ex4-profile-ex4-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-ex4-profile-ex4-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-ex4-profile-ex4-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-ex4-profile-ex4-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-ex5-profile-ex5-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-ex5-profile-ex5-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-ex5-profile-ex5-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-ex5-profile-ex5-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-home-profile-home-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-home-profile-home-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-home-profile-home-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-profile-screens-profile-home-profile-home-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex1-register-ex1-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex1-register-ex1-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex1-register-ex1-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex1-register-ex1-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex2-register-ex2-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex2-register-ex2-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex2-register-ex2-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex2-register-ex2-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex3-register-ex3-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex3-register-ex3-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex3-register-ex3-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex3-register-ex3-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex4-register-ex4-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex4-register-ex4-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex4-register-ex4-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex4-register-ex4-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex5-register-ex5-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex5-register-ex5-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex5-register-ex5-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex5-register-ex5-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex6-register-ex6-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex6-register-ex6-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex6-register-ex6-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-ex6-register-ex6-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-home-register-home-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-home-register-home-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-home-register-home-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-register-register-home-register-home-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-create-rest-create-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-create-rest-create-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-create-rest-create-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-create-rest-create-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-details-rest-details-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-details-rest-details-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-details-rest-details-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-details-rest-details-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-home-rest-home-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-home-rest-home-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-home-rest-home-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-home-rest-home-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-image-create-rest-image-create-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-image-create-rest-image-create-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-image-create-rest-image-create-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-image-create-rest-image-create-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-image-details-rest-image-details-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-image-details-rest-image-details-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-image-details-rest-image-details-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-image-details-rest-image-details-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-image-list-rest-image-list-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-image-list-rest-image-list-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-image-list-rest-image-list-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-image-list-rest-image-list-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-login-rest-login-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-login-rest-login-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-login-rest-login-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-login-rest-login-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-register-rest-register-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-register-rest-register-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-register-rest-register-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-register-rest-register-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-rest-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-rest-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-rest-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-rest-rest-rest-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-sidemenu-sidemenu-home-sidemenu-home-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-sidemenu-sidemenu-home-sidemenu-home-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-sidemenu-sidemenu-home-sidemenu-home-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-sidemenu-sidemenu-home-sidemenu-home-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-signature-pad-signature-pad-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-signature-pad-signature-pad-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-signature-pad-signature-pad-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-signature-pad-signature-pad-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-slider-slider-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-slider-slider-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-slider-slider-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-slider-slider-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-sliderScreens-slider-ex1-slider-ex1-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-sliderScreens-slider-ex1-slider-ex1-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-sliderScreens-slider-ex1-slider-ex1-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-sliderScreens-slider-ex1-slider-ex1-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-sliderScreens-slider-ex2-slider-ex2-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-sliderScreens-slider-ex2-slider-ex2-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-sliderScreens-slider-ex2-slider-ex2-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-sliderScreens-slider-ex2-slider-ex2-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-sliderScreens-slider-ex3-slider-ex3-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-sliderScreens-slider-ex3-slider-ex3-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-sliderScreens-slider-ex3-slider-ex3-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-sliderScreens-slider-ex3-slider-ex3-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-sliderScreens-slider-home-slider-home-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-sliderScreens-slider-home-slider-home-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-sliderScreens-slider-home-slider-home-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-sliderScreens-slider-home-slider-home-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-tabs2-tabs2-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-tabs2-tabs2-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-tabs2-tabs2-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-tabs2-tabs2-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-theme-theme-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-theme-theme-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-theme-theme-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-theme-theme-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-timeline-timeline-home-timeline-home-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-timeline-timeline-home-timeline-home-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-timeline-timeline-home-timeline-home-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-timeline-timeline-home-timeline-home-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-timeline-timeline1-timeline1-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-timeline-timeline1-timeline1-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-timeline-timeline1-timeline1-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-timeline-timeline1-timeline1-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-timeline-timeline2-timeline2-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-timeline-timeline2-timeline2-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-timeline-timeline2-timeline2-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-timeline-timeline2-timeline2-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-timeline-timeline3-timeline3-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-timeline-timeline3-timeline3-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-timeline-timeline3-timeline3-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-timeline-timeline3-timeline3-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-timeline-timeline4-timeline4-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-timeline-timeline4-timeline4-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-timeline-timeline4-timeline4-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-timeline-timeline4-timeline4-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-tooltip-tooltip-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-tooltip-tooltip-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-tooltip-tooltip-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-tooltip-tooltip-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-translate-translate-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-translate-translate-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-translate-translate-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-translate-translate-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-user-avatar-user-avatar-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-user-avatar-user-avatar-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-user-avatar-user-avatar-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-user-avatar-user-avatar-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-verification-verification-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-verification-verification-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-verification-verification-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-verification-verification-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-video-player-video-player-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-video-player-video-player-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-video-player-video-player-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-video-player-video-player-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-woocommerce-product-list-product-list-module-es2015.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-woocommerce-product-list-product-list-module-es2015.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-woocommerce-product-list-product-list-module-es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-woocommerce-product-list-product-list-module-es5.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/modals/RequestSalesOrder.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/cordova-js-src/android/nativeapiprovider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/cordova-js-src/android/promptbasednativeapi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/cordova-js-src/plugin/android/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-camera/www/CameraPopoverHandle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/android/FileSystem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/fileSystems-roots.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-ionic-keyboard/www/android/keyboard.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/services/data/dummy.service.ts" afterPath="$PROJECT_DIR$/src/app/services/data/dummy.service.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/services/rest/environnement.model.ts" afterPath="$PROJECT_DIR$/src/app/services/rest/environnement.model.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/browser.json" afterPath="$PROJECT_DIR$/platforms/browser/browser.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/config.xml" afterPath="$PROJECT_DIR$/platforms/browser/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/0-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/0-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/0-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/0-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/0-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/0-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/0-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/0-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/1-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/1-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/1-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/1-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/1-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/1-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/1-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/1-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/10-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/10-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/10-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/10-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/10-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/10-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/10-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/10-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/11-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/11-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/11-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/11-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/11-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/11-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/11-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/11-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/12-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/12-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/12-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/12-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/12-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/12-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/12-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/12-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/13-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/13-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/13-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/13-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/13-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/13-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/13-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/13-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/14-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/14-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/14-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/14-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/14-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/14-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/14-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/14-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/15-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/15-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/15-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/15-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/15-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/15-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/15-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/15-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/16-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/16-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/16-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/16-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/16-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/16-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/16-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/16-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/17-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/17-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/17-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/17-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/17-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/17-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/17-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/17-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/18-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/18-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/18-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/18-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/18-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/18-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/18-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/18-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/19-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/19-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/19-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/19-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/19-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/19-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/19-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/19-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/2-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/2-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/2-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/2-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/2-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/2-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/2-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/2-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/20-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/20-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/20-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/20-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/20-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/20-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/20-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/20-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/21-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/21-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/21-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/21-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/21-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/21-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/21-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/21-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/22-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/22-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/22-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/22-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/22-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/22-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/22-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/22-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/23-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/23-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/23-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/23-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/23-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/23-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/23-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/23-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/24-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/24-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/24-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/24-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/24-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/24-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/24-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/24-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/25-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/25-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/25-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/25-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/25-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/25-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/26-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/26-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/26-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/26-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/26-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/26-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/26-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/26-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/27-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/27-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/27-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/27-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/27-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/27-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/27-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/27-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/28-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/28-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/28-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/28-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/28-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/28-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/28-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/28-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/29-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/29-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/29-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/29-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/29-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/29-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/29-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/29-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/3-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/3-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/3-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/3-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/3-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/3-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/3-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/3-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/30-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/30-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/30-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/30-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/30-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/30-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/30-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/30-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/31-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/31-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/31-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/31-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/31-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/31-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/31-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/31-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/32-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/32-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/32-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/32-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/32-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/32-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/32-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/32-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/33-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/33-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/33-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/33-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/33-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/33-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/33-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/33-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/34-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/34-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/34-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/34-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/34-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/34-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/34-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/34-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/35-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/35-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/35-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/35-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/35-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/35-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/35-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/35-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/36-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/36-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/36-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/36-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/36-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/36-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/36-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/36-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/37-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/37-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/37-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/37-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/37-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/37-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/37-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/37-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/38-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/38-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/38-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/38-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/38-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/38-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/38-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/38-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/39-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/39-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/39-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/39-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/39-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/39-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/39-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/39-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/4-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/4-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/4-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/4-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/4-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/4-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/4-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/4-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/40-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/40-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/40-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/40-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/40-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/40-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/40-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/40-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/41-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/41-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/41-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/41-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/41-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/41-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/41-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/41-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/42-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/42-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/42-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/42-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/42-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/42-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/42-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/42-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/43-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/43-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/43-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/43-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/43-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/43-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/43-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/43-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/44-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/44-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/44-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/44-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/44-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/44-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/44-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/44-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/45-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/45-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/45-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/45-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/45-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/45-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/45-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/45-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/46-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/46-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/46-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/46-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/46-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/46-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/46-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/46-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/47-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/47-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/47-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/47-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/47-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/47-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/47-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/47-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/48-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/48-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/48-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/48-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/48-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/48-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/48-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/48-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/49-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/49-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/49-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/49-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/49-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/49-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/49-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/49-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/5-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/5-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/5-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/5-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/5-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/5-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/5-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/5-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/50-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/50-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/50-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/50-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/50-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/50-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/50-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/50-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/51-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/51-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/51-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/51-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/51-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/51-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/51-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/51-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/52-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/52-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/52-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/52-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/52-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/52-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/52-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/52-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/53-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/53-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/53-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/53-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/53-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/53-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/53-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/53-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/54-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/54-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/54-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/54-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/54-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/54-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/54-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/54-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/55-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/55-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/55-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/55-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/55-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/55-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/55-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/55-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/56-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/56-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/56-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/56-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/56-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/56-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/56-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/56-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/57-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/57-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/57-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/57-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/57-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/57-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/57-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/57-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/58-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/58-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/58-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/58-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/58-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/58-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/58-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/58-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/59-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/59-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/59-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/59-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/59-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/59-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/59-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/59-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/6-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/6-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/6-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/6-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/6-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/6-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/60-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/60-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/60-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/60-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/60-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/60-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/60-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/60-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/61-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/61-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/61-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/61-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/61-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/61-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/61-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/61-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/62-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/62-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/62-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/62-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/62-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/62-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/62-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/62-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/63-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/63-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/63-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/63-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/63-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/63-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/63-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/63-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/64-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/64-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/64-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/64-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/64-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/64-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/64-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/64-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/65-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/65-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/65-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/65-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/65-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/65-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/65-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/65-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/66-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/66-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/66-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/66-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/66-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/66-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/66-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/66-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/67-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/67-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/67-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/67-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/67-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/67-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/67-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/67-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/68-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/68-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/68-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/68-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/68-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/68-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/68-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/68-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/69-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/69-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/69-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/69-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/69-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/69-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/7-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/7-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/7-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/7-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/7-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/7-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/70-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/70-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/70-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/70-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/70-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/70-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/70-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/70-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/71-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/71-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/71-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/71-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/71-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/71-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/71-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/71-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/72-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/72-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/72-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/72-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/72-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/72-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/72-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/72-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/73-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/73-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/73-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/73-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/73-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/73-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/73-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/73-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/74-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/74-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/74-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/74-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/74-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/74-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/74-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/74-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/75-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/75-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/75-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/75-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/75-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/75-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/75-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/75-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/76-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/76-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/76-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/76-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/76-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/76-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/76-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/76-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/8-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/8-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/8-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/8-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/8-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/8-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/8-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/8-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/9-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/9-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/9-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/9-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/9-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/9-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/9-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/9-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/common-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/common-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/common-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/common-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/common-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/common-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/common-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/common-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/config.xml" afterPath="$PROJECT_DIR$/platforms/browser/www/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/cordova.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/cordova.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/core-js-js-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/core-js-js-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/core-js-js-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/core-js-js-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/core-js-js-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/core-js-js-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/core-js-js-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/core-js-js-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/dom-js-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/dom-js-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/dom-js-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/dom-js-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/dom-js-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/dom-js-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/dom-js-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/dom-js-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/focus-visible-70713a0c-js-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/focus-visible-70713a0c-js-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/focus-visible-70713a0c-js-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/focus-visible-70713a0c-js-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/focus-visible-70713a0c-js-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/focus-visible-70713a0c-js-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/index.html" afterPath="$PROJECT_DIR$/platforms/browser/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/input-shims-a4fc53ac-js-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/input-shims-a4fc53ac-js-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/input-shims-a4fc53ac-js-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/input-shims-a4fc53ac-js-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/input-shims-a4fc53ac-js-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/input-shims-a4fc53ac-js-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/ios-transition-179652bb-js-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/ios-transition-179652bb-js-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/ios-transition-179652bb-js-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/ios-transition-179652bb-js-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/ios-transition-179652bb-js-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/ios-transition-179652bb-js-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/main-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/main-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/main-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/main-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/main-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/main-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/main-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/main-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/md-transition-91524c12-js-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/md-transition-91524c12-js-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/md-transition-91524c12-js-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/md-transition-91524c12-js-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/md-transition-91524c12-js-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/md-transition-91524c12-js-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-charts-charts-module-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/pages-charts-charts-module-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-charts-charts-module-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/pages-charts-charts-module-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-charts-charts-module-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/pages-charts-charts-module-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-charts-charts-module-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/pages-charts-charts-module-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-my-cart-my-cart-module-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/pages-my-cart-my-cart-module-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-my-cart-my-cart-module-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/pages-my-cart-my-cart-module-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-my-cart-my-cart-module-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/pages-my-cart-my-cart-module-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/pages-my-cart-my-cart-module-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/pages-my-cart-my-cart-module-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/polyfills-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/polyfills-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/polyfills-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/polyfills-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/polyfills-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/polyfills-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/runtime-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/runtime-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/runtime-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/runtime-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/runtime-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/runtime-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/runtime-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/runtime-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/shadow-css-d7d058ec-d59cb009-js-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/shadow-css-d7d058ec-d59cb009-js-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/shadow-css-d7d058ec-d59cb009-js-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/shadow-css-d7d058ec-d59cb009-js-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/shadow-css-d7d058ec-d59cb009-js-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/shadow-css-d7d058ec-d59cb009-js-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/shadow-css-d7d058ec-d59cb009-js-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/shadow-css-d7d058ec-d59cb009-js-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/status-tap-2ec46489-js-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/status-tap-2ec46489-js-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/status-tap-2ec46489-js-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/status-tap-2ec46489-js-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/status-tap-2ec46489-js-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/status-tap-2ec46489-js-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/stencil-polyfills-css-shim-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/stencil-polyfills-css-shim-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/stencil-polyfills-css-shim-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/stencil-polyfills-css-shim-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/stencil-polyfills-css-shim-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/stencil-polyfills-css-shim-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/stencil-polyfills-css-shim-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/stencil-polyfills-css-shim-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/stencil-polyfills-dom-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/stencil-polyfills-dom-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/stencil-polyfills-dom-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/stencil-polyfills-dom-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/stencil-polyfills-dom-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/stencil-polyfills-dom-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/stencil-polyfills-dom-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/stencil-polyfills-dom-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/styles-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/styles-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/styles-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/styles-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/styles-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/styles-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/styles-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/styles-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/swipe-back-d2cdbf9a-js-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/swipe-back-d2cdbf9a-js-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/swipe-back-d2cdbf9a-js-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/swipe-back-d2cdbf9a-js-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/swipe-back-d2cdbf9a-js-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/swipe-back-d2cdbf9a-js-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/swiper-bundle-ccdaac54-js-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/swiper-bundle-ccdaac54-js-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/swiper-bundle-ccdaac54-js-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/swiper-bundle-ccdaac54-js-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/swiper-bundle-ccdaac54-js-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/swiper-bundle-ccdaac54-js-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/swiper-bundle-ccdaac54-js-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/swiper-bundle-ccdaac54-js-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/tap-click-606f325e-js-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/tap-click-606f325e-js-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/tap-click-606f325e-js-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/tap-click-606f325e-js-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/tap-click-606f325e-js-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/tap-click-606f325e-js-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/vendor-es2015.js" afterPath="$PROJECT_DIR$/platforms/browser/www/vendor-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/vendor-es2015.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/vendor-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/vendor-es5.js" afterPath="$PROJECT_DIR$/platforms/browser/www/vendor-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/vendor-es5.js.map" afterPath="$PROJECT_DIR$/platforms/browser/www/vendor-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/modals/Order.ts" afterPath="$PROJECT_DIR$/src/app/modals/Order.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/ProductRequests/send-request/send-request.page.ts" afterPath="$PROJECT_DIR$/src/app/pages/ProductRequests/send-request/send-request.page.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/cordova-js-src/exec.js" afterPath="$PROJECT_DIR$/www/cordova-js-src/exec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/cordova-js-src/platform.js" afterPath="$PROJECT_DIR$/www/cordova-js-src/platform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/cordova.js" afterPath="$PROJECT_DIR$/www/cordova.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/cordova.js.map" afterPath="$PROJECT_DIR$/www/cordova.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/main-es2015.js" afterPath="$PROJECT_DIR$/www/main-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/main-es2015.js.map" afterPath="$PROJECT_DIR$/www/main-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/main-es5.js" afterPath="$PROJECT_DIR$/www/main-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/main-es5.js.map" afterPath="$PROJECT_DIR$/www/main-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/pages-Products-product-detail-product-detail-module-es2015.js" afterPath="$PROJECT_DIR$/www/pages-Products-product-detail-product-detail-module-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/pages-Products-product-detail-product-detail-module-es2015.js.map" afterPath="$PROJECT_DIR$/www/pages-Products-product-detail-product-detail-module-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/pages-Products-product-detail-product-detail-module-es5.js" afterPath="$PROJECT_DIR$/www/pages-Products-product-detail-product-detail-module-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/pages-Products-product-detail-product-detail-module-es5.js.map" afterPath="$PROJECT_DIR$/www/pages-Products-product-detail-product-detail-module-es5.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-admobpro/www/AdMob.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-admobpro/www/AdMob.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/advanced-http.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/advanced-http.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/cookie-handler.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/cookie-handler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/dependency-validator.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/dependency-validator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/error-codes.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/error-codes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/global-configs.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/global-configs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/helpers.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/helpers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/js-util.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/js-util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/local-storage-store.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/local-storage-store.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/lodash.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/lodash.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/messages.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/messages.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/ponyfills.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/ponyfills.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/public-interface.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/public-interface.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/umd-tough-cookie.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/umd-tough-cookie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/url-util.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-advanced-http/www/url-util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-badge/www/badge.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-badge/www/badge.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-camera/www/Camera.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-camera/www/Camera.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-camera/www/CameraConstants.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-camera/www/CameraConstants.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-camera/www/CameraPopoverOptions.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-camera/www/CameraPopoverOptions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-device/www/device.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-device/www/device.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/DirectoryEntry.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/DirectoryEntry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/DirectoryReader.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/DirectoryReader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/Entry.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/Entry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/File.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/File.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/FileEntry.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/FileEntry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/FileError.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/FileError.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/FileReader.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/FileReader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/FileSystem.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/FileSystem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/FileUploadOptions.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/FileUploadOptions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/FileUploadResult.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/FileUploadResult.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/FileWriter.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/FileWriter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/Flags.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/Flags.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/LocalFileSystem.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/LocalFileSystem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/Metadata.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/Metadata.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/ProgressEvent.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/ProgressEvent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/browser/isChrome.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/browser/isChrome.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/fileSystemPaths.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/fileSystemPaths.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/fileSystems.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/fileSystems.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/requestFileSystem.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/requestFileSystem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/resolveLocalFileSystemURI.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-file/www/resolveLocalFileSystemURI.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-ionic-webview/src/www/util.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-ionic-webview/src/www/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-splashscreen/www/splashscreen.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-splashscreen/www/splashscreen.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-statusbar/www/statusbar.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-statusbar/www/statusbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-stripe/www/CordovaStripe.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-stripe/www/CordovaStripe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-plugin-x-toast/www/Toast.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-plugin-x-toast/www/Toast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/cordova-sqlite-storage/www/SQLitePlugin.js" afterPath="$PROJECT_DIR$/www/plugins/cordova-sqlite-storage/www/SQLitePlugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/plugins/onesignal-cordova-plugin/www/OneSignal.js" afterPath="$PROJECT_DIR$/www/plugins/onesignal-cordova-plugin/www/OneSignal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/runtime-es2015.js" afterPath="$PROJECT_DIR$/www/runtime-es2015.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/runtime-es2015.js.map" afterPath="$PROJECT_DIR$/www/runtime-es2015.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/runtime-es5.js" afterPath="$PROJECT_DIR$/www/runtime-es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/runtime-es5.js.map" afterPath="$PROJECT_DIR$/www/runtime-es5.js.map" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,7 +943,7 @@
       <file leaf-file-name="product-list.page.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/pages/products/product-list/product-list.page.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
+            <state relative-caret-position="-929">
               <caret line="68" column="52" lean-forward="false" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
               <folding>
                 <element signature="n#!!block;n#getallproducts#0;n#ProductListPage#0" expanded="false" />
@@ -38,8 +955,8 @@
       <file leaf-file-name="environnement.model.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/services/rest/environnement.model.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+            <state relative-caret-position="51">
+              <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -49,7 +966,7 @@
         <entry file="file://$PROJECT_DIR$/src/app/services/data/dummy.service.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="291">
-              <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+              <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -67,11 +984,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app-routing.module.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app-routing.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/app-routing.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="19" />
+            <state relative-caret-position="-180">
+              <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -89,46 +1006,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authentification.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/services/rest/authentification.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my-cart.page.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/pages/my-cart/my-cart.page.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product-detail.page.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/pages/products/product-detail/product-detail.page.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1649">
-              <caret line="105" column="30" lean-forward="false" selection-start-line="105" selection-start-column="30" selection-end-line="105" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="send-request.page.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="send-request.page.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/pages/ProductRequests/send-request/send-request.page.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1700">
-              <caret line="126" column="20" lean-forward="false" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
+            <state relative-caret-position="104">
+              <caret line="85" column="6" lean-forward="false" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
-                <element signature="n#!!block;n#getAllClients#0;n#SendRequestPage#0" expanded="false" />
                 <element signature="n#!!block;n#addtocart#0;n#SendRequestPage#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LineSale.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/modals/LineSale.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Order.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/modals/Order.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="send-request.page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/pages/ProductRequests/send-request/send-request.page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -144,8 +1060,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>HttpClient</find>
-      <find>click</find>
       <find>Add</find>
       <find>badgecount</find>
       <find>addtocart</find>
@@ -174,6 +1088,8 @@
       <find>clear</find>
       <find>localStorage</find>
       <find>localStorage.c</find>
+      <find>createNewSalesOrderEmpty</find>
+      <find>addLineToSalesOrder</find>
     </findStrings>
     <replaceStrings>
       <replace>0</replace>
@@ -185,7 +1101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/app/pages/my-cart/my-cart.page.scss" />
         <option value="$PROJECT_DIR$/src/app/pages/ecommerce/example5/example5.page.ts" />
         <option value="$PROJECT_DIR$/src/app/pages/ecommerce/example2/example2.page.ts" />
         <option value="$PROJECT_DIR$/src/app/pages/rest/rest-login/rest-login.page.html" />
@@ -218,8 +1133,6 @@
         <option value="$PROJECT_DIR$/src/app/modals/Category.ts" />
         <option value="$PROJECT_DIR$/src/app/pages/test/test.page.scss" />
         <option value="$PROJECT_DIR$/src/app/pages/test/test.page.html" />
-        <option value="$PROJECT_DIR$/src/app/modals/RequestSalesOrder.ts" />
-        <option value="$PROJECT_DIR$/src/app/modals/Order.ts" />
         <option value="$PROJECT_DIR$/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/src/app/pages/Categories/list-category/list-category.page.ts" />
         <option value="$PROJECT_DIR$/src/app/pages/products/product-list/product-list.page.html" />
@@ -228,14 +1141,17 @@
         <option value="$PROJECT_DIR$/src/app/pages/products/product-list/product-list.page.ts" />
         <option value="$PROJECT_DIR$/src/app/pages/my-cart/my-cart.page.html" />
         <option value="$PROJECT_DIR$/src/app/pages/my-cart/my-cart.page.ts" />
-        <option value="$PROJECT_DIR$/src/app/pages/ProductRequests/send-request/send-request.page.ts" />
         <option value="$PROJECT_DIR$/src/app/pages/ProductRequests/send-request/send-request.page.html" />
         <option value="$PROJECT_DIR$/src/app/pages/charts/charts.page.html" />
         <option value="$PROJECT_DIR$/src/app/pages/charts/charts.page.ts" />
         <option value="$PROJECT_DIR$/src/app/pages/products/product-detail/product-detail.page.ts" />
-        <option value="$PROJECT_DIR$/src/app/services/rest/environnement.model.ts" />
         <option value="$PROJECT_DIR$/src/app/pages/logout/logout.page.ts" />
         <option value="$PROJECT_DIR$/src/app/services/data/dummy.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/services/rest/environnement.model.ts" />
+        <option value="$PROJECT_DIR$/src/app/modals/Order.ts" />
+        <option value="$PROJECT_DIR$/src/app/modals/RequestSalesOrder.ts" />
+        <option value="$PROJECT_DIR$/src/app/modals/LineSale.ts" />
+        <option value="$PROJECT_DIR$/src/app/pages/ProductRequests/send-request/send-request.page.ts" />
       </list>
     </option>
   </component>
@@ -252,7 +1168,7 @@
     <handled-path value="$PROJECT_DIR$/plugins/cordova-sqlite-storage/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
@@ -801,15 +1717,15 @@
       <workItem from="1654653583274" duration="5167000" />
       <workItem from="1654719380375" duration="17160000" />
       <workItem from="1654785746942" duration="1956000" />
-      <workItem from="1654809350489" duration="1964000" />
+      <workItem from="1654809350489" duration="6342000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177367000" />
+    <option name="totallyTimeSpent" value="181745000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20785597" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -820,7 +1736,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40425533" sideWeight="0.49702382" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30441898" sideWeight="0.49702382" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -877,6 +1793,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
           <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -929,13 +1846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/modals/group.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/environments/environment.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -985,24 +1895,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/modals/RequestSalesOrder.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/modals/User.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/modals/Order.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1017,13 +1913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/modals/Product.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1045,13 +1934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/pages/ProductRequests/send-request/send-request.page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1095,7 +1977,7 @@
         <state relative-caret-position="2618">
           <caret line="171" column="37" lean-forward="false" selection-start-line="171" selection-start-column="37" selection-end-line="171" selection-end-column="37" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
             <element signature="n#!!block;n#listCategory#0;n#ChartsPage#0" expanded="false" />
           </folding>
         </state>
@@ -1109,40 +1991,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/pages/ProductRequests/send-request/send-request.page.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="126" column="20" lean-forward="false" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-            <element signature="n#!!block;n#getAllClients#0;n#SendRequestPage#0" expanded="false" />
-            <element signature="n#!!block;n#addtocart#0;n#SendRequestPage#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/pages/products/product-detail/product-detail.page.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1649">
           <caret line="105" column="30" lean-forward="false" selection-start-line="105" selection-start-column="30" selection-end-line="105" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/pages/products/product-list/product-list.page.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="68" column="52" lean-forward="false" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
-          <folding>
-            <element signature="n#!!block;n#getallproducts#0;n#ProductListPage#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/services/rest/environnement.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -1178,16 +2030,85 @@
     <entry file="file://$PROJECT_DIR$/src/app/services/data/dummy.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
-          <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+          <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/products/product-list/product-list.page.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-929">
+          <caret line="68" column="52" lean-forward="false" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
+          <folding>
+            <element signature="n#!!block;n#getallproducts#0;n#ProductListPage#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="19" />
+        <state relative-caret-position="-180">
+          <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/services/rest/environnement.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/ProductRequests/send-request/send-request.page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/modals/Product.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/modals/group.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/modals/Order.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/modals/LineSale.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/ProductRequests/send-request/send-request.page.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="85" column="6" lean-forward="false" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+            <element signature="n#!!block;n#addtocart#0;n#SendRequestPage#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

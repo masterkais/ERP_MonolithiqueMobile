@@ -5,8 +5,8 @@ import {Observable} from "rxjs";
 import {HttpClient} from "@angular/common/http";
 import {environmentApi} from "../../../services/rest/environnement.model";
 import {HttpParams} from "@angular/common/http";
-import {RequestSalesOrder} from "../../../modals/RequestSalesOrder";
-import {Order} from "../../../modals/Order";
+import {LigneSale} from "../../../modals/LineSale";
+import {Order, SalesOrder} from "../../../modals/Order";
 import {ActivatedRoute} from "@angular/router";
 import {Category} from "../../../modals/Category";
 import {NavController} from "@ionic/angular";
@@ -82,9 +82,21 @@ export class SendRequestPage implements OnInit {
   getCurrentUser(clientid){
     var cur_user,i;
     this.CurrentUser().subscribe((data) => {
+      let oder:SalesOrder;
+      this.createNewSalesOrderEmpty(clientid,data['id']+"").then((data)=>{
+        oder=data;
+      });
+      let lineSale: LigneSale={
 
-      let info=this.createNewSalesOrderEmpty(clientid,data['id']+"");
-      this.addLineToSalesOrder(info['__zone_symbol__value'].id);
+        "categoryId": this.categoryId,
+        "id": null,
+        "quantity": this.quantity,
+        "salesOrderId": oder.id,
+        "state": 0
+      }
+      this.addLineToSalesOrder(lineSale).then((data)=>{
+        console.log("successs")
+      });
      //console.log(data['id'])
     });
 
@@ -125,29 +137,24 @@ export class SendRequestPage implements OnInit {
     let httpParams = new HttpParams()
         .append("clientId",clientId )
         .append("purchasingManagerId",purchasingManagerId );
-    return this.http.post<RequestSalesOrder>(environmentApi.host + "/api/salesorder/createNewSalesOrderEmpty",httpParams).toPromise();
+    return this.http.post<LigneSale>(environmentApi.host + "/api/salesorder/createNewSalesOrderEmpty",httpParams).toPromise();
   }
   addtocart(){
 
     this.navCtrl.navigateRoot(['my-cart']);
   }
-  addLineToSalesOrder(idnewSaleOrder){
+
+  addLineToSalesOrder(data){
    // alert(clientid);
 
-    let data: Order = {
-      categoryId: this.categoryId,
-      id: null,
-      quantity: this.quantity,
-      salesOrderId: idnewSaleOrder,
-      state: null
-    }
+
     this.saveLineToSalesOrder(data).subscribe((data)=>{
       console.log("succces");
     },(err)=>{
       //this.util.showToast('Utilisateur existe déjà', 'danger', 'bottom');
     });
   }
-  saveLineToSalesOrder(order:Order):Observable<Order> {
-    return this.http.post<Order>(environmentApi.host+"/api/ligneSale/addLineToSalesOrder",order);
+  saveLineToSalesOrder(line:LigneSale):Observable<LigneSale> {
+    return this.http.post<LigneSale>(environmentApi.host+"/api/ligneSale/addLineToSalesOrder",line);
   }
 }

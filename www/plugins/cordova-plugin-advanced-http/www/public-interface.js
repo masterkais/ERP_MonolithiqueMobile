@@ -1,5 +1,4 @@
-cordova.define("cordova-plugin-advanced-http.public-interface", function(require, exports, module) {
-module.exports = function init(exec, cookieHandler, urlUtil, helpers, globalConfigs, errorCodes, ponyfills) {
+cordova.define("cordova-plugin-advanced-http.public-interface", function(require, exports, module) { module.exports = function init(exec, cookieHandler, urlUtil, helpers, globalConfigs, errorCodes, ponyfills) {
   var publicInterface = {
     getBasicAuthHeader: getBasicAuthHeader,
     useBasicAuth: useBasicAuth,

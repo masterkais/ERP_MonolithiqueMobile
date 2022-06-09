@@ -1,5 +1,4 @@
-cordova.define("cordova-plugin-advanced-http.ponyfills", function(require, exports, module) {
-module.exports = function init(global) {
+cordova.define("cordova-plugin-advanced-http.ponyfills", function(require, exports, module) { module.exports = function init(global) {
   var interface = { FormData: FormData };
 
   // expose all constructor functions for testing purposes

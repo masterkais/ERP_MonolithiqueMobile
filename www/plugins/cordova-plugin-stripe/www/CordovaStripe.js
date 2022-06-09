@@ -1,5 +1,4 @@
-cordova.define("cordova-plugin-stripe.stripe", function(require, exports, module) {
-var exec = require('cordova/exec');
+cordova.define("cordova-plugin-stripe.stripe", function(require, exports, module) { var exec = require('cordova/exec');
 var noop = function(){};
 
 /**

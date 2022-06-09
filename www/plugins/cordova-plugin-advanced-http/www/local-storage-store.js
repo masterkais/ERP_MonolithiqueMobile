@@ -1,5 +1,4 @@
-cordova.define("cordova-plugin-advanced-http.local-storage-store", function(require, exports, module) {
-/*
+cordova.define("cordova-plugin-advanced-http.local-storage-store", function(require, exports, module) { /*
  * The MIT License (MIT)
  *
  * Copyright (c) 2016 Exponent

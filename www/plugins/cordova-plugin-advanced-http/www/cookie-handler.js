@@ -1,5 +1,4 @@
-cordova.define("cordova-plugin-advanced-http.cookie-handler", function(require, exports, module) {
-module.exports = function init(storage, ToughCookie, WebStorageCookieStore) {
+cordova.define("cordova-plugin-advanced-http.cookie-handler", function(require, exports, module) { module.exports = function init(storage, ToughCookie, WebStorageCookieStore) {
   var storeKey = '__advancedHttpCookieStore__';
 
   var store = new WebStorageCookieStore(storage, storeKey);
