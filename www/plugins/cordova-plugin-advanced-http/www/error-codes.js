@@ -1,5 +1,4 @@
-cordova.define("cordova-plugin-advanced-http.error-codes", function(require, exports, module) {
-module.exports = {
+cordova.define("cordova-plugin-advanced-http.error-codes", function(require, exports, module) { module.exports = {
   GENERIC: -1,
   SSL_EXCEPTION: -2,
   SERVER_NOT_FOUND: -3,

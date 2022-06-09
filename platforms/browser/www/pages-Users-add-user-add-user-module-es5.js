@@ -3578,7 +3578,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
+<<<<<<< HEAD
     __webpack_exports__["default"] = "<ion-header>\n  <ion-toolbar color=\"secondary\">\n    <ion-buttons slot=\"start\">\n      <!--- <ion-back-button mode=\"md\"></ion-back-button>-->\n\n      <ion-menu-button></ion-menu-button>\n\n    </ion-buttons>\n    <ion-buttons slot=\"end\">\n      <ion-button class=\"ion-button custom-class\" (click)=\"addtocart()\" color=\"red\"  fill=\"solid\">\n        <ion-icon name=\"cart\" style=\"color: white\"></ion-icon>\n        <ion-badge color=\"danger\" >{{charge_compteur()}}</ion-badge>\n      </ion-button>\n\n    </ion-buttons>\n    <ion-title style=\"text-align: center\">Ajouter un client</ion-title>\n  </ion-toolbar>\n\n</ion-header>\n\n<ion-content>\n  <form (submit)=\"adduser(nom.value,prenom.value,adrmail.value,nomutilid.value,adr.value,ville.value,datenaiss.value,tel.value,fax.value)\">\n    <ion-list lines=\"none\" class=\"contactFormList\">\n\n      <ion-item class=\"inputs-item\" lines=\"none\">\n        <ion-input type=\"text\" placeholder=\"Nom\" #nom></ion-input>\n      </ion-item>\n\n      <ion-item class=\"inputs-item\" lines=\"none\">\n        <ion-input type=\"text\" placeholder=\"Prénom\" #prenom></ion-input>\n      </ion-item>\n\n      <ion-item class=\"inputs-item\" lines=\"none\">\n        <ion-input type=\"email\" placeholder=\"Adresse email\" #adrmail></ion-input>\n      </ion-item>\n\n      <ion-item class=\"inputs-item\" lines=\"none\">\n        <ion-input type=\"text\" placeholder=\"Matricule Fiscale\" #nomutilid></ion-input>\n      </ion-item>\n\n      <!--<ion-item class=\"inputs-item\" lines=\"none\">\n        <ion-input type=\"password\" placeholder=\"Mot de passe\" #motdepasse></ion-input>\n      </ion-item>-->\n\n      <ion-item class=\"inputs-item\" lines=\"none\">\n        <ion-input type=\"text\" placeholder=\"Adresse\" #adr></ion-input>\n      </ion-item>\n\n      <ion-item class=\"inputs-item\" lines=\"none\">\n        <ion-input type=\"text\" placeholder=\"Ville\" #ville></ion-input>\n      </ion-item>\n\n      <ion-item class=\"inputs-item\" lines=\"none\">\n        <ion-input type=\"date\" placeholder=\"{{startDate}}\" #datenaiss></ion-input>\n\n\n      </ion-item>\n\n      <ion-item class=\"inputs-item\" lines=\"none\">\n        <ion-input type=\"text\" placeholder=\"Numéro tél\" #tel></ion-input>\n      </ion-item>\n\n      <ion-item class=\"inputs-item\" lines=\"none\">\n        <ion-input type=\"text\" placeholder=\"Fax\" #fax></ion-input>\n      </ion-item>\n\n\n    </ion-list>\n    <ion-button expand=\"block\" color=\"secondary\" (click)=\"adduser(nom.value,prenom.value,adrmail.value,nomutilid.value, adr.value,ville.value,datenaiss.value,tel.value,fax.value)\">Enregistrer</ion-button>\n  </form>\n\n  <!--<ion-button expand=\"block\" color=\"secondary\" (click)=\"sendMessage()\">Enregistrer</ion-button>-->\n</ion-content>";
+=======
+    __webpack_exports__["default"] = "<ion-header>\r\n  <ion-toolbar color=\"secondary\">\r\n    <ion-buttons slot=\"start\">\r\n      <!--- <ion-back-button mode=\"md\"></ion-back-button>-->\r\n\r\n      <ion-menu-button></ion-menu-button>\r\n\r\n    </ion-buttons>\r\n    <ion-buttons slot=\"end\">\r\n      <ion-button class=\"ion-button custom-class\" (click)=\"addtocart()\" color=\"red\"  fill=\"solid\">\r\n        <ion-icon name=\"cart\" style=\"color: white\"></ion-icon>\r\n        <ion-badge color=\"danger\" >{{charge_compteur()}}</ion-badge>\r\n      </ion-button>\r\n\r\n    </ion-buttons>\r\n    <ion-title style=\"text-align: center\">Ajouter un client</ion-title>\r\n  </ion-toolbar>\r\n\r\n</ion-header>\r\n\r\n<ion-content>\r\n  <form (submit)=\"adduser(nom.value,prenom.value,adrmail.value,nomutilid.value,adr.value,ville.value,datenaiss.value,tel.value,fax.value)\">\r\n    <ion-list lines=\"none\" class=\"contactFormList\">\r\n\r\n      <ion-item class=\"inputs-item\" lines=\"none\">\r\n        <ion-input type=\"text\" placeholder=\"Nom\" #nom></ion-input>\r\n      </ion-item>\r\n\r\n      <ion-item class=\"inputs-item\" lines=\"none\">\r\n        <ion-input type=\"text\" placeholder=\"Prénom\" #prenom></ion-input>\r\n      </ion-item>\r\n\r\n      <ion-item class=\"inputs-item\" lines=\"none\">\r\n        <ion-input type=\"email\" placeholder=\"Adresse email\" #adrmail></ion-input>\r\n      </ion-item>\r\n\r\n      <ion-item class=\"inputs-item\" lines=\"none\">\r\n        <ion-input type=\"text\" placeholder=\"Matricule Fiscale\" #nomutilid></ion-input>\r\n      </ion-item>\r\n\r\n      <!--<ion-item class=\"inputs-item\" lines=\"none\">\r\n        <ion-input type=\"password\" placeholder=\"Mot de passe\" #motdepasse></ion-input>\r\n      </ion-item>-->\r\n\r\n      <ion-item class=\"inputs-item\" lines=\"none\">\r\n        <ion-input type=\"text\" placeholder=\"Adresse\" #adr></ion-input>\r\n      </ion-item>\r\n\r\n      <ion-item class=\"inputs-item\" lines=\"none\">\r\n        <ion-input type=\"text\" placeholder=\"Ville\" #ville></ion-input>\r\n      </ion-item>\r\n\r\n      <ion-item class=\"inputs-item\" lines=\"none\">\r\n        <ion-input type=\"date\" placeholder=\"{{startDate}}\" #datenaiss></ion-input>\r\n\r\n\r\n      </ion-item>\r\n\r\n      <ion-item class=\"inputs-item\" lines=\"none\">\r\n        <ion-input type=\"text\" placeholder=\"Numéro tél\" #tel></ion-input>\r\n      </ion-item>\r\n\r\n      <ion-item class=\"inputs-item\" lines=\"none\">\r\n        <ion-input type=\"text\" placeholder=\"Fax\" #fax></ion-input>\r\n      </ion-item>\r\n\r\n\r\n    </ion-list>\r\n    <ion-button expand=\"block\" color=\"secondary\" (click)=\"adduser(nom.value,prenom.value,adrmail.value,nomutilid.value, adr.value,ville.value,datenaiss.value,tel.value,fax.value)\">Enregistrer</ion-button>\r\n  </form>\r\n\r\n  <!--<ion-button expand=\"block\" color=\"secondary\" (click)=\"sendMessage()\">Enregistrer</ion-button>-->\r\n</ion-content>";
+>>>>>>> a6225635db8510973aa5a1ec3d921a5694092dff
     /***/
   },
 
@@ -3731,7 +3735,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
+<<<<<<< HEAD
     __webpack_exports__["default"] = "ion-badge {\n  position: absolute;\n  font-size: 8pt;\n  right: -5px;\n  top: 2px;\n}\n\n.ion-button {\n  margin: 5px;\n  width: 40px;\n  height: 40px;\n  position: relative;\n}\n\n/* Setting Overflow Visible */\n\n.ion-button.custom-class::part(native) {\n  overflow: visible;\n}\n\n.contactFormList {\n  margin-top: 20px;\n}\n\n.contactFormList .inputs-item {\n  border: 1px solid lightcyan;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);\n  margin: 10px;\n}\n\nion-button {\n  --border-radius: 5px;\n  margin: 10px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvVXNlcnMvYWRkLXVzZXIvQzpcXFVzZXJzXFxBU1VTXFxEb3dubG9hZHNcXEFwcF9jb2RlXFxBcHBfY29kZS9zcmNcXGFwcFxccGFnZXNcXFVzZXJzXFxhZGQtdXNlclxcYWRkLXVzZXIucGFnZS5zY3NzIiwic3JjL2FwcC9wYWdlcy9Vc2Vycy9hZGQtdXNlci9hZGQtdXNlci5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxrQkFBQTtFQUNBLGNBQUE7RUFDQSxXQUFBO0VBQ0EsUUFBQTtBQ0NGOztBREVBO0VBQ0UsV0FBQTtFQUNBLFdBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7QUNDRjs7QURHQSw2QkFBQTs7QUFDQTtFQUNFLGlCQUFBO0FDQUY7O0FES0E7RUFDRSxnQkFBQTtBQ0ZGOztBRElFO0VBQ0UsMkJBQUE7RUFDQSx1Q0FBQTtFQUNBLFlBQUE7QUNGSjs7QURNQTtFQUNFLG9CQUFBO0VBQ0EsWUFBQTtBQ0hGIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvVXNlcnMvYWRkLXVzZXIvYWRkLXVzZXIucGFnZS5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaW9uLWJhZGdlIHtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgZm9udC1zaXplOiA4cHQ7XHJcbiAgcmlnaHQ6IC01cHg7XHJcbiAgdG9wOiAycHg7XHJcbn1cclxuXHJcbi5pb24tYnV0dG9uIHtcclxuICBtYXJnaW46IDVweDtcclxuICB3aWR0aDogNDBweDtcclxuICBoZWlnaHQ6IDQwcHg7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIC8vIG92ZXJmbG93OiB2aXNpYmxlIWltcG9ydGFudDtcclxufVxyXG5cclxuLyogU2V0dGluZyBPdmVyZmxvdyBWaXNpYmxlICovXHJcbi5pb24tYnV0dG9uLmN1c3RvbS1jbGFzczo6cGFydChuYXRpdmUpIHtcclxuICBvdmVyZmxvdzogdmlzaWJsZTtcclxufVxyXG5cclxuXHJcblxyXG4uY29udGFjdEZvcm1MaXN0IHtcclxuICBtYXJnaW4tdG9wOiAyMHB4O1xyXG5cclxuICAuaW5wdXRzLWl0ZW0ge1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgbGlnaHRjeWFuO1xyXG4gICAgYm94LXNoYWRvdzogMCAwIDEwcHggcmdiYSgwLCAwLCAwLCAwLjMpO1xyXG4gICAgbWFyZ2luOiAxMHB4O1xyXG4gIH1cclxufVxyXG5cclxuaW9uLWJ1dHRvbntcclxuICAtLWJvcmRlci1yYWRpdXM6IDVweDtcclxuICBtYXJnaW46IDEwcHg7XHJcbn0iLCJpb24tYmFkZ2Uge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGZvbnQtc2l6ZTogOHB0O1xuICByaWdodDogLTVweDtcbiAgdG9wOiAycHg7XG59XG5cbi5pb24tYnV0dG9uIHtcbiAgbWFyZ2luOiA1cHg7XG4gIHdpZHRoOiA0MHB4O1xuICBoZWlnaHQ6IDQwcHg7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cblxuLyogU2V0dGluZyBPdmVyZmxvdyBWaXNpYmxlICovXG4uaW9uLWJ1dHRvbi5jdXN0b20tY2xhc3M6OnBhcnQobmF0aXZlKSB7XG4gIG92ZXJmbG93OiB2aXNpYmxlO1xufVxuXG4uY29udGFjdEZvcm1MaXN0IHtcbiAgbWFyZ2luLXRvcDogMjBweDtcbn1cbi5jb250YWN0Rm9ybUxpc3QgLmlucHV0cy1pdGVtIHtcbiAgYm9yZGVyOiAxcHggc29saWQgbGlnaHRjeWFuO1xuICBib3gtc2hhZG93OiAwIDAgMTBweCByZ2JhKDAsIDAsIDAsIDAuMyk7XG4gIG1hcmdpbjogMTBweDtcbn1cblxuaW9uLWJ1dHRvbiB7XG4gIC0tYm9yZGVyLXJhZGl1czogNXB4O1xuICBtYXJnaW46IDEwcHg7XG59Il19 */";
+=======
+<<<<<<< HEAD:node_modules/.cache/angular-build-dl/content-v2/sha512/41/ca/55f94ba2b1f58c5d542d5b22b15ecfe8a496e49dfea408c08d3410f5d841e24173404bae1bf3aea6e67342135caae720c9e65affceff7e04c13613e27db5
+    __webpack_exports__["default"] = "ion-badge {\n  position: absolute;\n  font-size: 8pt;\n  right: -5px;\n  top: 2px;\n}\n\n.ion-button {\n  margin: 5px;\n  width: 40px;\n  height: 40px;\n  position: relative;\n}\n\n/* Setting Overflow Visible */\n\n.ion-button.custom-class::part(native) {\n  overflow: visible;\n}\n\n.contactFormList {\n  margin-top: 20px;\n}\n\n.contactFormList .inputs-item {\n  border: 1px solid lightcyan;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);\n  margin: 10px;\n}\n\nion-button {\n  --border-radius: 5px;\n  margin: 10px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvVXNlcnMvYWRkLXVzZXIvQzpcXFVzZXJzXFxBU1VTXFxEb3dubG9hZHNcXEFwcF9jb2RlXFxBcHBfY29kZS9zcmNcXGFwcFxccGFnZXNcXFVzZXJzXFxhZGQtdXNlclxcYWRkLXVzZXIucGFnZS5zY3NzIiwic3JjL2FwcC9wYWdlcy9Vc2Vycy9hZGQtdXNlci9hZGQtdXNlci5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxrQkFBQTtFQUNBLGNBQUE7RUFDQSxXQUFBO0VBQ0EsUUFBQTtBQ0NGOztBREVBO0VBQ0UsV0FBQTtFQUNBLFdBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7QUNDRjs7QURHQSw2QkFBQTs7QUFDQTtFQUNFLGlCQUFBO0FDQUY7O0FES0E7RUFDRSxnQkFBQTtBQ0ZGOztBRElFO0VBQ0UsMkJBQUE7RUFDQSx1Q0FBQTtFQUNBLFlBQUE7QUNGSjs7QURNQTtFQUNFLG9CQUFBO0VBQ0EsWUFBQTtBQ0hGIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvVXNlcnMvYWRkLXVzZXIvYWRkLXVzZXIucGFnZS5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaW9uLWJhZGdlIHtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgZm9udC1zaXplOiA4cHQ7XHJcbiAgcmlnaHQ6IC01cHg7XHJcbiAgdG9wOiAycHg7XHJcbn1cclxuXHJcbi5pb24tYnV0dG9uIHtcclxuICBtYXJnaW46IDVweDtcclxuICB3aWR0aDogNDBweDtcclxuICBoZWlnaHQ6IDQwcHg7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIC8vIG92ZXJmbG93OiB2aXNpYmxlIWltcG9ydGFudDtcclxufVxyXG5cclxuLyogU2V0dGluZyBPdmVyZmxvdyBWaXNpYmxlICovXHJcbi5pb24tYnV0dG9uLmN1c3RvbS1jbGFzczo6cGFydChuYXRpdmUpIHtcclxuICBvdmVyZmxvdzogdmlzaWJsZTtcclxufVxyXG5cclxuXHJcblxyXG4uY29udGFjdEZvcm1MaXN0IHtcclxuICBtYXJnaW4tdG9wOiAyMHB4O1xyXG5cclxuICAuaW5wdXRzLWl0ZW0ge1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgbGlnaHRjeWFuO1xyXG4gICAgYm94LXNoYWRvdzogMCAwIDEwcHggcmdiYSgwLCAwLCAwLCAwLjMpO1xyXG4gICAgbWFyZ2luOiAxMHB4O1xyXG4gIH1cclxufVxyXG5cclxuaW9uLWJ1dHRvbntcclxuICAtLWJvcmRlci1yYWRpdXM6IDVweDtcclxuICBtYXJnaW46IDEwcHg7XHJcbn0iLCJpb24tYmFkZ2Uge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGZvbnQtc2l6ZTogOHB0O1xuICByaWdodDogLTVweDtcbiAgdG9wOiAycHg7XG59XG5cbi5pb24tYnV0dG9uIHtcbiAgbWFyZ2luOiA1cHg7XG4gIHdpZHRoOiA0MHB4O1xuICBoZWlnaHQ6IDQwcHg7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cblxuLyogU2V0dGluZyBPdmVyZmxvdyBWaXNpYmxlICovXG4uaW9uLWJ1dHRvbi5jdXN0b20tY2xhc3M6OnBhcnQobmF0aXZlKSB7XG4gIG92ZXJmbG93OiB2aXNpYmxlO1xufVxuXG4uY29udGFjdEZvcm1MaXN0IHtcbiAgbWFyZ2luLXRvcDogMjBweDtcbn1cbi5jb250YWN0Rm9ybUxpc3QgLmlucHV0cy1pdGVtIHtcbiAgYm9yZGVyOiAxcHggc29saWQgbGlnaHRjeWFuO1xuICBib3gtc2hhZG93OiAwIDAgMTBweCByZ2JhKDAsIDAsIDAsIDAuMyk7XG4gIG1hcmdpbjogMTBweDtcbn1cblxuaW9uLWJ1dHRvbiB7XG4gIC0tYm9yZGVyLXJhZGl1czogNXB4O1xuICBtYXJnaW46IDEwcHg7XG59Il19 */";
+=======
+    __webpack_exports__["default"] = "ion-badge {\n  position: absolute;\n  font-size: 8pt;\n  right: -5px;\n  top: 2px;\n}\n\n.ion-button {\n  margin: 5px;\n  width: 40px;\n  height: 40px;\n  position: relative;\n}\n\n/* Setting Overflow Visible */\n\n.ion-button.custom-class::part(native) {\n  overflow: visible;\n}\n\n.contactFormList {\n  margin-top: 20px;\n}\n\n.contactFormList .inputs-item {\n  border: 1px solid lightcyan;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);\n  margin: 10px;\n}\n\nion-button {\n  --border-radius: 5px;\n  margin: 10px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvVXNlcnMvYWRkLXVzZXIvQzpcXGthaXMgaW9uaWMgcHJvamVjdFxcRVJQX01vbm9saXRoaXF1ZU1vYmlsZS9zcmNcXGFwcFxccGFnZXNcXFVzZXJzXFxhZGQtdXNlclxcYWRkLXVzZXIucGFnZS5zY3NzIiwic3JjL2FwcC9wYWdlcy9Vc2Vycy9hZGQtdXNlci9hZGQtdXNlci5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxrQkFBQTtFQUNBLGNBQUE7RUFDQSxXQUFBO0VBQ0EsUUFBQTtBQ0NGOztBREVBO0VBQ0UsV0FBQTtFQUNBLFdBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7QUNDRjs7QURHQSw2QkFBQTs7QUFDQTtFQUNFLGlCQUFBO0FDQUY7O0FES0E7RUFDRSxnQkFBQTtBQ0ZGOztBRElFO0VBQ0UsMkJBQUE7RUFDQSx1Q0FBQTtFQUNBLFlBQUE7QUNGSjs7QURNQTtFQUNFLG9CQUFBO0VBQ0EsWUFBQTtBQ0hGIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvVXNlcnMvYWRkLXVzZXIvYWRkLXVzZXIucGFnZS5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaW9uLWJhZGdlIHtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgZm9udC1zaXplOiA4cHQ7XHJcbiAgcmlnaHQ6IC01cHg7XHJcbiAgdG9wOiAycHg7XHJcbn1cclxuXHJcbi5pb24tYnV0dG9uIHtcclxuICBtYXJnaW46IDVweDtcclxuICB3aWR0aDogNDBweDtcclxuICBoZWlnaHQ6IDQwcHg7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIC8vIG92ZXJmbG93OiB2aXNpYmxlIWltcG9ydGFudDtcclxufVxyXG5cclxuLyogU2V0dGluZyBPdmVyZmxvdyBWaXNpYmxlICovXHJcbi5pb24tYnV0dG9uLmN1c3RvbS1jbGFzczo6cGFydChuYXRpdmUpIHtcclxuICBvdmVyZmxvdzogdmlzaWJsZTtcclxufVxyXG5cclxuXHJcblxyXG4uY29udGFjdEZvcm1MaXN0IHtcclxuICBtYXJnaW4tdG9wOiAyMHB4O1xyXG5cclxuICAuaW5wdXRzLWl0ZW0ge1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgbGlnaHRjeWFuO1xyXG4gICAgYm94LXNoYWRvdzogMCAwIDEwcHggcmdiYSgwLCAwLCAwLCAwLjMpO1xyXG4gICAgbWFyZ2luOiAxMHB4O1xyXG4gIH1cclxufVxyXG5cclxuaW9uLWJ1dHRvbntcclxuICAtLWJvcmRlci1yYWRpdXM6IDVweDtcclxuICBtYXJnaW46IDEwcHg7XHJcbn0iLCJpb24tYmFkZ2Uge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGZvbnQtc2l6ZTogOHB0O1xuICByaWdodDogLTVweDtcbiAgdG9wOiAycHg7XG59XG5cbi5pb24tYnV0dG9uIHtcbiAgbWFyZ2luOiA1cHg7XG4gIHdpZHRoOiA0MHB4O1xuICBoZWlnaHQ6IDQwcHg7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cblxuLyogU2V0dGluZyBPdmVyZmxvdyBWaXNpYmxlICovXG4uaW9uLWJ1dHRvbi5jdXN0b20tY2xhc3M6OnBhcnQobmF0aXZlKSB7XG4gIG92ZXJmbG93OiB2aXNpYmxlO1xufVxuXG4uY29udGFjdEZvcm1MaXN0IHtcbiAgbWFyZ2luLXRvcDogMjBweDtcbn1cbi5jb250YWN0Rm9ybUxpc3QgLmlucHV0cy1pdGVtIHtcbiAgYm9yZGVyOiAxcHggc29saWQgbGlnaHRjeWFuO1xuICBib3gtc2hhZG93OiAwIDAgMTBweCByZ2JhKDAsIDAsIDAsIDAuMyk7XG4gIG1hcmdpbjogMTBweDtcbn1cblxuaW9uLWJ1dHRvbiB7XG4gIC0tYm9yZGVyLXJhZGl1czogNXB4O1xuICBtYXJnaW46IDEwcHg7XG59Il19 */";
+>>>>>>> a6225635db8510973aa5a1ec3d921a5694092dff:platforms/browser/www/pages-Users-add-user-add-user-module-es5.js
+>>>>>>> a6225635db8510973aa5a1ec3d921a5694092dff
     /***/
   },
 
@@ -3820,6 +3832,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _services_rest_environnement_model__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
     /*! ../../../services/rest/environnement.model */
     "./src/app/services/rest/environnement.model.ts");
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:node_modules/.cache/angular-build-dl/content-v2/sha512/41/ca/55f94ba2b1f58c5d542d5b22b15ecfe8a496e49dfea408c08d3410f5d841e24173404bae1bf3aea6e67342135caae720c9e65affceff7e04c13613e27db5
+>>>>>>> a6225635db8510973aa5a1ec3d921a5694092dff
     /* harmony import */
 
 
@@ -3829,6 +3845,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var AddUserPage = /*#__PURE__*/function () {
       function AddUserPage(util, navCtrl, sqlite, api, http, datePipe, httpClient, router) {
+<<<<<<< HEAD
+=======
+=======
+
+    var AddUserPage = /*#__PURE__*/function () {
+      function AddUserPage(util, navCtrl, sqlite, api, http, datePipe, httpClient) {
+>>>>>>> a6225635db8510973aa5a1ec3d921a5694092dff:platforms/browser/www/pages-Users-add-user-add-user-module-es5.js
+>>>>>>> a6225635db8510973aa5a1ec3d921a5694092dff
         _classCallCheck(this, AddUserPage);
 
         this.util = util;
@@ -3838,7 +3862,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.http = http;
         this.datePipe = datePipe;
         this.httpClient = httpClient;
+<<<<<<< HEAD
         this.router = router;
+=======
+<<<<<<< HEAD:node_modules/.cache/angular-build-dl/content-v2/sha512/41/ca/55f94ba2b1f58c5d542d5b22b15ecfe8a496e49dfea408c08d3410f5d841e24173404bae1bf3aea6e67342135caae720c9e65affceff7e04c13613e27db5
+        this.router = router;
+=======
+>>>>>>> a6225635db8510973aa5a1ec3d921a5694092dff:platforms/browser/www/pages-Users-add-user-add-user-module-es5.js
+>>>>>>> a6225635db8510973aa5a1ec3d921a5694092dff
         this.produits_commandes_list = [];
         this.startDate = new Date().toISOString();
         this.today2 = new Date();
@@ -3929,10 +3960,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           };
           this.saveUser(data).subscribe(function (data) {
             console.log("succces");
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:node_modules/.cache/angular-build-dl/content-v2/sha512/41/ca/55f94ba2b1f58c5d542d5b22b15ecfe8a496e49dfea408c08d3410f5d841e24173404bae1bf3aea6e67342135caae720c9e65affceff7e04c13613e27db5
+>>>>>>> a6225635db8510973aa5a1ec3d921a5694092dff
 
             _this.util.showToast('Ajout User success', 'success', 'bottom');
 
             _this.navCtrl.navigateRoot(['add-user']);
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> a6225635db8510973aa5a1ec3d921a5694092dff:platforms/browser/www/pages-Users-add-user-add-user-module-es5.js
+>>>>>>> a6225635db8510973aa5a1ec3d921a5694092dff
           }, function (err) {
             _this.util.showToast('Utilisateur existe déjà', 'danger', 'bottom');
           });
@@ -3940,7 +3980,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "saveUser",
         value: function saveUser(user) {
+<<<<<<< HEAD
           return this.httpClient.post(_services_rest_environnement_model__WEBPACK_IMPORTED_MODULE_10__["environmentApi"].host + "/api/user", user);
+=======
+<<<<<<< HEAD:node_modules/.cache/angular-build-dl/content-v2/sha512/41/ca/55f94ba2b1f58c5d542d5b22b15ecfe8a496e49dfea408c08d3410f5d841e24173404bae1bf3aea6e67342135caae720c9e65affceff7e04c13613e27db5
+          return this.httpClient.post(_services_rest_environnement_model__WEBPACK_IMPORTED_MODULE_10__["environmentApi"].host + "/api/user", user);
+=======
+          return this.httpClient.post(_services_rest_environnement_model__WEBPACK_IMPORTED_MODULE_10__["environmentApi"].host + "/user", user);
+>>>>>>> a6225635db8510973aa5a1ec3d921a5694092dff:platforms/browser/www/pages-Users-add-user-add-user-module-es5.js
+>>>>>>> a6225635db8510973aa5a1ec3d921a5694092dff
         }
       }]);
 
@@ -3962,8 +4010,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: _angular_common__WEBPACK_IMPORTED_MODULE_8__["DatePipe"]
       }, {
         type: _angular_common_http__WEBPACK_IMPORTED_MODULE_9__["HttpClient"]
+<<<<<<< HEAD
       }, {
         type: _angular_router__WEBPACK_IMPORTED_MODULE_11__["Router"]
+=======
+<<<<<<< HEAD:node_modules/.cache/angular-build-dl/content-v2/sha512/41/ca/55f94ba2b1f58c5d542d5b22b15ecfe8a496e49dfea408c08d3410f5d841e24173404bae1bf3aea6e67342135caae720c9e65affceff7e04c13613e27db5
+      }, {
+        type: _angular_router__WEBPACK_IMPORTED_MODULE_11__["Router"]
+=======
+>>>>>>> a6225635db8510973aa5a1ec3d921a5694092dff:platforms/browser/www/pages-Users-add-user-add-user-module-es5.js
+>>>>>>> a6225635db8510973aa5a1ec3d921a5694092dff
       }];
     };
 
@@ -3975,7 +4031,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./add-user.page.scss */
       "./src/app/pages/Users/add-user/add-user.page.scss")).default]
+<<<<<<< HEAD
     }), tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [src_app_services_util_util_service__WEBPACK_IMPORTED_MODULE_3__["UtilService"], _ionic_angular__WEBPACK_IMPORTED_MODULE_4__["NavController"], _ionic_native_sqlite_ngx__WEBPACK_IMPORTED_MODULE_5__["SQLite"], _services_rest_rest_apis_service__WEBPACK_IMPORTED_MODULE_2__["RestAPIsService"], _ionic_native_http_ngx__WEBPACK_IMPORTED_MODULE_7__["HTTP"], _angular_common__WEBPACK_IMPORTED_MODULE_8__["DatePipe"], _angular_common_http__WEBPACK_IMPORTED_MODULE_9__["HttpClient"], _angular_router__WEBPACK_IMPORTED_MODULE_11__["Router"]])], AddUserPage);
+=======
+<<<<<<< HEAD:node_modules/.cache/angular-build-dl/content-v2/sha512/41/ca/55f94ba2b1f58c5d542d5b22b15ecfe8a496e49dfea408c08d3410f5d841e24173404bae1bf3aea6e67342135caae720c9e65affceff7e04c13613e27db5
+    }), tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [src_app_services_util_util_service__WEBPACK_IMPORTED_MODULE_3__["UtilService"], _ionic_angular__WEBPACK_IMPORTED_MODULE_4__["NavController"], _ionic_native_sqlite_ngx__WEBPACK_IMPORTED_MODULE_5__["SQLite"], _services_rest_rest_apis_service__WEBPACK_IMPORTED_MODULE_2__["RestAPIsService"], _ionic_native_http_ngx__WEBPACK_IMPORTED_MODULE_7__["HTTP"], _angular_common__WEBPACK_IMPORTED_MODULE_8__["DatePipe"], _angular_common_http__WEBPACK_IMPORTED_MODULE_9__["HttpClient"], _angular_router__WEBPACK_IMPORTED_MODULE_11__["Router"]])], AddUserPage);
+=======
+    }), tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [src_app_services_util_util_service__WEBPACK_IMPORTED_MODULE_3__["UtilService"], _ionic_angular__WEBPACK_IMPORTED_MODULE_4__["NavController"], _ionic_native_sqlite_ngx__WEBPACK_IMPORTED_MODULE_5__["SQLite"], _services_rest_rest_apis_service__WEBPACK_IMPORTED_MODULE_2__["RestAPIsService"], _ionic_native_http_ngx__WEBPACK_IMPORTED_MODULE_7__["HTTP"], _angular_common__WEBPACK_IMPORTED_MODULE_8__["DatePipe"], _angular_common_http__WEBPACK_IMPORTED_MODULE_9__["HttpClient"]])], AddUserPage);
+>>>>>>> a6225635db8510973aa5a1ec3d921a5694092dff:platforms/browser/www/pages-Users-add-user-add-user-module-es5.js
+>>>>>>> a6225635db8510973aa5a1ec3d921a5694092dff
     /***/
   }
 }]);

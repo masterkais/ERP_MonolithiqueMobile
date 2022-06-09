@@ -1937,7 +1937,11 @@ __webpack_require__.r(__webpack_exports__);
 
 const environmentApi = {
     production: false,
+<<<<<<< HEAD
     host: "http://localhost:8080"
+=======
+    host: "https://bc81-196-179-94-188.eu.ngrok.io"
+>>>>>>> a6225635db8510973aa5a1ec3d921a5694092dff
 };
 
 

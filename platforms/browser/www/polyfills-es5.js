@@ -20780,7 +20780,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   /***/
   function _(module, exports, __webpack_require__) {
     __webpack_require__(
+<<<<<<< HEAD
     /*! C:\Users\ASUS\Downloads\App_code\App_code\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\es5-polyfills.js */
+=======
+    /*! C:\kais ionic project\ERP_MonolithiqueMobile\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\es5-polyfills.js */
+>>>>>>> a6225635db8510973aa5a1ec3d921a5694092dff
     "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-polyfills.js");
 
     __webpack_require__(
@@ -20788,6 +20792,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     "./node_modules/zone.js/dist/zone-legacy.js");
 
     __webpack_require__(
+<<<<<<< HEAD
     /*! C:\Users\ASUS\Downloads\App_code\App_code\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\jit-polyfills.js */
     "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js");
 
@@ -20797,6 +20802,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     module.exports = __webpack_require__(
     /*! C:\Users\ASUS\Downloads\App_code\App_code\src\polyfills.ts */
+=======
+    /*! C:\kais ionic project\ERP_MonolithiqueMobile\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\jit-polyfills.js */
+    "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js");
+
+    __webpack_require__(
+    /*! C:\kais ionic project\ERP_MonolithiqueMobile\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\es5-jit-polyfills.js */
+    "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-jit-polyfills.js");
+
+    module.exports = __webpack_require__(
+    /*! C:\kais ionic project\ERP_MonolithiqueMobile\src\polyfills.ts */
+>>>>>>> a6225635db8510973aa5a1ec3d921a5694092dff
     "./src/polyfills.ts");
     /***/
   }

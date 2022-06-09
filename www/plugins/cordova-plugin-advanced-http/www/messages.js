@@ -1,5 +1,4 @@
-cordova.define("cordova-plugin-advanced-http.messages", function(require, exports, module) {
-module.exports = {
+cordova.define("cordova-plugin-advanced-http.messages", function(require, exports, module) { module.exports = {
   ADDING_COOKIES_NOT_SUPPORTED: 'advanced-http: "setHeader" does not support adding cookies, please use "setCookie" function instead',
   EMPTY_FILE_PATHS: 'advanced-http: "filePaths" option array must not be empty, <filePaths: string[]>',
   EMPTY_NAMES: 'advanced-http: "names" option array must not be empty, <names: string[]>',

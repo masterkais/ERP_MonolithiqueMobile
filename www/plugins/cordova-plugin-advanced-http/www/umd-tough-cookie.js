@@ -1,5 +1,4 @@
-cordova.define("cordova-plugin-advanced-http.tough-cookie", function(require, exports, module) {
-(function webpackUniversalModuleDefinition(root, factory) {
+cordova.define("cordova-plugin-advanced-http.tough-cookie", function(require, exports, module) { (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
 	else if(typeof define === 'function' && define.amd)

@@ -5,8 +5,8 @@ import {Observable} from "rxjs";
 import {HttpClient} from "@angular/common/http";
 import {environmentApi} from "../../../services/rest/environnement.model";
 import {HttpParams} from "@angular/common/http";
-import {RequestSalesOrder} from "../../../modals/RequestSalesOrder";
-import {Order} from "../../../modals/Order";
+import {LigneSale} from "../../../modals/LineSale";
+import {SalesOrder} from "../../../modals/Order";
 import {ActivatedRoute} from "@angular/router";
 import {Category} from "../../../modals/Category";
 import {NavController} from "@ionic/angular";
@@ -23,6 +23,9 @@ export class SendRequestPage implements OnInit {
   nomprod:any;
   user_list: Array<User> = [];
   current_user: Array<User> = [];
+  currentUser:User;
+  saleOrder: SalesOrder;
+  lines:LigneSale[];
   category_list: Array<Category> = [];
   constructor(private api: RestAPIsService,private http:HttpClient,  private route: ActivatedRoute,private navCtrl: NavController) {
     this.route.queryParams.subscribe(params => {
@@ -76,18 +79,29 @@ export class SendRequestPage implements OnInit {
     })
 
   }
-  CurrentUser():Observable<User[]>{
-    return this.http.get<User[]>(environmentApi.host+"/api/user/getCurretnUser");
+  async CurrentUser():Promise<User>{
+    return this.http.get<User>(environmentApi.host+"/api/user/getCurretnUser").toPromise();
   }
-  getCurrentUser(clientid){
+  async getCurrentUser(clientid){
+
+
     var cur_user,i;
-    this.CurrentUser().subscribe((data) => {
-
-      let info=this.createNewSalesOrderEmpty(clientid,data['id']+"");
-      this.addLineToSalesOrder(info['__zone_symbol__value'].id);
-     //console.log(data['id'])
+    await this.CurrentUser().then((data) => {
+      this.currentUser=data;
     });
-
+      await this.createNewSalesOrderEmpty(clientid,this.currentUser.id).then((data)=>{
+        this.saleOrder=data;
+      });
+      let lineSale: LigneSale={
+        "categoryId": this.categoryId,
+        "id": null,
+        "quantity": this.quantity,
+        "salesOrderId": this.saleOrder.id,
+        "state": 0
+      }
+      await this.saveLineToSalesOrder(lineSale).then((data)=>{
+        console.log("successs")
+      });
 
   }
   AllUser():Observable<User[]>{
@@ -121,33 +135,19 @@ export class SendRequestPage implements OnInit {
     });
   }
 
-  createNewSalesOrderEmpty(clientId:string,purchasingManagerId:string):Promise<any>{
+  createNewSalesOrderEmpty(clientId,purchasingManagerId):Promise<any>{
     let httpParams = new HttpParams()
         .append("clientId",clientId )
         .append("purchasingManagerId",purchasingManagerId );
-    return this.http.post<RequestSalesOrder>(environmentApi.host + "/api/salesorder/createNewSalesOrderEmpty",httpParams).toPromise();
+    return this.http.post<LigneSale>(environmentApi.host + "/api/salesorder/createNewSalesOrderEmpty",httpParams).toPromise();
   }
   addtocart(){
 
     this.navCtrl.navigateRoot(['my-cart']);
   }
-  addLineToSalesOrder(idnewSaleOrder){
-   // alert(clientid);
 
-    let data: Order = {
-      categoryId: this.categoryId,
-      id: null,
-      quantity: this.quantity,
-      salesOrderId: idnewSaleOrder,
-      state: null
-    }
-    this.saveLineToSalesOrder(data).subscribe((data)=>{
-      console.log("succces");
-    },(err)=>{
-      //this.util.showToast('Utilisateur existe déjà', 'danger', 'bottom');
-    });
-  }
-  saveLineToSalesOrder(order:Order):Observable<Order> {
-    return this.http.post<Order>(environmentApi.host+"/api/ligneSale/addLineToSalesOrder",order);
+  
+  saveLineToSalesOrder(line:LigneSale):Promise<LigneSale> {
+    return this.http.post<LigneSale>(environmentApi.host+"/api/ligneSale/addLineToSalesOrder",line).toPromise();
   }
 }
