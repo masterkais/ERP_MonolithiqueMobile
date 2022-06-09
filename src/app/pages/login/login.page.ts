@@ -76,6 +76,7 @@ import { AuthentificationServiceService } from 'src/app/services/rest/authentifi
         },
         (err) => {
           console.log(err.message)
+          
         }
       );
 

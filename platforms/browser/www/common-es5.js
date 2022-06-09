@@ -1,8 +1,8 @@
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -1098,23 +1098,23 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   },
 
   /***/
-  "./src/app/services/chats/chat-data.service.ts":
-  /*!*****************************************************!*\
-    !*** ./src/app/services/chats/chat-data.service.ts ***!
-    \*****************************************************/
+  "./src/app/modals/Category.ts":
+  /*!************************************!*\
+    !*** ./src/app/modals/Category.ts ***!
+    \************************************/
 
-  /*! exports provided: ChatDataService */
+  /*! exports provided: Category */
 
   /***/
-  function srcAppServicesChatsChatDataServiceTs(module, __webpack_exports__, __webpack_require__) {
+  function srcAppModalsCategoryTs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
     /* harmony export (binding) */
 
 
-    __webpack_require__.d(__webpack_exports__, "ChatDataService", function () {
-      return ChatDataService;
+    __webpack_require__.d(__webpack_exports__, "Category", function () {
+      return Category;
     });
     /* harmony import */
 
@@ -1122,224 +1122,58 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! tslib */
     "./node_modules/tslib/tslib.es6.js");
-    /* harmony import */
 
+    var Category = /*#__PURE__*/function () {
+      function Category() {
+        _classCallCheck(this, Category);
+      }
 
-    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! @angular/core */
-    "./node_modules/@angular/core/fesm2015/core.js");
-    /*
-    
-      Authors : initappz (Rahul Jograna)
-      Website : https://initappz.com/
-      Created : 17-March-2020
-      This App Template Source code is licensed as per the
-      terms found in the Website https://initappz.com/license
-      Copyright and Good Faith Purchasers © 2020-present initappz.
-    
-    */
-
-
-    var ChatDataService = function ChatDataService() {
-      _classCallCheck(this, ChatDataService);
-
-      this.messages = [{
-        side: 'left',
-        msg: 'Hello'
+      _createClass(Category, [{
+        key: "getid",
+        value: function getid() {
+          return this._id;
+        }
       }, {
-        side: 'right',
-        msg: 'Hii'
+        key: "setid",
+        value: function setid(value) {
+          this._id = value;
+        }
       }, {
-        side: 'left',
-        msg: 'Are you nearby ?'
+        key: "getname",
+        value: function getname() {
+          return this._name;
+        }
       }, {
-        side: 'right',
-        msg: 'I will be there in few mins'
+        key: "setname",
+        value: function setname(value) {
+          this._name = value;
+        }
       }, {
-        side: 'left',
-        msg: 'Ok, I am waiting at vinmark Store'
+        key: "getdescription",
+        value: function getdescription() {
+          return this._description;
+        }
       }, {
-        side: 'right',
-        msg: 'Sorry I am stuck in traffic. Please give me a moment.'
-      }];
-    };
+        key: "setdescription",
+        value: function setdescription(value) {
+          this._description = value;
+        }
+      }, {
+        key: "getidBrand",
+        value: function getidBrand() {
+          return this._idBrand;
+        }
+      }, {
+        key: "setidBrand",
+        value: function setidBrand(value) {
+          this._idBrand = value;
+        }
+      }]);
 
-    ChatDataService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
-      providedIn: 'root'
-    }), tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])], ChatDataService);
+      return Category;
+    }();
     /***/
-  },
 
-  /***/
-  "./src/app/services/grid/grid-service.service.ts":
-  /*!*******************************************************!*\
-    !*** ./src/app/services/grid/grid-service.service.ts ***!
-    \*******************************************************/
-
-  /*! exports provided: GridServiceService */
-
-  /***/
-  function srcAppServicesGridGridServiceServiceTs(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */
-
-
-    __webpack_require__.d(__webpack_exports__, "GridServiceService", function () {
-      return GridServiceService;
-    });
-    /* harmony import */
-
-
-    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! tslib */
-    "./node_modules/tslib/tslib.es6.js");
-    /* harmony import */
-
-
-    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! @angular/core */
-    "./node_modules/@angular/core/fesm2015/core.js");
-    /*
-    
-      Authors : initappz (Rahul Jograna)
-      Website : https://initappz.com/
-      Created : 17-March-2020
-      This App Template Source code is licensed as per the
-      terms found in the Website https://initappz.com/license
-      Copyright and Good Faith Purchasers © 2020-present initappz.
-    
-    */
-
-
-    var GridServiceService = function GridServiceService() {
-      _classCallCheck(this, GridServiceService);
-
-      this.data = [{
-        url: 'assets/imgs/image1.jpg',
-        name: 'Image 1'
-      }, {
-        url: 'assets/imgs/image2.jpg',
-        name: 'Image 2'
-      }, {
-        url: 'assets/imgs/image3.jpg',
-        name: 'Image 3'
-      }, {
-        url: 'assets/imgs/image4.jpg',
-        name: 'Image 4'
-      }, {
-        url: 'assets/imgs/image5.jpg',
-        name: 'Image 5'
-      }, {
-        url: 'assets/imgs/image6.jpg',
-        name: 'Image 6'
-      }, {
-        url: 'assets/imgs/image7.jpg',
-        name: 'Image 7'
-      }, {
-        url: 'assets/imgs/image8.jpg',
-        name: 'Image 8'
-      }, {
-        url: 'assets/imgs/image9.jpg',
-        name: 'Image 9'
-      }, {
-        url: 'assets/imgs/image10.jpg',
-        name: 'Image 10'
-      }];
-      this.data2 = [{
-        url: 'assets/imgs/image1.jpg',
-        name: 'Image 1'
-      }, {
-        url: 'assets/imgs/image2.jpg',
-        name: 'Image 2'
-      }, {
-        url: 'assets/imgs/image3.jpg',
-        name: 'Image 3'
-      }, {
-        url: 'assets/imgs/image4.jpg',
-        name: 'Image 4'
-      }, {
-        url: 'assets/imgs/image5.jpg',
-        name: 'Image 5'
-      }];
-    };
-
-    GridServiceService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
-      providedIn: 'root'
-    }), tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])], GridServiceService);
-    /***/
-  },
-
-  /***/
-  "./src/app/services/parallex/parallax.service.ts":
-  /*!*******************************************************!*\
-    !*** ./src/app/services/parallex/parallax.service.ts ***!
-    \*******************************************************/
-
-  /*! exports provided: ParallaxService */
-
-  /***/
-  function srcAppServicesParallexParallaxServiceTs(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */
-
-
-    __webpack_require__.d(__webpack_exports__, "ParallaxService", function () {
-      return ParallaxService;
-    });
-    /* harmony import */
-
-
-    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! tslib */
-    "./node_modules/tslib/tslib.es6.js");
-    /* harmony import */
-
-
-    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! @angular/core */
-    "./node_modules/@angular/core/fesm2015/core.js");
-    /*
-    
-      Authors : initappz (Rahul Jograna)
-      Website : https://initappz.com/
-      Created : 17-March-2020
-      This App Template Source code is licensed as per the
-      terms found in the Website https://initappz.com/license
-      Copyright and Good Faith Purchasers © 2020-present initappz.
-    
-    */
-
-
-    var ParallaxService = function ParallaxService() {
-      _classCallCheck(this, ParallaxService);
-
-      this.card = [{
-        name: 'Apple',
-        descriptions: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's\n      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type\n      specimen book.It has survived not only five centuries,",
-        image: 'assets/imgs/parallax/apple.jpeg'
-      }, {
-        name: 'Oranges',
-        descriptions: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's\n      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type\n      specimen book.It has survived not only five centuries,",
-        image: 'assets/imgs/parallax/orange.jpg'
-      }, {
-        name: 'Cherrys',
-        descriptions: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's\n      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type\n      specimen book.It has survived not only five centuries,",
-        image: 'assets/imgs/parallax/chrerry.jpg'
-      }, {
-        name: 'Bananas',
-        descriptions: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's\n      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type\n      specimen book.It has survived not only five centuries,",
-        image: 'assets/imgs/parallax/bananas.jpg'
-      }];
-    };
-
-    ParallaxService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
-      providedIn: 'root'
-    }), tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])], ParallaxService);
-    /***/
   },
 
   /***/
@@ -1494,7 +1328,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
         this.http = http;
         this.http2 = http2;
         this.baseUrl = '';
-        this.host = 'https://372c-196-179-94-188.eu.ngrok.io/api/';
+        this.host = 'https://3a13-196-179-94-188.eu.ngrok.io/api/';
         this.baseUrl = src_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].restURL.baseUrl;
         this.imagePath = src_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].restURL.imagePath;
       }
@@ -1502,24 +1336,14 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       _createClass(RestAPIsService, [{
         key: "post",
         value: function post(param, link) {
-          return this.http.post(this.baseUrl + link, param, {});
+          return this.http.post(this.baseUrl + link, param, {
+            'Content-Type': 'application/json'
+          });
         }
       }, {
         key: "get",
         value: function get(link) {
           return this.http.get(this.baseUrl + link, {}, {});
-        }
-      }, {
-        key: "ProductList",
-        value: function ProductList() {
-          var type = "application/json; charset=UTF-8";
-          var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpHeaders"]({
-            'Content-Type': type
-          });
-          return this.http2.get(this.host + "product/products", {
-            headers: headers,
-            responseType: 'json'
-          });
         }
       }]);
 
@@ -1537,6 +1361,441 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     RestAPIsService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
       providedIn: 'root'
     }), tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_ionic_native_http_ngx__WEBPACK_IMPORTED_MODULE_3__["HTTP"], _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClient"]])], RestAPIsService);
+    /***/
+  },
+
+  /***/
+  "./src/app/services/util/util.service.ts":
+  /*!***********************************************!*\
+    !*** ./src/app/services/util/util.service.ts ***!
+    \***********************************************/
+
+  /*! exports provided: UtilService */
+
+  /***/
+  function srcAppServicesUtilUtilServiceTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "UtilService", function () {
+      return UtilService;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _ionic_angular__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @ionic/angular */
+    "./node_modules/@ionic/angular/fesm2015/ionic-angular.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+    /*
+    
+      Authors : initappz (Rahul Jograna)
+      Website : https://initappz.com/
+      Created : 17-March-2020
+      This App Template Source code is licensed as per the
+      terms found in the Website https://initappz.com/license
+      Copyright and Good Faith Purchasers © 2020-present initappz.
+    
+    */
+
+
+    var UtilService = /*#__PURE__*/function () {
+      function UtilService(loadingCtrl, alertCtrl, toastCtrl, router, navCtrl) {
+        _classCallCheck(this, UtilService);
+
+        this.loadingCtrl = loadingCtrl;
+        this.alertCtrl = alertCtrl;
+        this.toastCtrl = toastCtrl;
+        this.router = router;
+        this.navCtrl = navCtrl;
+        this.isLoading = false;
+      }
+      /*
+      Start Loader
+      Call this method to Start your Loader
+      */
+
+
+      _createClass(UtilService, [{
+        key: "show",
+        value: function show(msg) {
+          return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee10() {
+            var _this = this;
+
+            return regeneratorRuntime.wrap(function _callee10$(_context10) {
+              while (1) {
+                switch (_context10.prev = _context10.next) {
+                  case 0:
+                    this.isLoading = true;
+                    _context10.next = 3;
+                    return this.loadingCtrl.create({
+                      message: msg,
+                      spinner: 'bubbles'
+                    }).then(function (a) {
+                      a.present().then(function () {
+                        //console.log('presented');
+                        if (!_this.isLoading) {
+                          a.dismiss().then(function () {
+                            return console.log('abort presenting');
+                          });
+                        }
+                      });
+                    });
+
+                  case 3:
+                    return _context10.abrupt("return", _context10.sent);
+
+                  case 4:
+                  case "end":
+                    return _context10.stop();
+                }
+              }
+            }, _callee10, this);
+          }));
+        }
+      }, {
+        key: "hide",
+        value: function hide() {
+          return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee11() {
+            return regeneratorRuntime.wrap(function _callee11$(_context11) {
+              while (1) {
+                switch (_context11.prev = _context11.next) {
+                  case 0:
+                    this.isLoading = false;
+                    _context11.next = 3;
+                    return this.loadingCtrl.dismiss().then(function () {
+                      return console.log('dismissed');
+                    });
+
+                  case 3:
+                    return _context11.abrupt("return", _context11.sent);
+
+                  case 4:
+                  case "end":
+                    return _context11.stop();
+                }
+              }
+            }, _callee11, this);
+          }));
+        }
+        /*
+          Show Warning Alert Message
+          param : msg = message to display
+          Call this method to show Warning Alert,
+          */
+
+      }, {
+        key: "showWarningAlert",
+        value: function showWarningAlert(msg) {
+          return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee12() {
+            var alert;
+            return regeneratorRuntime.wrap(function _callee12$(_context12) {
+              while (1) {
+                switch (_context12.prev = _context12.next) {
+                  case 0:
+                    _context12.next = 2;
+                    return this.alertCtrl.create({
+                      header: 'Warning',
+                      message: msg,
+                      buttons: ['OK']
+                    });
+
+                  case 2:
+                    alert = _context12.sent;
+                    _context12.next = 5;
+                    return alert.present();
+
+                  case 5:
+                  case "end":
+                    return _context12.stop();
+                }
+              }
+            }, _callee12, this);
+          }));
+        }
+      }, {
+        key: "showSimpleAlert",
+        value: function showSimpleAlert(msg) {
+          return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee13() {
+            var alert;
+            return regeneratorRuntime.wrap(function _callee13$(_context13) {
+              while (1) {
+                switch (_context13.prev = _context13.next) {
+                  case 0:
+                    _context13.next = 2;
+                    return this.alertCtrl.create({
+                      header: '',
+                      message: msg,
+                      buttons: ['OK']
+                    });
+
+                  case 2:
+                    alert = _context13.sent;
+                    _context13.next = 5;
+                    return alert.present();
+
+                  case 5:
+                  case "end":
+                    return _context13.stop();
+                }
+              }
+            }, _callee13, this);
+          }));
+        }
+        /*
+         Show Error Alert Message
+         param : msg = message to display
+         Call this method to show Error Alert,
+         */
+
+      }, {
+        key: "showErrorAlert",
+        value: function showErrorAlert(msg) {
+          return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee14() {
+            var alert;
+            return regeneratorRuntime.wrap(function _callee14$(_context14) {
+              while (1) {
+                switch (_context14.prev = _context14.next) {
+                  case 0:
+                    _context14.next = 2;
+                    return this.alertCtrl.create({
+                      header: 'Error',
+                      message: msg,
+                      buttons: ['OK']
+                    });
+
+                  case 2:
+                    alert = _context14.sent;
+                    _context14.next = 5;
+                    return alert.present();
+
+                  case 5:
+                  case "end":
+                    return _context14.stop();
+                }
+              }
+            }, _callee14, this);
+          }));
+        }
+        /*
+           param : email = email to verify
+           Call this method to get verify email
+           */
+
+      }, {
+        key: "getEmailFilter",
+        value: function getEmailFilter(email) {
+          return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee15() {
+            var emailfilter, alert;
+            return regeneratorRuntime.wrap(function _callee15$(_context15) {
+              while (1) {
+                switch (_context15.prev = _context15.next) {
+                  case 0:
+                    emailfilter = /^[\w._-]+[+]?[\w._-]+@[\w.-]+\.[a-zA-Z]{2,6}$/;
+
+                    if (emailfilter.test(email)) {
+                      _context15.next = 10;
+                      break;
+                    }
+
+                    _context15.next = 4;
+                    return this.alertCtrl.create({
+                      header: 'Warning',
+                      message: 'Please enter valid email',
+                      buttons: ['OK']
+                    });
+
+                  case 4:
+                    alert = _context15.sent;
+                    _context15.next = 7;
+                    return alert.present();
+
+                  case 7:
+                    return _context15.abrupt("return", false);
+
+                  case 10:
+                    return _context15.abrupt("return", true);
+
+                  case 11:
+                  case "end":
+                    return _context15.stop();
+                }
+              }
+            }, _callee15, this);
+          }));
+        }
+        /*
+          Show Toast Message on Screen
+           param : msg = message to display, color= background color of toast example dark,danger,light. position  = position of message example top,bottom
+           Call this method to show toast message
+           */
+
+      }, {
+        key: "showToast",
+        value: function showToast(msg, color, positon) {
+          return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee16() {
+            var toast;
+            return regeneratorRuntime.wrap(function _callee16$(_context16) {
+              while (1) {
+                switch (_context16.prev = _context16.next) {
+                  case 0:
+                    _context16.next = 2;
+                    return this.toastCtrl.create({
+                      message: msg,
+                      duration: 2000,
+                      color: color,
+                      position: positon
+                    });
+
+                  case 2:
+                    toast = _context16.sent;
+                    toast.present();
+
+                  case 4:
+                  case "end":
+                    return _context16.stop();
+                }
+              }
+            }, _callee16, this);
+          }));
+        }
+      }, {
+        key: "shoNotification",
+        value: function shoNotification(msg, color, positon) {
+          return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee17() {
+            var toast;
+            return regeneratorRuntime.wrap(function _callee17$(_context17) {
+              while (1) {
+                switch (_context17.prev = _context17.next) {
+                  case 0:
+                    _context17.next = 2;
+                    return this.toastCtrl.create({
+                      message: msg,
+                      duration: 4000,
+                      color: color,
+                      position: positon,
+                      buttons: [{
+                        text: 'Ok',
+                        role: 'cancel',
+                        handler: function handler() {//console.log('Cancel clicked');
+                        }
+                      }]
+                    });
+
+                  case 2:
+                    toast = _context17.sent;
+                    toast.present();
+
+                  case 4:
+                  case "end":
+                    return _context17.stop();
+                }
+              }
+            }, _callee17, this);
+          }));
+        }
+      }, {
+        key: "errorToast",
+        value: function errorToast(msg) {
+          return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee18() {
+            var toast;
+            return regeneratorRuntime.wrap(function _callee18$(_context18) {
+              while (1) {
+                switch (_context18.prev = _context18.next) {
+                  case 0:
+                    _context18.next = 2;
+                    return this.toastCtrl.create({
+                      message: msg,
+                      duration: 2000
+                    });
+
+                  case 2:
+                    toast = _context18.sent;
+                    toast.present();
+
+                  case 4:
+                  case "end":
+                    return _context18.stop();
+                }
+              }
+            }, _callee18, this);
+          }));
+        }
+      }, {
+        key: "apiErrorHandler",
+        value: function apiErrorHandler(err) {
+          //console.log("Error got in service =>", err)
+          if (err.status == -1) {
+            this.showErrorAlert('Failed To Connect With Server');
+          } else if (err.status == 401) {
+            this.showErrorAlert('Unauthorized Request!');
+            this.navCtrl.navigateRoot('/login');
+          } else if (err.status == 500) {
+            this.showErrorAlert("Somethimg Went Wrong..");
+          }
+        } // setDetails(data) {
+        //   this.details = null;
+        //   this.details = data;
+        // }
+        // getDetails() {
+        //   return this.details;
+        // }
+
+      }, {
+        key: "makeid",
+        value: function makeid(length) {
+          var result = '';
+          var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+          var charactersLength = characters.length;
+
+          for (var i = 0; i < length; i++) {
+            result += characters.charAt(Math.floor(Math.random() * charactersLength));
+          }
+
+          return result;
+        }
+      }]);
+
+      return UtilService;
+    }();
+
+    UtilService.ctorParameters = function () {
+      return [{
+        type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["LoadingController"]
+      }, {
+        type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["AlertController"]
+      }, {
+        type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ToastController"]
+      }, {
+        type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]
+      }, {
+        type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["NavController"]
+      }];
+    };
+
+    UtilService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+      providedIn: 'root'
+    }), tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_ionic_angular__WEBPACK_IMPORTED_MODULE_2__["LoadingController"], _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["AlertController"], _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ToastController"], _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"], _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["NavController"]])], UtilService);
     /***/
   }
 }]);

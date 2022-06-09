@@ -15,6 +15,7 @@ import { environment } from 'src/environments/environment';
   import {HttpHeaders} from "@angular/common/http";
   import {HttpClient} from "@angular/common/http";
   import {environmentApi} from "../../../services/rest/environnement.model";
+import { Router } from '@angular/router';
   @Component({
     selector: 'app-add-user',
     templateUrl: './add-user.page.html',
@@ -33,7 +34,8 @@ import { environment } from 'src/environments/environment';
       private sqlite: SQLite,
       private api: RestAPIsService,
       private http: HTTP,
-      private datePipe:DatePipe,private httpClient:HttpClient
+      private datePipe:DatePipe,private httpClient:HttpClient,
+      private router:Router,
       
 
   ) {
@@ -111,13 +113,15 @@ import { environment } from 'src/environments/environment';
       }
       this.saveUser(data).subscribe((data)=>{
         console.log("succces");
+        this.util.showToast('Ajout User success', 'success', 'bottom');
+        this.navCtrl.navigateRoot(['add-user']);
     },(err)=>{
       this.util.showToast('Utilisateur existe déjà', 'danger', 'bottom');
     });
   }
   
     saveUser(user:User):Observable<User> {
-      return this.httpClient.post<User>(environmentApi.host+"/user",user);
+      return this.httpClient.post<User>(environmentApi.host+"/api/user",user);
     }
 
 }
