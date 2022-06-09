@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {NavController} from "@ionic/angular";
-import {ActivatedRoute} from "@angular/router";
+import {ActivatedRoute, NavigationExtras} from "@angular/router";
 import {Panier} from "../../modals/Panier";
 import {DomSanitizer} from "@angular/platform-browser";
 
@@ -92,7 +92,15 @@ export class MyCartPage implements OnInit {
 
     this.navCtrl.navigateRoot(['my-cart']);
   }
-  gotocaisse(){
-    this.navCtrl.navigateRoot(['send-request']);
+  gotocaisse(idcat,nomprod,compteur){
+    let navigationExtras: NavigationExtras = {
+      queryParams: {
+        categoryId:idcat,
+        quantity:compteur,
+        nomprod:nomprod,
+
+      }
+    };
+    this.navCtrl.navigateRoot(['send-request'],navigationExtras);
   }
 }

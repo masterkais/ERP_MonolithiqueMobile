@@ -21,7 +21,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<ion-header>\n  <ion-toolbar color=\"secondary\">\n    <ion-buttons slot=\"start\">\n      <ion-menu-button></ion-menu-button>\n    </ion-buttons>\n      <ion-buttons slot=\"end\">\n          <ion-button (click)=\"addtocart()\" class=\"ion-button custom-class\" color=\"red\"  fill=\"solid\">\n              <ion-icon name=\"cart\" style=\"color: white\"></ion-icon>\n              <ion-badge color=\"danger\" >{{charge_compteur()}}</ion-badge>\n          </ion-button>\n\n      </ion-buttons>\n    <ion-title style=\"text-align: center\">\n      Accueil\n    </ion-title>\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content>\n\n  <!--<ion-row>\n    <ion-col size=\"3\">\n      <div class=\"center\">\n        <div class=\"seperator\"></div>\n      </div>\n    </ion-col>\n    <ion-col>\n      <p class=\"title\">Line Chart</p>\n    </ion-col>\n    <ion-col size=\"3\">\n      <div class=\"center\">\n        <div class=\"seperator\"></div>\n      </div>\n    </ion-col>\n  </ion-row>\n\n  <div class=\"row\">\n    <div style=\"display: block;\">\n      <canvas baseChart width=\"400\" height=\"400\" [datasets]=\"lineChartData\" [labels]=\"lineChartLabels\"\n        [options]=\"lineChartOptions\" [colors]=\"lineChartColors\" [legend]=\"lineChartLegend\" [chartType]=\"lineChartType\"\n        (chartHover)=\"chartHovered($event)\" (chartClick)=\"chartClicked($event)\"></canvas>\n    </div>\n    <ion-button (click)=\"randomize()\" color=\"secondary\" expand=\"block\">\n      Change\n    </ion-button>\n  </div>-->\n\n  <ion-row>\n   <ion-col size=\"3\">\n     <div class=\"center\">\n       <div class=\"seperator\"></div>\n     </div>\n   </ion-col>\n   <ion-col>\n     <p class=\"title\">Doughnut Chart</p>\n   </ion-col>\n   <ion-col size=\"3\">\n     <div class=\"center\">\n       <div class=\"seperator\"></div>\n     </div>\n   </ion-col>\n </ion-row>\n\n  <div style=\"display: block\">\n   <canvas baseChart [data]=\"doughnutChartData\" [labels]=\"doughnutChartLabels\" [chartType]=\"doughnutChartType\">\n   </canvas>\n </div>\n\n <ion-row>\n   <ion-col size=\"3\">\n     <div class=\"center\">\n       <div class=\"seperator\"></div>\n     </div>\n   </ion-col>\n   <ion-col>\n     <p class=\"title\">Statistiques</p>\n   </ion-col>\n   <ion-col size=\"3\">\n     <div class=\"center\">\n       <div class=\"seperator\"></div>\n     </div>\n   </ion-col>\n </ion-row>\n\n\n  <div style=\"display: block\">\n   <canvas baseChart [datasets]=\"barChartData\" [labels]=\"barChartLabels\" [options]=\"barChartOptions\"\n     [legend]=\"barChartLegend\" [chartType]=\"barChartType\">\n   </canvas>\n </div>\n\n\n  <ion-row>\n   <ion-col size=\"3\">\n     <div class=\"center\">\n       <div class=\"seperator\"></div>\n     </div>\n   </ion-col>\n   <ion-col>\n     <p class=\"title\">Radar Chart</p>\n   </ion-col>\n   <ion-col size=\"3\">\n     <div class=\"center\">\n       <div class=\"seperator\"></div>\n     </div>\n   </ion-col>\n </ion-row>\n\n\n  <div style=\"display: block\">\n   <canvas baseChart [datasets]=\"radarChartData\" [options]=\"radarChartOptions\" [labels]=\"radarChartLabels\"\n     [chartType]=\"radarChartType\">\n   </canvas>\n </div>\n\n\n  <!--<ion-row>\n   <ion-col size=\"3\">\n     <div class=\"center\">\n       <div class=\"seperator\"></div>\n     </div>\n   </ion-col>\n   <ion-col>\n     <p class=\"title\">Pie Chart</p>\n   </ion-col>\n   <ion-col size=\"3\">\n     <div class=\"center\">\n       <div class=\"seperator\"></div>\n     </div>\n   </ion-col>\n </ion-row>-->\n\n\n  <!--<div class=\"chart\">\n   <canvas baseChart [data]=\"pieChartData\" [labels]=\"pieChartLabels\" [chartType]=\"pieChartType\"\n     [options]=\"pieChartOptions\" [colors]=\"pieChartColors\" [legend]=\"pieChartLegend\">\n   </canvas>\n </div>\n <ion-row>\n   <ion-col size=\"6\">\n     <ion-button (click)=\"pieChartLegend=!pieChartLegend\" color=\"secondary\" expand=\"block\">\n       Toggle Legend\n     </ion-button>\n   </ion-col>\n   <ion-col size=\"6\">\n     <ion-button (click)=\"changeLabels()\" color=\"secondary\" expand=\"block\">\n       Change Labels\n     </ion-button>\n   </ion-col>\n </ion-row>-->\n\n\n\n  <!--<ion-row>\n   <ion-col size=\"3\">\n     <div class=\"center\">\n       <div class=\"seperator\"></div>\n     </div>\n   </ion-col>\n   <ion-col>\n     <p class=\"title\">PolarArea Chart</p>\n   </ion-col>\n   <ion-col size=\"3\">\n     <div class=\"center\">\n       <div class=\"seperator\"></div>\n     </div>\n   </ion-col>\n </ion-row>-->\n\n\n  <!--<div style=\"display: block\">\n   <canvas baseChart [data]=\"polarAreaChartData\" [labels]=\"polarAreaChartLabels\" [legend]=\"polarAreaLegend\"\n     [chartType]=\"polarAreaChartType\">\n   </canvas>\n </div>\n\n\n <ion-row>\n   <ion-col size=\"3\">\n     <div class=\"center\">\n       <div class=\"seperator\"></div>\n     </div>\n   </ion-col>\n   <ion-col>\n     <p class=\"title\">Bubble Chart</p>\n   </ion-col>\n   <ion-col size=\"3\">\n     <div class=\"center\">\n       <div class=\"seperator\"></div>\n     </div>\n   </ion-col>\n </ion-row>\n\n\n <div style=\"display: block\">\n   <canvas baseChart [datasets]=\"bubbleChartData\" [options]=\"bubbleChartOptions\" [colors]=\"bubbleChartColors\"\n     [legend]=\"bubbleChartLegend\" [chartType]=\"bubbleChartType\">\n   </canvas>\n </div>-->\n\n</ion-content>";
+    __webpack_exports__["default"] = "<ion-header>\r\n  <ion-toolbar color=\"secondary\">\r\n    <ion-buttons slot=\"start\">\r\n      <ion-menu-button></ion-menu-button>\r\n    </ion-buttons>\r\n      <ion-buttons slot=\"end\">\r\n          <ion-button (click)=\"addtocart()\" class=\"ion-button custom-class\" color=\"red\"  fill=\"solid\">\r\n              <ion-icon name=\"cart\" style=\"color: white\"></ion-icon>\r\n              <ion-badge color=\"danger\" >{{charge_compteur()}}</ion-badge>\r\n          </ion-button>\r\n\r\n      </ion-buttons>\r\n    <ion-title style=\"text-align: center\">\r\n      Accueil\r\n    </ion-title>\r\n  </ion-toolbar>\r\n</ion-header>\r\n\r\n\r\n<ion-content>\r\n\r\n  <!--<ion-row>\r\n    <ion-col size=\"3\">\r\n      <div class=\"center\">\r\n        <div class=\"seperator\"></div>\r\n      </div>\r\n    </ion-col>\r\n    <ion-col>\r\n      <p class=\"title\">Line Chart</p>\r\n    </ion-col>\r\n    <ion-col size=\"3\">\r\n      <div class=\"center\">\r\n        <div class=\"seperator\"></div>\r\n      </div>\r\n    </ion-col>\r\n  </ion-row>\r\n\r\n  <div class=\"row\">\r\n    <div style=\"display: block;\">\r\n      <canvas baseChart width=\"400\" height=\"400\" [datasets]=\"lineChartData\" [labels]=\"lineChartLabels\"\r\n        [options]=\"lineChartOptions\" [colors]=\"lineChartColors\" [legend]=\"lineChartLegend\" [chartType]=\"lineChartType\"\r\n        (chartHover)=\"chartHovered($event)\" (chartClick)=\"chartClicked($event)\"></canvas>\r\n    </div>\r\n    <ion-button (click)=\"randomize()\" color=\"secondary\" expand=\"block\">\r\n      Change\r\n    </ion-button>\r\n  </div>-->\r\n\r\n  <ion-row>\r\n   <ion-col size=\"3\">\r\n     <div class=\"center\">\r\n       <div class=\"seperator\"></div>\r\n     </div>\r\n   </ion-col>\r\n   <ion-col>\r\n     <p class=\"title\">Site Stock</p>\r\n   </ion-col>\r\n   <ion-col size=\"3\">\r\n     <div class=\"center\">\r\n       <div class=\"seperator\"></div>\r\n     </div>\r\n   </ion-col>\r\n </ion-row>\r\n\r\n  <div style=\"display: block\">\r\n   <canvas baseChart [data]=\"doughnutChartData\" [labels]=\"doughnutChartLabels\" [chartType]=\"doughnutChartType\">\r\n   </canvas>\r\n </div>\r\n\r\n    <ion-row>\r\n        <ion-col size=\"3\">\r\n            <div class=\"center\">\r\n                <div class=\"seperator\"></div>\r\n            </div>\r\n        </ion-col>\r\n        <ion-col>\r\n            <p class=\"title\">Statut de produits</p>\r\n        </ion-col>\r\n        <ion-col size=\"3\">\r\n            <div class=\"center\">\r\n                <div class=\"seperator\"></div>\r\n            </div>\r\n        </ion-col>\r\n    </ion-row>\r\n\r\n\r\n    <div style=\"display: block\">\r\n        <canvas baseChart [datasets]=\"radarChartData\" [options]=\"radarChartOptions\" [labels]=\"radarChartLabels\"\r\n                [chartType]=\"radarChartType\">\r\n        </canvas>\r\n    </div>\r\n <ion-row>\r\n   <ion-col size=\"3\">\r\n     <div class=\"center\">\r\n       <div class=\"seperator\"></div>\r\n     </div>\r\n   </ion-col>\r\n   <ion-col>\r\n     <p class=\"title\">Statistiques</p>\r\n   </ion-col>\r\n   <ion-col size=\"3\">\r\n     <div class=\"center\">\r\n       <div class=\"seperator\"></div>\r\n     </div>\r\n   </ion-col>\r\n </ion-row>\r\n\r\n\r\n  <div style=\"display: block\">\r\n   <canvas baseChart [datasets]=\"barChartData\" [labels]=\"barChartLabels\" [options]=\"barChartOptions\"\r\n     [legend]=\"barChartLegend\" [chartType]=\"barChartType\">\r\n   </canvas>\r\n </div>\r\n\r\n\r\n\r\n\r\n  <!--<ion-row>\r\n   <ion-col size=\"3\">\r\n     <div class=\"center\">\r\n       <div class=\"seperator\"></div>\r\n     </div>\r\n   </ion-col>\r\n   <ion-col>\r\n     <p class=\"title\">Pie Chart</p>\r\n   </ion-col>\r\n   <ion-col size=\"3\">\r\n     <div class=\"center\">\r\n       <div class=\"seperator\"></div>\r\n     </div>\r\n   </ion-col>\r\n </ion-row>-->\r\n\r\n\r\n  <!--<div class=\"chart\">\r\n   <canvas baseChart [data]=\"pieChartData\" [labels]=\"pieChartLabels\" [chartType]=\"pieChartType\"\r\n     [options]=\"pieChartOptions\" [colors]=\"pieChartColors\" [legend]=\"pieChartLegend\">\r\n   </canvas>\r\n </div>\r\n <ion-row>\r\n   <ion-col size=\"6\">\r\n     <ion-button (click)=\"pieChartLegend=!pieChartLegend\" color=\"secondary\" expand=\"block\">\r\n       Toggle Legend\r\n     </ion-button>\r\n   </ion-col>\r\n   <ion-col size=\"6\">\r\n     <ion-button (click)=\"changeLabels()\" color=\"secondary\" expand=\"block\">\r\n       Change Labels\r\n     </ion-button>\r\n   </ion-col>\r\n </ion-row>-->\r\n\r\n\r\n\r\n  <!--<ion-row>\r\n   <ion-col size=\"3\">\r\n     <div class=\"center\">\r\n       <div class=\"seperator\"></div>\r\n     </div>\r\n   </ion-col>\r\n   <ion-col>\r\n     <p class=\"title\">PolarArea Chart</p>\r\n   </ion-col>\r\n   <ion-col size=\"3\">\r\n     <div class=\"center\">\r\n       <div class=\"seperator\"></div>\r\n     </div>\r\n   </ion-col>\r\n </ion-row>-->\r\n\r\n\r\n  <!--<div style=\"display: block\">\r\n   <canvas baseChart [data]=\"polarAreaChartData\" [labels]=\"polarAreaChartLabels\" [legend]=\"polarAreaLegend\"\r\n     [chartType]=\"polarAreaChartType\">\r\n   </canvas>\r\n </div>\r\n\r\n\r\n <ion-row>\r\n   <ion-col size=\"3\">\r\n     <div class=\"center\">\r\n       <div class=\"seperator\"></div>\r\n     </div>\r\n   </ion-col>\r\n   <ion-col>\r\n     <p class=\"title\">Bubble Chart</p>\r\n   </ion-col>\r\n   <ion-col size=\"3\">\r\n     <div class=\"center\">\r\n       <div class=\"seperator\"></div>\r\n     </div>\r\n   </ion-col>\r\n </ion-row>\r\n\r\n\r\n <div style=\"display: block\">\r\n   <canvas baseChart [datasets]=\"bubbleChartData\" [options]=\"bubbleChartOptions\" [colors]=\"bubbleChartColors\"\r\n     [legend]=\"bubbleChartLegend\" [chartType]=\"bubbleChartType\">\r\n   </canvas>\r\n </div>-->\r\n\r\n</ion-content>";
     /***/
   },
 
@@ -180,7 +180,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".title {\n  text-align: center;\n  font-family: \"Avenir\";\n  font-size: 18px;\n  margin: 0px;\n  margin-top: 10px;\n}\n\n.center {\n  width: 100%;\n  height: 100%;\n}\n\n.seperator {\n  width: 90%;\n  margin-top: 20px;\n  margin-bottom: 20px;\n  height: 1px;\n  background-color: #ECF0F1;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: center;\n          justify-content: center;\n}\n\nion-button {\n  margin-left: 20px;\n  margin-right: 20px;\n  --border-radius: 5px;\n}\n\nion-badge {\n  position: absolute;\n  font-size: 8pt;\n  right: -5px;\n  top: 2px;\n}\n\n.ion-button {\n  margin: 5px;\n  width: 40px;\n  height: 40px;\n  position: relative;\n}\n\n/* Setting Overflow Visible */\n\n.ion-button.custom-class::part(native) {\n  overflow: visible;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvY2hhcnRzL0Q6XFxleHBlcnREZXZTb2x1dGlvbnNcXGlvbmljX2VycFxcQXBwX2NvZGUvc3JjXFxhcHBcXHBhZ2VzXFxjaGFydHNcXGNoYXJ0cy5wYWdlLnNjc3MiLCJzcmMvYXBwL3BhZ2VzL2NoYXJ0cy9jaGFydHMucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNBO0VBQ0Usa0JBQUE7RUFDQSxxQkFBQTtFQUNBLGVBQUE7RUFDQSxXQUFBO0VBQ0EsZ0JBQUE7QUNBRjs7QURJQTtFQUNFLFdBQUE7RUFDQSxZQUFBO0FDREY7O0FESUE7RUFDRSxVQUFBO0VBQ0EsZ0JBQUE7RUFDQSxtQkFBQTtFQUNBLFdBQUE7RUFDQSx5QkFBQTtFQUNBLG9CQUFBO0VBQUEsYUFBQTtFQUNBLHdCQUFBO1VBQUEsdUJBQUE7QUNERjs7QURJQTtFQUNFLGlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxvQkFBQTtBQ0RGOztBREdBO0VBQ0Usa0JBQUE7RUFDQSxjQUFBO0VBQ0EsV0FBQTtFQUNBLFFBQUE7QUNBRjs7QURHQTtFQUNFLFdBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0FDQUY7O0FESUEsNkJBQUE7O0FBQ0E7RUFDRSxpQkFBQTtBQ0RGIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvY2hhcnRzL2NoYXJ0cy5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcbi50aXRsZXtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LWZhbWlseTogJ0F2ZW5pcic7XG4gIGZvbnQtc2l6ZTogMThweDtcbiAgbWFyZ2luOiAwcHg7XG4gIG1hcmdpbi10b3A6IDEwcHg7XG59XG5cblxuLmNlbnRlciB7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDEwMCU7XG59XG5cbi5zZXBlcmF0b3J7XG4gIHdpZHRoOiA5MCU7XG4gIG1hcmdpbi10b3A6IDIwcHg7XG4gIG1hcmdpbi1ib3R0b206IDIwcHg7XG4gIGhlaWdodDogMXB4O1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjRUNGMEYxO1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbn1cblxuaW9uLWJ1dHRvbntcbiAgbWFyZ2luLWxlZnQ6IDIwcHg7XG4gIG1hcmdpbi1yaWdodDogMjBweDtcbiAgLS1ib3JkZXItcmFkaXVzOiA1cHg7XG59XG5pb24tYmFkZ2Uge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGZvbnQtc2l6ZTogOHB0O1xuICByaWdodDogLTVweDtcbiAgdG9wOiAycHg7XG59XG5cbi5pb24tYnV0dG9uIHtcbiAgbWFyZ2luOiA1cHg7XG4gIHdpZHRoOiA0MHB4O1xuICBoZWlnaHQ6IDQwcHg7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgLy8gb3ZlcmZsb3c6IHZpc2libGUhaW1wb3J0YW50O1xufVxuXG4vKiBTZXR0aW5nIE92ZXJmbG93IFZpc2libGUgKi9cbi5pb24tYnV0dG9uLmN1c3RvbS1jbGFzczo6cGFydChuYXRpdmUpIHtcbiAgb3ZlcmZsb3c6IHZpc2libGU7XG59IiwiLnRpdGxlIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LWZhbWlseTogXCJBdmVuaXJcIjtcbiAgZm9udC1zaXplOiAxOHB4O1xuICBtYXJnaW46IDBweDtcbiAgbWFyZ2luLXRvcDogMTBweDtcbn1cblxuLmNlbnRlciB7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDEwMCU7XG59XG5cbi5zZXBlcmF0b3Ige1xuICB3aWR0aDogOTAlO1xuICBtYXJnaW4tdG9wOiAyMHB4O1xuICBtYXJnaW4tYm90dG9tOiAyMHB4O1xuICBoZWlnaHQ6IDFweDtcbiAgYmFja2dyb3VuZC1jb2xvcjogI0VDRjBGMTtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG59XG5cbmlvbi1idXR0b24ge1xuICBtYXJnaW4tbGVmdDogMjBweDtcbiAgbWFyZ2luLXJpZ2h0OiAyMHB4O1xuICAtLWJvcmRlci1yYWRpdXM6IDVweDtcbn1cblxuaW9uLWJhZGdlIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBmb250LXNpemU6IDhwdDtcbiAgcmlnaHQ6IC01cHg7XG4gIHRvcDogMnB4O1xufVxuXG4uaW9uLWJ1dHRvbiB7XG4gIG1hcmdpbjogNXB4O1xuICB3aWR0aDogNDBweDtcbiAgaGVpZ2h0OiA0MHB4O1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG59XG5cbi8qIFNldHRpbmcgT3ZlcmZsb3cgVmlzaWJsZSAqL1xuLmlvbi1idXR0b24uY3VzdG9tLWNsYXNzOjpwYXJ0KG5hdGl2ZSkge1xuICBvdmVyZmxvdzogdmlzaWJsZTtcbn0iXX0= */";
+    __webpack_exports__["default"] = ".title {\n  text-align: center;\n  font-family: \"Avenir\";\n  font-size: 18px;\n  margin: 0px;\n  margin-top: 10px;\n}\n\n.center {\n  width: 100%;\n  height: 100%;\n}\n\n.seperator {\n  width: 90%;\n  margin-top: 20px;\n  margin-bottom: 20px;\n  height: 1px;\n  background-color: #ECF0F1;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: center;\n          justify-content: center;\n}\n\nion-button {\n  margin-left: 20px;\n  margin-right: 20px;\n  --border-radius: 5px;\n}\n\nion-badge {\n  position: absolute;\n  font-size: 8pt;\n  right: -5px;\n  top: 2px;\n}\n\n.ion-button {\n  margin: 5px;\n  width: 40px;\n  height: 40px;\n  position: relative;\n}\n\n/* Setting Overflow Visible */\n\n.ion-button.custom-class::part(native) {\n  overflow: visible;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvY2hhcnRzL0M6XFxrYWlzIGlvbmljIHByb2plY3RcXEVSUF9Nb25vbGl0aGlxdWVNb2JpbGUvc3JjXFxhcHBcXHBhZ2VzXFxjaGFydHNcXGNoYXJ0cy5wYWdlLnNjc3MiLCJzcmMvYXBwL3BhZ2VzL2NoYXJ0cy9jaGFydHMucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNBO0VBQ0Usa0JBQUE7RUFDQSxxQkFBQTtFQUNBLGVBQUE7RUFDQSxXQUFBO0VBQ0EsZ0JBQUE7QUNBRjs7QURJQTtFQUNFLFdBQUE7RUFDQSxZQUFBO0FDREY7O0FESUE7RUFDRSxVQUFBO0VBQ0EsZ0JBQUE7RUFDQSxtQkFBQTtFQUNBLFdBQUE7RUFDQSx5QkFBQTtFQUNBLG9CQUFBO0VBQUEsYUFBQTtFQUNBLHdCQUFBO1VBQUEsdUJBQUE7QUNERjs7QURJQTtFQUNFLGlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxvQkFBQTtBQ0RGOztBREdBO0VBQ0Usa0JBQUE7RUFDQSxjQUFBO0VBQ0EsV0FBQTtFQUNBLFFBQUE7QUNBRjs7QURHQTtFQUNFLFdBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0FDQUY7O0FESUEsNkJBQUE7O0FBQ0E7RUFDRSxpQkFBQTtBQ0RGIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvY2hhcnRzL2NoYXJ0cy5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuLnRpdGxle1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICBmb250LWZhbWlseTogJ0F2ZW5pcic7XHJcbiAgZm9udC1zaXplOiAxOHB4O1xyXG4gIG1hcmdpbjogMHB4O1xyXG4gIG1hcmdpbi10b3A6IDEwcHg7XHJcbn1cclxuXHJcblxyXG4uY2VudGVyIHtcclxuICB3aWR0aDogMTAwJTtcclxuICBoZWlnaHQ6IDEwMCU7XHJcbn1cclxuXHJcbi5zZXBlcmF0b3J7XHJcbiAgd2lkdGg6IDkwJTtcclxuICBtYXJnaW4tdG9wOiAyMHB4O1xyXG4gIG1hcmdpbi1ib3R0b206IDIwcHg7XHJcbiAgaGVpZ2h0OiAxcHg7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogI0VDRjBGMTtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG59XHJcblxyXG5pb24tYnV0dG9ue1xyXG4gIG1hcmdpbi1sZWZ0OiAyMHB4O1xyXG4gIG1hcmdpbi1yaWdodDogMjBweDtcclxuICAtLWJvcmRlci1yYWRpdXM6IDVweDtcclxufVxyXG5pb24tYmFkZ2Uge1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICBmb250LXNpemU6IDhwdDtcclxuICByaWdodDogLTVweDtcclxuICB0b3A6IDJweDtcclxufVxyXG5cclxuLmlvbi1idXR0b24ge1xyXG4gIG1hcmdpbjogNXB4O1xyXG4gIHdpZHRoOiA0MHB4O1xyXG4gIGhlaWdodDogNDBweDtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgLy8gb3ZlcmZsb3c6IHZpc2libGUhaW1wb3J0YW50O1xyXG59XHJcblxyXG4vKiBTZXR0aW5nIE92ZXJmbG93IFZpc2libGUgKi9cclxuLmlvbi1idXR0b24uY3VzdG9tLWNsYXNzOjpwYXJ0KG5hdGl2ZSkge1xyXG4gIG92ZXJmbG93OiB2aXNpYmxlO1xyXG59IiwiLnRpdGxlIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LWZhbWlseTogXCJBdmVuaXJcIjtcbiAgZm9udC1zaXplOiAxOHB4O1xuICBtYXJnaW46IDBweDtcbiAgbWFyZ2luLXRvcDogMTBweDtcbn1cblxuLmNlbnRlciB7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDEwMCU7XG59XG5cbi5zZXBlcmF0b3Ige1xuICB3aWR0aDogOTAlO1xuICBtYXJnaW4tdG9wOiAyMHB4O1xuICBtYXJnaW4tYm90dG9tOiAyMHB4O1xuICBoZWlnaHQ6IDFweDtcbiAgYmFja2dyb3VuZC1jb2xvcjogI0VDRjBGMTtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG59XG5cbmlvbi1idXR0b24ge1xuICBtYXJnaW4tbGVmdDogMjBweDtcbiAgbWFyZ2luLXJpZ2h0OiAyMHB4O1xuICAtLWJvcmRlci1yYWRpdXM6IDVweDtcbn1cblxuaW9uLWJhZGdlIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBmb250LXNpemU6IDhwdDtcbiAgcmlnaHQ6IC01cHg7XG4gIHRvcDogMnB4O1xufVxuXG4uaW9uLWJ1dHRvbiB7XG4gIG1hcmdpbjogNXB4O1xuICB3aWR0aDogNDBweDtcbiAgaGVpZ2h0OiA0MHB4O1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG59XG5cbi8qIFNldHRpbmcgT3ZlcmZsb3cgVmlzaWJsZSAqL1xuLmlvbi1idXR0b24uY3VzdG9tLWNsYXNzOjpwYXJ0KG5hdGl2ZSkge1xuICBvdmVyZmxvdzogdmlzaWJsZTtcbn0iXX0= */";
     /***/
   },
 
@@ -227,6 +227,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _ionic_angular__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @ionic/angular */
     "./node_modules/@ionic/angular/fesm2015/ionic-angular.js");
+    /* harmony import */
+
+
+    var _services_rest_environnement_model__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! ../../services/rest/environnement.model */
+    "./src/app/services/rest/environnement.model.ts");
+    /* harmony import */
+
+
+    var _angular_common_http__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! @angular/common/http */
+    "./node_modules/@angular/common/fesm2015/http.js");
     /*
     
       Authors : initappz (Rahul Jograna)
@@ -240,11 +252,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
     var ChartsPage = /*#__PURE__*/function () {
-      function ChartsPage(badge, navCtrl) {
+      function ChartsPage(badge, navCtrl, http) {
         _classCallCheck(this, ChartsPage);
 
         this.badge = badge;
-        this.navCtrl = navCtrl; ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        this.navCtrl = navCtrl;
+        this.http = http; ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //Line chart
         //https://valor-software.com/ng2-charts/#LineChart
@@ -288,15 +301,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           pointHoverBorderColor: 'rgba(148,159,177,0.8)'
         }];
         this.lineChartLegend = true;
-        this.lineChartType = 'line'; ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        //doughnut Chart
-        // https://valor-software.com/ng2-charts/#DoughnutChart
-        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-        this.doughnutChartLabels = ['Download Sales', 'In-Store Sales', 'Mail-Order Sales'];
-        this.doughnutChartData = [[350, 450, 100], [50, 150, 120], [250, 130, 70]];
+        this.lineChartType = 'line';
+        this.doughnutChartLabels = ['Site Stock Non Disponible', 'Site Stock Disponible'];
+        this.doughnutChartData = [[350, 450]];
         this.doughnutChartType = 'doughnut';
         this.barChartOptions = {
           responsive: true,
@@ -328,16 +335,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+        this.category_list = [];
+        this.product_active_list = [];
+        this.product_nonactive_list = [];
         this.radarChartOptions = {
           responsive: true
         };
-        this.radarChartLabels = ['Eating', 'Drinking', 'Sleeping', 'Designing', 'Coding', 'Cycling', 'Running'];
+        this.radarChartLabels = this.category_list;
         this.radarChartData = [{
-          data: [65, 59, 90, 81, 56, 55, 40],
-          label: 'Series A'
+          data: this.product_nonactive_list,
+          label: 'Produits Non Active'
         }, {
-          data: [28, 48, 40, 19, 96, 27, 100],
-          label: 'Series B'
+          data: this.product_active_list,
+          label: 'Produits Active'
         }];
         this.radarChartType = 'radar'; ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -430,6 +440,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           backgroundColor: ['red', 'green', 'blue', 'purple', 'yellow', 'brown', 'magenta', 'cyan', 'orange', 'pink']
         }];
         this.produits_commandes_list = [];
+        this.getallCategory();
 
         if (localStorage.getItem("produits_commandes") != null) {
           this.produits_commandes_list = JSON.parse(localStorage.getItem("produits_commandes"));
@@ -466,6 +477,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         key: "chartHovered",
         value: function chartHovered(e) {
           console.log(e);
+        } ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //doughnut Chart
+        // https://valor-software.com/ng2-charts/#DoughnutChart
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+      }, {
+        key: "numberSiteStockDisponible",
+        value: function numberSiteStockDisponible() {
+          return this.http.get(_services_rest_environnement_model__WEBPACK_IMPORTED_MODULE_4__["environmentApi"].host + "/api/numberSiteStockDisponible");
+        }
+      }, {
+        key: "getnumberSiteStockDisponible",
+        value: function getnumberSiteStockDisponible() {
+          var i, user;
+          this.numberSiteStockDisponible().subscribe(function (data) {
+            var info = data;
+            console.log(data); //  this.dismissLoader();
+          });
         }
       }, {
         key: "chartClickedDonut",
@@ -480,6 +511,68 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var event = _ref2.event,
               active = _ref2.active;
           console.log(event, active);
+        }
+      }, {
+        key: "listCategory",
+        value: function listCategory() {
+          return this.http.get(_services_rest_environnement_model__WEBPACK_IMPORTED_MODULE_4__["environmentApi"].host + "/api/category/categorys");
+        }
+      }, {
+        key: "getallCategory",
+        value: function getallCategory() {
+          var _this = this;
+
+          var cat, i, j;
+          this.listCategory().subscribe(function (data) {
+            var info = data;
+
+            if (info.length > 0) {
+              for (i = 0; i < info.length; i++) {
+                _this.category_list.push(info[i]['name']);
+
+                _this.getproductsByCat(info[i]['id']);
+              }
+            }
+          });
+        }
+      }, {
+        key: "listProduct",
+        value: function listProduct() {
+          return this.http.get(_services_rest_environnement_model__WEBPACK_IMPORTED_MODULE_4__["environmentApi"].host + "/api/product/products");
+        }
+      }, {
+        key: "getproductsByCat",
+        value: function getproductsByCat(idcat) {
+          var _this2 = this;
+
+          var prod, i, j;
+          this.listProduct().subscribe(function (data) {
+            var info = data;
+            var compactive = 0;
+            var compnonactive = 0;
+
+            if (info.length > 0) {
+              for (i = 0; i < info.length; i++) {
+                if (info[i]['categoryId'] == idcat) {
+                  if (info[i]['active']) {
+                    compactive = compactive + 1;
+                  } else {
+                    compnonactive = compnonactive + 1;
+                  }
+                }
+              }
+
+              _this2.product_active_list.push(compactive + '');
+
+              _this2.product_nonactive_list.push(compnonactive + '');
+            }
+          }); //   if(this.img_list.length>0) {
+          //  }
+          // }
+
+          /* else {
+           // this.util.showToast(`${info.data.message}`, 'danger', 'bottom');
+           }*/
         }
       }, {
         key: "changeLabels",
@@ -529,8 +622,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "ngOnInit",
         value: function ngOnInit() {
-          localStorage.clear();
           this.badgecount = 0;
+          this.getnumberSiteStockDisponible();
           /*if (localStorage.getItem("produits_commandes") != null) {
             this.produits_commandes_list = JSON.parse(localStorage.getItem("produits_commandes"));
             console.log('chart-produits_commandes_list-lenght  '+ this.produits_commandes_list.length);
@@ -557,6 +650,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: _awesome_cordova_plugins_badge_ngx__WEBPACK_IMPORTED_MODULE_2__["Badge"]
       }, {
         type: _ionic_angular__WEBPACK_IMPORTED_MODULE_3__["NavController"]
+      }, {
+        type: _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClient"]
       }];
     };
 
@@ -568,7 +663,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./charts.page.scss */
       "./src/app/pages/charts/charts.page.scss")).default]
-    }), tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_awesome_cordova_plugins_badge_ngx__WEBPACK_IMPORTED_MODULE_2__["Badge"], _ionic_angular__WEBPACK_IMPORTED_MODULE_3__["NavController"]])], ChartsPage);
+    }), tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_awesome_cordova_plugins_badge_ngx__WEBPACK_IMPORTED_MODULE_2__["Badge"], _ionic_angular__WEBPACK_IMPORTED_MODULE_3__["NavController"], _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClient"]])], ChartsPage);
     /***/
   }
 }]);

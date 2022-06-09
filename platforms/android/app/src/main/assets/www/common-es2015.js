@@ -636,6 +636,50 @@ const openURL = async (url, ev, direction) => {
 
 /***/ }),
 
+/***/ "./src/app/modals/Category.ts":
+/*!************************************!*\
+  !*** ./src/app/modals/Category.ts ***!
+  \************************************/
+/*! exports provided: Category */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Category", function() { return Category; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+
+class Category {
+    constructor() {
+    }
+    getid() {
+        return this._id;
+    }
+    setid(value) {
+        this._id = value;
+    }
+    getname() {
+        return this._name;
+    }
+    setname(value) {
+        this._name = value;
+    }
+    getdescription() {
+        return this._description;
+    }
+    setdescription(value) {
+        this._description = value;
+    }
+    getidBrand() {
+        return this._idBrand;
+    }
+    setidBrand(value) {
+        this._idBrand = value;
+    }
+}
+
+
+/***/ }),
+
 /***/ "./src/app/services/products/products.service.ts":
 /*!*******************************************************!*\
   !*** ./src/app/services/products/products.service.ts ***!

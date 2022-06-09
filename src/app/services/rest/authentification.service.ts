@@ -7,11 +7,12 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { JwtHelperService } from '@auth0/angular-jwt';
 import * as jwt_decode from 'jwt-decode';
+import {environmentApi} from "./environnement.model";
 @Injectable({
     providedIn: 'root'
 })
 export class AuthentificationServiceService {
-    private host:string="http://localhost:8080";
+    private host:string="https://2fa3-196-179-94-188.eu.ngrok.io/api";
     private jwt:string="";
     private jwToken:any;
     private roles:Array<any>=[];
@@ -20,7 +21,7 @@ export class AuthentificationServiceService {
 
     login(user:any):any{
         
-        return this.http.post<IToken>(this.host+"/login",user,{observe:'response'});
+        return this.http.post<IToken>(environmentApi.host+"/login",user,{observe:'response'});
     }
     saveToken(jwt:any){
         this.jwToken=jwt;

@@ -19,57 +19,37 @@
 </ion-header>
 
 <ion-content>
-  <form>
+  <form (submit)="getCurrentUser(clientid.value)">
     <ion-list lines="none" class="contactFormList">
 
       <ion-item class="inputs-item" lines="none">
-        <ion-input type="text" placeholder="Nom" #nom></ion-input>
-      </ion-item>
-
-      <ion-item class="inputs-item" lines="none">
         <ion-label>Client</ion-label>
-        <ion-select value="brown" okText="Okay" cancelText="Dismiss" *ngFor="let item of user_list">
-          <ion-select-option value="brown">{{item.getfirstName()}} {{item.getlastName()}}</ion-select-option>
+        <ion-select value="brown" okText="Okay" cancelText="Fermer" #clientid>
+          <ion-select-option value="" hidden>Client : </ion-select-option>
+          <ion-select-option value="{{item.id}}" *ngFor="let item of user_list">
+           <p>{{item.firstName}} {{item.lastName}}</p>
+          </ion-select-option>
         </ion-select>
       </ion-item>
 
-      <ion-item class="inputs-item" lines="none">
-        <ion-input type="email" placeholder="Adresse email" #adrmail></ion-input>
+      <ion-item class="inputs-item" lines="none" *ngFor="let item of category_list">
+        <ion-label>Catégorie : </ion-label>
+        <ion-input type="text" readonly value="{{item.getname()}}" #catid></ion-input>
       </ion-item>
 
       <ion-item class="inputs-item" lines="none">
-        <ion-input type="text" placeholder="Matricule Fiscale" #nomutilid></ion-input>
+        <ion-label>Produit : </ion-label>
+        <ion-input type="text" readonly value="{{this.nomprod}}" #prodnom></ion-input>
       </ion-item>
 
-      <!--<ion-item class="inputs-item" lines="none">
-        <ion-input type="password" placeholder="Mot de passe" #motdepasse></ion-input>
-      </ion-item>-->
 
       <ion-item class="inputs-item" lines="none">
-        <ion-input type="text" placeholder="Adresse" #adr></ion-input>
+        <ion-label>Quantité : </ion-label>
+        <ion-input type="text" readonly value="{{this.quantity}}" #qte></ion-input>
       </ion-item>
-
-      <ion-item class="inputs-item" lines="none">
-        <ion-input type="text" placeholder="Ville" #ville></ion-input>
-      </ion-item>
-
-      <ion-item class="inputs-item" lines="none">
-        <ion-input type="date" placeholder="{{startDate}}" #datenaiss></ion-input>
-
-
-      </ion-item>
-
-      <ion-item class="inputs-item" lines="none">
-        <ion-input type="text" placeholder="Numéro tél" #tel></ion-input>
-      </ion-item>
-
-      <ion-item class="inputs-item" lines="none">
-        <ion-input type="text" placeholder="Fax" #fax></ion-input>
-      </ion-item>
-
 
     </ion-list>
-    <ion-button expand="block" color="secondary" (click)="adduser(nom.value,prenom.value,adrmail.value,nomutilid.value, adr.value,ville.value,datenaiss.value,tel.value,fax.value)">Enregistrer</ion-button>
+    <ion-button expand="block" color="secondary" (click)="getCurrentUser(clientid.value)">Enregistrer</ion-button>
   </form>
 
 </ion-content>

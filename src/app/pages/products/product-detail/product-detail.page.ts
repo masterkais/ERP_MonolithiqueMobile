@@ -98,7 +98,6 @@ import {UtilService} from "../../../services/util/util.service";
     this.c2 =parseInt(this.badgecount)+1;
     localStorage.setItem("compteur",this.c2+"");
 
-    alert ("_idProd "+this.idProd);
     var panier,i;
     if (localStorage.getItem("produits_commandes") != null) {
       this.produits_commandes_list = JSON.parse(localStorage.getItem("produits_commandes"));

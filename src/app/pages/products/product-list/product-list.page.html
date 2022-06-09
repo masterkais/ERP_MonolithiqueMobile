@@ -10,20 +10,36 @@
       </ion-button>
 
     </ion-buttons>
-    <ion-title style="text-align: center">Produits</ion-title>
+    <ion-title style="text-align: center">{{this.nomcateg}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <!--<div class="main_content_div" *ngFor="let item of product_list">
+
+    <div class="card_div">
+      <div class="back_image"></div>
+      <div class="second_div">
+        <ion-label class="name_lbl">{{item.geturlimg()}}</ion-label>
+        <ion-label class="price_lbl">{{item.getdescription()}}</ion-label>
+        <ion-button style="width: 200px" size="large" fill="outline" shape="round" (click)="goListProduct(item.getid(),item.getname())">
+          Voir les produits
+        </ion-button>
+
+        <ion-icon name="heart-outline">Brand</ion-icon>
+      </div>
+    </div>
+  </div>-->
+
   <div class="main_content_div">
     <ion-grid fixed>
       <ion-row>
         <ion-col size="5.8" *ngFor="let item of product_list">
           <div class="back_image">
-            <img [src]="showImage(item.geturlimg())" />
-            <!-- - <img [src]='item.getimageUrl()' width="100%" height="100%" alt="Image" />
-          div class="back_image" [style.backgroundImage]="'url(' + item.url + ')'">
-            <ion-icon name="heart-outline"></ion-icon>-->
+              <img [src]="showImage(item.geturlimg())" />
+             <!-- -- <img [src]='item.getimageUrl()' width="100%" height="100%" alt="Image" />
+            div class="back_image" [style.backgroundImage]="'url(' + item.url + ')'">
+              <ion-icon name="heart-outline"></ion-icon>-->
           </div>
           <ion-label class="name" (click)="gotodetail(item.getid())"> {{item.getname()}}</ion-label>
           <ion-label class="prize">{{item.getsellingPrice()}}.00</ion-label>

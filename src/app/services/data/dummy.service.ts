@@ -25,9 +25,9 @@ export class DummyService {
     },
 
     {
-      title: 'Liste de produits',
+      title: 'Liste de catégories',
      // url: '/example-home',
-      url: '/product-list',
+      url: '/list-category',
       icon: 'cart'
     },
     {

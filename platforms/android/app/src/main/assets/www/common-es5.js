@@ -1,8 +1,8 @@
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -1092,6 +1092,85 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       return function openURL(_x16, _x17, _x18) {
         return _ref10.apply(this, arguments);
       };
+    }();
+    /***/
+
+  },
+
+  /***/
+  "./src/app/modals/Category.ts":
+  /*!************************************!*\
+    !*** ./src/app/modals/Category.ts ***!
+    \************************************/
+
+  /*! exports provided: Category */
+
+  /***/
+  function srcAppModalsCategoryTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "Category", function () {
+      return Category;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+
+    var Category = /*#__PURE__*/function () {
+      function Category() {
+        _classCallCheck(this, Category);
+      }
+
+      _createClass(Category, [{
+        key: "getid",
+        value: function getid() {
+          return this._id;
+        }
+      }, {
+        key: "setid",
+        value: function setid(value) {
+          this._id = value;
+        }
+      }, {
+        key: "getname",
+        value: function getname() {
+          return this._name;
+        }
+      }, {
+        key: "setname",
+        value: function setname(value) {
+          this._name = value;
+        }
+      }, {
+        key: "getdescription",
+        value: function getdescription() {
+          return this._description;
+        }
+      }, {
+        key: "setdescription",
+        value: function setdescription(value) {
+          this._description = value;
+        }
+      }, {
+        key: "getidBrand",
+        value: function getidBrand() {
+          return this._idBrand;
+        }
+      }, {
+        key: "setidBrand",
+        value: function setidBrand(value) {
+          this._idBrand = value;
+        }
+      }]);
+
+      return Category;
     }();
     /***/
 

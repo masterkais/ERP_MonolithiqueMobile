@@ -69,18 +69,17 @@
         </div>
 
         <div class="total-price">{{item['_buyingPriceProd']}}.00</div>
-
+        <br>
+        <ion-button expand="block">
+          <span class="title" style="color:white" (click)="gotocaisse(item['_categoryIdProd'],item['_nameProd'],item['_compteur'])"> Procéder à la caisse</span>
+        </ion-button>
       </div>
     </div>
 
 
 
 
-    <br>
-    <ion-button expand="block">
-      <span class="title" style="color:white" (click)="gotocaisse()"> Procéder à la caisse</span>
-    </ion-button>
-    <br>
+
 
   </div>
   <script>

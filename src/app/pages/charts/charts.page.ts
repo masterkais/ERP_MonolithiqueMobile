@@ -12,6 +12,11 @@ import { Component, OnInit } from '@angular/core';
 import { Badge } from '@awesome-cordova-plugins/badge/ngx';
 import {NavController} from "@ionic/angular";
 import {Panier} from "../../modals/Panier";
+import {Observable} from "rxjs";
+import {environmentApi} from "../../services/rest/environnement.model";
+import {HttpClient} from "@angular/common/http";
+import {Category} from "../../modals/Category";
+import {Product} from "../../modals/Product";
 
 @Component({
   selector: 'app-charts',
@@ -102,13 +107,26 @@ export class ChartsPage implements OnInit {
   // https://valor-software.com/ng2-charts/#DoughnutChart
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  numberSiteStockDisponible():Observable<any>{
+    return this.http.get<any>(environmentApi.host+"/api/numberSiteStockDisponible");
+  }
+  getnumberSiteStockDisponible(){
+    var i,user;
+    this.numberSiteStockDisponible().subscribe((data) => {
+      let info=data;
+
+      console.log(data);
 
 
-  public doughnutChartLabels: Array<any> = ['Download Sales', 'In-Store Sales', 'Mail-Order Sales'];
+
+      //  this.dismissLoader();
+    });
+  }
+
+  public doughnutChartLabels: Array<any> = ['Site Stock Non Disponible', 'Site Stock Disponible'];
   public doughnutChartData: Array<any> = [
-    [350, 450, 100],
-    [50, 150, 120],
-    [250, 130, 70],
+    [350, 450],
+    /*[50, 150],*/
   ];
 
   public chartClickedDonut({ event, active }: { event: MouseEvent, active: {}[] }): void {
@@ -149,16 +167,80 @@ export class ChartsPage implements OnInit {
   // https://valor-software.com/ng2-charts/#RadarChart
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  category_list: Array<Category> = [];
+  product_active_list: Array<string> = [];
+  product_nonactive_list: Array<string> = [];
+  listCategory():Observable<Category[]>{
+    return this.http.get<Category[]>(environmentApi.host+"/api/category/categorys");
+  }
+  getallCategory(){
+    var cat,i,j;
+
+    this.listCategory().subscribe((data) => {
+
+      let info=data;
+
+      if(info.length>0) {
+        for (i = 0; i < info.length; i++) {
+
+          this.category_list.push(info[i]['name']);
+          this.getproductsByCat(info[i]['id']);
+        }
+      }
+    })
 
 
+  }
+  listProduct():Observable<Product[]>{
+    return this.http.get<Product[]>(environmentApi.host+"/api/product/products");
+  }
+  getproductsByCat(idcat){
+    var prod,i,j;
+
+    this.listProduct().subscribe((data) => {
+
+      let info=data;
+      let compactive = 0;
+      let compnonactive = 0;
+      if(info.length>0) {
+        for (i = 0; i < info.length; i++) {
+          if(info[i]['categoryId'] == idcat){
+            if(info[i]['active']){
+              compactive = compactive +1;
+            }
+            else{
+              compnonactive = compnonactive +1;
+            }
+
+
+          }
+
+        }
+        this.product_active_list.push(compactive+'');
+        this.product_nonactive_list.push(compnonactive+'');
+      }
+
+    })
+
+
+    //   if(this.img_list.length>0) {
+
+
+    //  }
+    // }
+    /* else {
+     // this.util.showToast(`${info.data.message}`, 'danger', 'bottom');
+     }*/
+
+  }
   public radarChartOptions = {
     responsive: true,
   };
-  public radarChartLabels: Array<any> = ['Eating', 'Drinking', 'Sleeping', 'Designing', 'Coding', 'Cycling', 'Running'];
+  public radarChartLabels: Array<any> = this.category_list;
 
   public radarChartData: Array<any> = [
-    { data: [65, 59, 90, 81, 56, 55, 40], label: 'Series A' },
-    { data: [28, 48, 40, 19, 96, 27, 100], label: 'Series B' }
+    { data: this.product_nonactive_list, label: 'Produits Non Active' },
+    { data: this.product_active_list, label: 'Produits Active' }
   ];
   public radarChartType = 'radar';
 
@@ -303,9 +385,10 @@ export class ChartsPage implements OnInit {
 
   badgecount:any;
   produits_commandes_list : Array<Panier> = [];
-  constructor(private badge: Badge,private navCtrl: NavController
+  constructor(private badge: Badge,private navCtrl: NavController,private http:HttpClient
 
   ) {
+    this.getallCategory();
     if (localStorage.getItem("produits_commandes") != null) {
       this.produits_commandes_list = JSON.parse(localStorage.getItem("produits_commandes"));
     }
@@ -322,7 +405,7 @@ export class ChartsPage implements OnInit {
   }
   ngOnInit() {
     this.badgecount=0;
-
+  this.getnumberSiteStockDisponible();
     /*if (localStorage.getItem("produits_commandes") != null) {
       this.produits_commandes_list = JSON.parse(localStorage.getItem("produits_commandes"));
       console.log('chart-produits_commandes_list-lenght  '+ this.produits_commandes_list.length);

@@ -1,6 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import {RestAPIsService} from "../../../services/rest/rest-apis.service";
 import {User} from "../../../modals/User";
+import {Observable} from "rxjs";
+import {HttpClient} from "@angular/common/http";
+import {environmentApi} from "../../../services/rest/environnement.model";
+import {HttpParams} from "@angular/common/http";
+import {RequestSalesOrder} from "../../../modals/RequestSalesOrder";
+import {Order} from "../../../modals/Order";
+import {ActivatedRoute} from "@angular/router";
+import {Category} from "../../../modals/Category";
+import {NavController} from "@ionic/angular";
 
 @Component({
   selector: 'app-send-request',
@@ -9,11 +18,25 @@ import {User} from "../../../modals/User";
 })
 export class SendRequestPage implements OnInit {
   badgecount:any;
+  categoryId:any;
+  quantity:any;
+  nomprod:any;
   user_list: Array<User> = [];
-  constructor(private api: RestAPIsService) { }
+  current_user: Array<User> = [];
+  category_list: Array<Category> = [];
+  constructor(private api: RestAPIsService,private http:HttpClient,  private route: ActivatedRoute,private navCtrl: NavController) {
+    this.route.queryParams.subscribe(params => {
+      this.categoryId = params["categoryId"];
+      this.quantity = params["quantity"];
+      this.nomprod = params["nomprod"];
+
+      // this.currency = JSON.parse(params["currency"]);
+    });
+  }
 
   ngOnInit() {
     this.getAllClients();
+    this.getallCategory();
   }
   charge_compteur(){
     if (localStorage.getItem("compteur") != null) {
@@ -25,49 +48,106 @@ export class SendRequestPage implements OnInit {
     return this.badgecount;
 
   }
+  listCategory():Observable<Category[]>{
+    return this.http.get<Category[]>(environmentApi.host+"/api/category/categorys");
+  }
+  getallCategory(){
+    var cat,i,j;
 
+    this.listCategory().subscribe((data) => {
+
+      let info=data;
+      //alert(info[0]['id']);
+
+
+      if(info.length>0) {
+        for (i = 0; i < info.length; i++) {
+          if(info[i]['id'] == this.categoryId){
+            cat = new Category();
+            cat.setid(info[i]['id']);
+            cat.setname(info[i]['name']);
+            cat.setdescription(info[i]['description']);
+            cat.setidBrand(info[i]['idBrand']);
+            this.category_list.push(cat);
+          }
+
+        }
+      }
+    })
+
+  }
+  CurrentUser():Observable<User[]>{
+    return this.http.get<User[]>(environmentApi.host+"/api/user/getCurretnUser");
+  }
+  getCurrentUser(clientid){
+    var cur_user,i;
+    this.CurrentUser().subscribe((data) => {
+
+      let info=this.createNewSalesOrderEmpty(clientid,data['id']+"");
+      this.addLineToSalesOrder(info['__zone_symbol__value'].id);
+     //console.log(data['id'])
+    });
+
+
+  }
+  AllUser():Observable<User[]>{
+    return this.http.get<User[]>(environmentApi.host+"/api/user/users");
+  }
   getAllClients(){
     var i,user;
-    this.api.get('user/users').then((data) => {
-      const info = JSON.parse(data.data);
+    this.AllUser().subscribe((data) => {
+      let info=data;
 
+      console.log('getAllClients  ');
 
      /*   alert(info[1]['groupIds']);
       alert(groupids[0]['id']);
-        alert(groupids[0].id);
-      if(info.length>0) {
-        for (i = 0; i < info.length; i++) {
-          const groupids = info[i]['groupIds'];
+        alert(groupids[0].id);*/
+      if(data.length>0) {
+        for (i = 0; i < data.length; i++) {
+          const groupids = data[i].groupIds;
           if(groupids.length >0){
-            if(groupids[0]['id'] == '3'){
-              user = new User();
-              user.setgroupId(groupids[0]['id']);
-              user.setid(info[i]['id']);
-              user.setlastName(info[i]['lastName']);
-              user.setfirstName(info[i]['firstName']);
-              user.setadress(info[i]['adress']);
-              user.setfax(info[i]['fax']);
-              user.setemail(info[i]['email']);
-              user.setcity(info[i]['city']);
-              user.setactive(info[i]['active']);
-              user.setdateNaissanced(info[i]['dateNaissanced']);
-              user.setlogin(info[i]['login']);
-              user.setpassword(info[i]['password']);
-              this.user_list.push(user);
+            if(groupids[0].id == '3'){
+              this.user_list = data;
             }
 
           }
         }
-      }*/
+      }
 
-
+      console.log(this.user_list);
 
     //  this.dismissLoader();
-    }).catch(error => {
-      //this.isLogin = false;
-      alert('getallimages');
-      alert(error.message);
-      //this.util.showToast(`${error}`, 'danger', 'bottom');
     });
+  }
+
+  createNewSalesOrderEmpty(clientId:string,purchasingManagerId:string):Promise<any>{
+    let httpParams = new HttpParams()
+        .append("clientId",clientId )
+        .append("purchasingManagerId",purchasingManagerId );
+    return this.http.post<RequestSalesOrder>(environmentApi.host + "/api/salesorder/createNewSalesOrderEmpty",httpParams).toPromise();
+  }
+  addtocart(){
+
+    this.navCtrl.navigateRoot(['my-cart']);
+  }
+  addLineToSalesOrder(idnewSaleOrder){
+   // alert(clientid);
+
+    let data: Order = {
+      categoryId: this.categoryId,
+      id: null,
+      quantity: this.quantity,
+      salesOrderId: idnewSaleOrder,
+      state: null
+    }
+    this.saveLineToSalesOrder(data).subscribe((data)=>{
+      console.log("succces");
+    },(err)=>{
+      //this.util.showToast('Utilisateur existe déjà', 'danger', 'bottom');
+    });
+  }
+  saveLineToSalesOrder(order:Order):Observable<Order> {
+    return this.http.post<Order>(environmentApi.host+"/api/ligneSale/addLineToSalesOrder",order);
   }
 }

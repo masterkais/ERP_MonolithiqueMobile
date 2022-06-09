@@ -43,6 +43,15 @@ const routes: Routes = [
     path: 'send-request',
     loadChildren: () => import('./pages/ProductRequests/send-request/send-request.module').then( m => m.SendRequestPageModule)
   },
+  {
+    path: 'list-category',
+    loadChildren: () => import('./pages/Categories/list-category/list-category.module').then( m => m.ListCategoryPageModule)
+  },
+  {
+    path: 'test',
+    loadChildren: () => import('./pages/test/test.module').then( m => m.TestPageModule)
+  },
+
 
 
 ];
