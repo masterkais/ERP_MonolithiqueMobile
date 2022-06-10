@@ -38,11 +38,7 @@ export class ListCategoryPage implements OnInit {
     this.listCategory().subscribe((data) => {
 
       let info=data;
-      //alert(info[0]['id']);
-      // alert(info.length);
-      //  this.product_list=data;
-
-      //const info = JSON.parse(data.data);
+      console.log('list category  '+data);
 
       if(info.length>0) {
         for (i = 0; i < info.length; i++) {

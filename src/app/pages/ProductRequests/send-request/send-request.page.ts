@@ -127,7 +127,7 @@ export class SendRequestPage implements OnInit {
         for (i = 0; i < data.length; i++) {
           const groupids = data[i].groupIds;
           if(groupids.length >0){
-            if(groupids[0].id == '3'){
+            if(groupids[0].id == 3){
               this.user_list = data;
             }
 

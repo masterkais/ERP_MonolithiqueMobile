@@ -103,4 +103,6 @@ export class MyCartPage implements OnInit {
     };
     this.navCtrl.navigateRoot(['send-request'],navigationExtras);
   }
+
+  
 }
