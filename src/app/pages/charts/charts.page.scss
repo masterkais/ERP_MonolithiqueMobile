@@ -1,3 +1,30 @@
+.box{
+  border-radius: 20px;
+  box-shadow: 2px 2px 15px -2px rgb(50, 50, 50);
+  background-color:dodgerblue;
+  text-align: center;
+  vertical-align: middle;
+  color: darkorange;
+  width: 200px;
+}
+.box2{
+  border-radius: 20px;
+  box-shadow: 2px 2px 15px -2px rgb(50, 50, 50);
+  background-color: dodgerblue;
+  text-align: center;
+  vertical-align: middle;
+  color: darkorange;
+  collapse: 2%;
+}
+.table{
+  width: 100%;
+  height: 100%;
+}
+
+.btn{
+  background-color: transparent;
+}
+
 
 .title{
   text-align: center;

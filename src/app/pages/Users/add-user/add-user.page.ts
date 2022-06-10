@@ -93,7 +93,10 @@ import { Router } from '@angular/router';
     this.navCtrl.navigateRoot(['my-cart']);
   }
   adduser(nom,prenom,adrmail,nomutilid, adr,ville,datenaiss,tel,fax){
-    //alert(nomutilid);
+    if(nom =="" || prenom =="" || adrmail == "" || nomutilid=="" || adr == "" || ville=="" || tel=="" || fax == "") {
+      this.util.showToast('Veuillez remplir tous les champs !', 'danger', 'bottom');
+    }
+    else{
       var maDate = this.datePipe.transform(datenaiss, "yyyy-MM-ddT14:20:29");
       let data: User = {
         id:null,
@@ -111,13 +114,16 @@ import { Router } from '@angular/router';
         active: true,
         groupIds: [{id:3}],
       }
+
       this.saveUser(data).subscribe((data)=>{
         console.log("succces");
         this.util.showToast('Ajout User success', 'success', 'bottom');
         this.navCtrl.navigateRoot(['add-user']);
-    },(err)=>{
-      this.util.showToast('Utilisateur existe déjà', 'danger', 'bottom');
-    });
+      },(err)=>{
+        this.util.showToast('Utilisateur existe déjà', 'danger', 'bottom');
+      });
+    }
+
   }
   
     saveUser(user:User):Observable<User> {

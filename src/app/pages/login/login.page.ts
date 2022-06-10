@@ -1,6 +1,6 @@
 
   import { Component, OnInit, ViewChild } from '@angular/core';
-import { IonSlides, NavController } from '@ionic/angular';
+import {IonSlides, NavController, LoadingController} from '@ionic/angular';
 import { MenuController } from '@ionic/angular';
 import { login } from 'src/app/interfaces/login';
 import { Router } from '@angular/router';
@@ -31,7 +31,10 @@ import { AuthentificationServiceService } from 'src/app/services/rest/authentifi
       private router: Router,
       private api: RestAPIsService,
       private authService: AuthentificationServiceService,
-    ) { }
+      public loadingCtrl: LoadingController
+    ) {
+
+  }
 
   ionViewWillEnter() {
     this.menuCtrl.enable(false);
@@ -55,7 +58,8 @@ import { AuthentificationServiceService } from 'src/app/services/rest/authentifi
     this.navCtrl.navigateRoot(['home']);
   }
 
-  onLogin(form: NgForm) {
+
+  async onLogin(form: NgForm) {
     console.log('form', form);
     this.submitted = true;
     if (form.valid) {
@@ -64,6 +68,11 @@ import { AuthentificationServiceService } from 'src/app/services/rest/authentifi
         userName: this.login.email,
           password: this.login.password
       }
+
+      const loading = await this.loadingCtrl.create({
+        message: 'Chargement ...',
+      });
+      loading.present();
       this.authService.login(dataForm).subscribe(
          (resp) => {
           let jwt = resp.headers.get("Authorization");
@@ -72,13 +81,17 @@ import { AuthentificationServiceService } from 'src/app/services/rest/authentifi
           setTimeout(() => {
             this.router.navigateByUrl('/charts');;
           }, 2000);
-          
+           loading.dismiss();
         },
         (err) => {
+          loading.dismiss();
           console.log(err.message)
-          
+          this.util.showToast('Veuillez vérifier vos données !', 'danger', 'bottom');
+
         }
       );
+
+
 
     }
   }

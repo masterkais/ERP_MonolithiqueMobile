@@ -15,6 +15,8 @@ export class LogoutPage implements OnInit {
   }
   logout(){
     localStorage.removeItem('token');
+    localStorage.removeItem("produits_commandes");
+    localStorage.removeItem("compteur");
     this.router.navigateByUrl("/login");
   }
 }

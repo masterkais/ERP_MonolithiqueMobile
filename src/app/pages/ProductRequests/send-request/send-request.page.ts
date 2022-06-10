@@ -9,7 +9,8 @@ import {LigneSale} from "../../../modals/LineSale";
 import {SalesOrder} from "../../../modals/Order";
 import {ActivatedRoute} from "@angular/router";
 import {Category} from "../../../modals/Category";
-import {NavController} from "@ionic/angular";
+import {NavController, LoadingController} from "@ionic/angular";
+import {UtilService} from "../../../services/util/util.service";
 
 @Component({
   selector: 'app-send-request',
@@ -27,7 +28,7 @@ export class SendRequestPage implements OnInit {
   saleOrder: SalesOrder;
   lines:LigneSale[];
   category_list: Array<Category> = [];
-  constructor(private api: RestAPIsService,private http:HttpClient,  private route: ActivatedRoute,private navCtrl: NavController) {
+  constructor(private util: UtilService,private api: RestAPIsService,private http:HttpClient,  private route: ActivatedRoute,private navCtrl: NavController,public loadingCtrl: LoadingController) {
     this.route.queryParams.subscribe(params => {
       this.categoryId = params["categoryId"];
       this.quantity = params["quantity"];
@@ -89,6 +90,10 @@ export class SendRequestPage implements OnInit {
     await this.CurrentUser().then((data) => {
       this.currentUser=data;
     });
+    const loading = await this.loadingCtrl.create({
+      message: 'Chargement ...',
+    });
+    loading.present();
       await this.createNewSalesOrderEmpty(clientid,this.currentUser.id).then((data)=>{
         this.saleOrder=data;
       });
@@ -100,9 +105,10 @@ export class SendRequestPage implements OnInit {
         "state": 0
       }
       await this.saveLineToSalesOrder(lineSale).then((data)=>{
-        console.log("successs")
+        this.util.showToast('Demande Envoyée avec succée !', 'success', 'bottom');
+        loading.dismiss();
       });
-
+    loading.dismiss();
   }
   AllUser():Observable<User[]>{
     return this.http.get<User[]>(environmentApi.host+"/api/user/users");

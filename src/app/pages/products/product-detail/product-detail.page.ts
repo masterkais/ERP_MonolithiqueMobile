@@ -94,7 +94,7 @@ import {UtilService} from "../../../services/util/util.service";
     return comp;
   }
   addtocartform(){
-    //localStorage.setItem("compteur", '');
+
     this.c2 =parseInt(this.badgecount)+1;
     localStorage.setItem("compteur",this.c2+"");
 

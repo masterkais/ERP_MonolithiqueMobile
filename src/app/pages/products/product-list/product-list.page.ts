@@ -125,9 +125,12 @@ export class ProductListPage implements OnInit {
   listImage():Observable<Image[]>{
     return this.http.get<Image[]>(environmentApi.host+"/api/image/images");
   }
-  getallimages(){
+  async getallimages(){
     var img,i;
-    this.simpleLoader('Chargement ..');
+    const loading = await this.loadingCtrl.create({
+      message: 'Chargement ...',
+    });
+    loading.present();
     this.listImage().subscribe((data) => {
     //console.log(data);
       this.img_list=data;
@@ -135,7 +138,7 @@ export class ProductListPage implements OnInit {
         this.img_list=data;
       }
       this.mergelists(this.product_list,data);
-
+      loading.dismiss();
     });
    // this.dismissLoader();
 

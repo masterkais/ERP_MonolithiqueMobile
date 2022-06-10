@@ -59,7 +59,12 @@
   }
 }
 
-
+ion-badge {
+  position: absolute;
+  font-size: 8pt;
+  right: -5px;
+  top: 2px;
+}
 
 .ion-button {
   margin: 5px;
@@ -68,6 +73,8 @@
   position: relative;
   // overflow: visible!important;
 }
+
+/* Setting Overflow Visible */
 .ion-button.custom-class::part(native) {
   overflow: visible;
 }

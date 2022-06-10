@@ -43,10 +43,8 @@
 
         <ion-row class="ion-no-margin ion-no-padding">
           <ion-col class="ion-no-margin ion-no-padding">
-            <ion-button (click)="onLogin(loginForm)" type="submit" expand="block"
-                        [disabled]="isLogin">
-              <span class="title" *ngIf="!isLogin"> Log In</span>
-              <ion-spinner name="circles" *ngIf="isLogin"></ion-spinner>
+            <ion-button (click)="onLogin(loginForm)" type="submit" expand="block">
+              <span class="title"> Se Connecter</span>
             </ion-button>
           </ion-col>
         </ion-row>

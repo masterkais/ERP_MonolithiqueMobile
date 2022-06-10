@@ -45,6 +45,54 @@
       Change
     </ion-button>
   </div>-->
+    <ion-row>
+        <ion-col>
+            <p class="title">Statistiques Globals</p>
+            <br>
+        </ion-col>
+        <table class="table">
+
+            <tr>
+                <td class="box" style="width: 50%; padding: 10px; ">
+
+                    <span style="color: white; font-size: larger">{{this.compteurSiteStockDisponible}}</span>
+                    <br>
+                    <span style="color: white;"><br>Site Stock<br>Disponible</span>
+
+                </td>
+                <td style="width: 2% ">&nbsp;</td>
+                <td  class="box" style="background-color: red" >
+
+                    <span style="color: white; font-size: larger">{{this.compteurSiteStockNonDisponible}}</span>
+                    <br>
+                    <span style="color: white;"><br>Site Stock<br>Non Disponible</span>
+
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="box" style="width: 50%;padding: 10px; ">
+
+                    <span style="color: white; font-size: larger">{{this.compteurProductSolde}}</span>
+                    <br>
+                    <span style="color: white;"><br>Produits <br>Soldés</span>
+
+                </td>
+                <td style="width: 2% ">&nbsp;</td>
+                <td  class="box" style="background-color: red" >
+
+                    <span style="color: white; font-size: larger">{{this.compteurProductNonSolde}}</span>
+                    <br>
+                    <span style="color: white;"><br>Produits <br>Non Soldés</span>
+
+                </td>
+            </tr>
+
+
+        </table>
+    </ion-row>
 
   <ion-row>
    <ion-col size="3">
@@ -63,7 +111,7 @@
  </ion-row>
 
   <div style="display: block">
-   <canvas baseChart [data]="doughnutChartData" [labels]="doughnutChartLabels" [chartType]="doughnutChartType">
+   <canvas baseChart [data]="doughnutChartData" [labels]="['Site Stock Non Disponible', 'Site Stock Disponible']" [chartType]="doughnutChartType">
    </canvas>
  </div>
 
@@ -89,28 +137,8 @@
                 [chartType]="radarChartType">
         </canvas>
     </div>
- <ion-row>
-   <ion-col size="3">
-     <div class="center">
-       <div class="seperator"></div>
-     </div>
-   </ion-col>
-   <ion-col>
-     <p class="title">Statistiques</p>
-   </ion-col>
-   <ion-col size="3">
-     <div class="center">
-       <div class="seperator"></div>
-     </div>
-   </ion-col>
- </ion-row>
 
 
-  <div style="display: block">
-   <canvas baseChart [datasets]="barChartData" [labels]="barChartLabels" [options]="barChartOptions"
-     [legend]="barChartLegend" [chartType]="barChartType">
-   </canvas>
- </div>
 
 
 
