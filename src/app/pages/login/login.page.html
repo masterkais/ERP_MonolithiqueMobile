@@ -20,8 +20,9 @@
     <div class="form_div">
       <!--  <ion-label class="head_lbl">Login</ion-label>-->
       <form #loginForm="ngForm" novalidate>
+       
         <ion-input [(ngModel)]="login.email" type="text" placeholder="Login" name="email" #email="ngModel"
-                   spellcheck="false" autocapitalize="off" required>
+                   spellcheck="false" autocapitalize="off" value="{{this.emailinput}}" required>
         </ion-input>
         <ion-text>
           <p [hidden]="email.valid || submitted == false" class="ion-padding-start" style="color:red">

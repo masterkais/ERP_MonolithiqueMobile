@@ -17,13 +17,14 @@ import {environmentApi} from "../../services/rest/environnement.model";
 import {HttpClient} from "@angular/common/http";
 import {Category} from "../../modals/Category";
 import {Product} from "../../modals/Product";
-
+import format from 'date-fns/format';
 @Component({
   selector: 'app-charts',
   templateUrl: './charts.page.html',
   styleUrls: ['./charts.page.scss'],
 })
 export class ChartsPage implements OnInit {
+  today2 =format(new Date(), "yyyy-MM-dd");
   badgecount:any;
   produits_commandes_list : Array<Panier> = [];
   compteurSiteStockDisponible:number=0;
@@ -443,6 +444,7 @@ export class ChartsPage implements OnInit {
   constructor(private badge: Badge,private navCtrl: NavController,private http:HttpClient
 
   ) {
+    
     //localStorage.removeItem("produits_commandes");
    // localStorage.removeItem("compteur");
     if (localStorage.getItem("produits_commandes") != null) {

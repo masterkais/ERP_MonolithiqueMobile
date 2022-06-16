@@ -106,6 +106,8 @@ export class SendRequestPage implements OnInit {
       }
       await this.saveLineToSalesOrder(lineSale).then((data)=>{
         this.util.showToast('Demande Envoyée avec succée !', 'success', 'bottom');
+        localStorage.removeItem("produits_commandes");
+        localStorage.removeItem("compteur");
         loading.dismiss();
       });
     loading.dismiss();

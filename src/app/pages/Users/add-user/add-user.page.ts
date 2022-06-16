@@ -117,9 +117,11 @@ import { Router } from '@angular/router';
 
       this.saveUser(data).subscribe((data)=>{
         console.log("succces");
+        location.reload();
         this.util.showToast('Ajout User success', 'success', 'bottom');
         this.navCtrl.navigateRoot(['add-user']);
       },(err)=>{
+        location.reload();
         this.util.showToast('Utilisateur existe déjà', 'danger', 'bottom');
       });
     }

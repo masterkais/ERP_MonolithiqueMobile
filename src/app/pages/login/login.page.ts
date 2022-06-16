@@ -8,6 +8,8 @@ import { NgForm } from '@angular/forms';
 import { UtilService } from 'src/app/services/util/util.service';
 import { RestAPIsService } from 'src/app/services/rest/rest-apis.service';
 import { AuthentificationServiceService } from 'src/app/services/rest/authentification.service';
+
+
   @Component({
     selector: 'app-login',
     templateUrl: 'login.page.html',
@@ -20,6 +22,7 @@ import { AuthentificationServiceService } from 'src/app/services/rest/authentifi
   submitted = false;
   isLogin: boolean = false;
   showSkip = true;
+
   slideOpts = {
     zoom: false
   };
@@ -84,6 +87,7 @@ import { AuthentificationServiceService } from 'src/app/services/rest/authentifi
            loading.dismiss();
         },
         (err) => {
+          location.reload();
           loading.dismiss();
           console.log(err.message)
           this.util.showToast('Veuillez vérifier vos données !', 'danger', 'bottom');
