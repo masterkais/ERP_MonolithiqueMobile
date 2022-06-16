@@ -63,7 +63,8 @@ import { AuthentificationServiceService } from 'src/app/services/rest/authentifi
 
 
   async onLogin(form: NgForm) {
-    console.log('form', form);
+    localStorage.removeItem("produits_commandes");
+    localStorage.removeItem("compteur");
     this.submitted = true;
     if (form.valid) {
       this.isLogin = true;
@@ -87,7 +88,7 @@ import { AuthentificationServiceService } from 'src/app/services/rest/authentifi
            loading.dismiss();
         },
         (err) => {
-          location.reload();
+        
           loading.dismiss();
           console.log(err.message)
           this.util.showToast('Veuillez vérifier vos données !', 'danger', 'bottom');

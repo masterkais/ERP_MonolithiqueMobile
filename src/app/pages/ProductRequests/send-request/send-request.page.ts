@@ -108,6 +108,7 @@ export class SendRequestPage implements OnInit {
         this.util.showToast('Demande Envoyée avec succée !', 'success', 'bottom');
         localStorage.removeItem("produits_commandes");
         localStorage.removeItem("compteur");
+        this.navCtrl.navigateForward(['list-category']);
         loading.dismiss();
       });
     loading.dismiss();

@@ -82,6 +82,7 @@ import {UtilService} from "../../../services/util/util.service";
   }
 
   verif_occ(idprod){
+    console.log(this.produits_commandes_list)
     var i,comp=1;
 
     for(i=0;i<this.produits_commandes_list.length;i++){
@@ -101,7 +102,7 @@ import {UtilService} from "../../../services/util/util.service";
     var panier,i;
     if (localStorage.getItem("produits_commandes") != null) {
       this.produits_commandes_list = JSON.parse(localStorage.getItem("produits_commandes"));
-
+console.log( this.produits_commandes_list);
       if (this.verif_occ(this.idProd)==1){
         panier = new Panier();
         panier.setcompteur(this.verif_occ(this.idProd)+"");
