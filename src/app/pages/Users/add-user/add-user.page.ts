@@ -1,5 +1,5 @@
 
-  import { Component, OnInit } from '@angular/core';
+  import { Component, OnInit,NgModule  } from '@angular/core';
 import {RestAPIsService} from "../../../services/rest/rest-apis.service";
 import { UtilService } from 'src/app/services/util/util.service';
 import { AngularFirestore } from '@angular/fire/firestore';
@@ -16,18 +16,22 @@ import { environment } from 'src/environments/environment';
   import {HttpClient} from "@angular/common/http";
   import {environmentApi} from "../../../services/rest/environnement.model";
 import { Router } from '@angular/router';
+import { NgForm } from '@angular/forms';
+
   @Component({
     selector: 'app-add-user',
     templateUrl: './add-user.page.html',
     styleUrls: ['./add-user.page.scss'],
   })
+ 
   export class AddUserPage implements OnInit {
+    orderForm:any;
   isCreate: boolean;
-  nom: any;
   produits_commandes_list : Array<Panier> = [];
   badgecount:any;
   startDate: string = new Date().toISOString();
   today2 = new Date();
+  nomText:string="";
   constructor(
       private util: UtilService,
       private navCtrl: NavController,
@@ -39,6 +43,7 @@ import { Router } from '@angular/router';
       
 
   ) {
+    
     this.startDate=format(new Date(), "yyyy-MM-dd");
     if (localStorage.getItem("produits_commandes") != null) {
       this.produits_commandes_list = JSON.parse(localStorage.getItem("produits_commandes"));
@@ -92,7 +97,7 @@ import { Router } from '@angular/router';
   addtocart(){
     this.navCtrl.navigateRoot(['my-cart']);
   }
-  adduser(nom,prenom,adrmail,nomutilid, adr,ville,datenaiss,tel,fax){
+  /*adduser(nom,prenom,adrmail,nomutilid, adr,ville,datenaiss,tel,fax){
     if(nom =="" || prenom =="" || adrmail == "" || nomutilid=="" || adr == "" || ville=="" || tel=="" || fax == "") {
       this.util.showToast('Veuillez remplir tous les champs !', 'danger', 'bottom');
     }
@@ -125,11 +130,40 @@ import { Router } from '@angular/router';
         this.util.showToast('Utilisateur existe déjà', 'danger', 'bottom');
       });
     }
-
-  }
+   
+  }*/
   
     saveUser(user:User):Observable<User> {
       return this.httpClient.post<User>(environmentApi.host+"/api/user",user);
     }
+    adduser(form){
+      var maDate = this.datePipe.transform(form.value.datenaiss, "yyyy-MM-ddT14:20:29");
+      let data: User = {
+        id:null,
+        firstName: form.value.usernom,
+        lastName:form.value.userprenom,
+        login:form.value.nomutilid,
+        password: form.value.nomutilid,
+        dateNaissanced: maDate,
+        dateCreated: new Date(),
+        adress: form.value.adr,
+        fax:form.value.fax,
+        email:form.value.adrmail,
+        city: form.value.ville,
+        picture: null,
+        active: true,
+        groupIds: [{id:3}],
+      }
 
+      this.saveUser(data).subscribe((data)=>{
+        console.log("succces");
+        form.reset();
+        this.util.showToast('Ajout User success', 'success', 'bottom');
+        this.navCtrl.navigateRoot(['add-user']);
+      },(err)=>{
+        form.reset();
+        this.util.showToast('Utilisateur existe déjà', 'danger', 'bottom');
+      });
+    
+    }
 }

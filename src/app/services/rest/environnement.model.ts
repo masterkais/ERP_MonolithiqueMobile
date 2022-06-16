@@ -1,4 +1,4 @@
 export const environmentApi = {
     production: false,
-    host:"https://a23c-102-169-249-130.eu.ngrok.io"
+    host:"https://8ada-196-179-94-188.eu.ngrok.io"
 }; 

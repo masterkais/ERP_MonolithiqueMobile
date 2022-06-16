@@ -19,55 +19,79 @@
 </ion-header>
 
 <ion-content>
-  <form (submit)="adduser(nom.value,prenom.value,adrmail.value,nomutilid.value,adr.value,ville.value,datenaiss.value,tel.value,fax.value)">
+  <form role="form" #adminForm="ngForm" (ngSubmit)="adduser(adminForm.form)">
     <ion-list lines="none" class="contactFormList">
+    <ion-item class="inputs-item" lines="none">
+      <ion-input class="form-control" [(ngModel)]="usernomText" #usernom="ngModel" placeholder="Nom" type="text" name="usernom"
+        required></ion-input>
+        
+     
+    </ion-item>
 
-      <ion-item class="inputs-item" lines="none">
-        <ion-input type="text" placeholder="Nom" #nom></ion-input>
-      </ion-item>
+    <ion-item class="inputs-item" lines="none">
+      
+        <ion-input class="form-control" [(ngModel)]="userprenomText" #userprenom="ngModel" placeholder="Prénom" type="text" name="userprenom"
+        required></ion-input>
+     
+    </ion-item>
 
-      <ion-item class="inputs-item" lines="none">
-        <ion-input type="text" placeholder="Prénom" #prenom></ion-input>
-      </ion-item>
+    <ion-item class="inputs-item" lines="none">
+      
+      <ion-input class="form-control" [(ngModel)]="adrmailText" #adrmail="ngModel" placeholder="Email" type="email" name="adrmail"
+      required></ion-input>
+   
+    </ion-item>
 
-      <ion-item class="inputs-item" lines="none">
-        <ion-input type="email" placeholder="Adresse email" #adrmail></ion-input>
-      </ion-item>
+    <ion-item class="inputs-item" lines="none">
+      
+      <ion-input class="form-control" [(ngModel)]="nomutilidText" #nomutilid="ngModel" placeholder="Matricule Fiscale" type="text" name="nomutilid"
+      required></ion-input>
+   
+    </ion-item>
 
-      <ion-item class="inputs-item" lines="none">
-        <ion-input type="text" placeholder="Matricule Fiscale" #nomutilid></ion-input>
-      </ion-item>
+    <ion-item class="inputs-item" lines="none">
+      
+      <ion-input class="form-control" [(ngModel)]="adrText" #adr="ngModel" placeholder="Adresse" type="text" name="adr"
+      required></ion-input>
+   
+    </ion-item>
 
-      <!--<ion-item class="inputs-item" lines="none">
-        <ion-input type="password" placeholder="Mot de passe" #motdepasse></ion-input>
-      </ion-item>-->
+    <ion-item class="inputs-item" lines="none">
+      
+      <ion-input class="form-control" [(ngModel)]="villeText" #ville="ngModel" placeholder="Ville" type="text" name="ville"
+      required></ion-input>
+   
+    </ion-item>
 
-      <ion-item class="inputs-item" lines="none">
-        <ion-input type="text" placeholder="Adresse" #adr></ion-input>
-      </ion-item>
+    <ion-item class="inputs-item" lines="none">
+      
+      <ion-input class="form-control" [(ngModel)]="datenaissText" #datenaiss="ngModel" value="{{this.today2}}" type="date" name="datenaiss"
+      required></ion-input>
+   
+    </ion-item>
 
-      <ion-item class="inputs-item" lines="none">
-        <ion-input type="text" placeholder="Ville" #ville></ion-input>
-      </ion-item>
+    <ion-item class="inputs-item" lines="none">
+      
+      <ion-input class="form-control" [(ngModel)]="telText" #tel="ngModel" placeholder="Téléphone" type="text" name="tel"
+      required></ion-input>
+   
+    </ion-item>
 
-      <ion-item class="inputs-item" lines="none">
-        <ion-input type="date" placeholder="{{startDate}}" #datenaiss></ion-input>
+    <ion-item class="inputs-item" lines="none">
+      
+      <ion-input class="form-control" [(ngModel)]="faxText" #fax="ngModel" placeholder="Fax" type="text" name="fax"
+      required></ion-input>
+   
+     
+    </ion-item>
 
-
-      </ion-item>
-
-      <ion-item class="inputs-item" lines="none">
-        <ion-input type="text" placeholder="Numéro tél" #tel></ion-input>
-      </ion-item>
-
-      <ion-item class="inputs-item" lines="none">
-        <ion-input type="text" placeholder="Fax" #fax></ion-input>
-      </ion-item>
-
-
-    </ion-list>
-    <ion-button expand="block" color="secondary" (click)="adduser(nom.value,prenom.value,adrmail.value,nomutilid.value, adr.value,ville.value,datenaiss.value,tel.value,fax.value)">Enregistrer</ion-button>
+  </ion-list>
+   
+    <div class="col-md-6" style="text-align: right">
+      <ion-button type="submit" expand="block" color="secondary" [disabled]="!adminForm.valid">Log In</ion-button>
+    </div>
   </form>
 
+ 
   <!--<ion-button expand="block" color="secondary" (click)="sendMessage()">Enregistrer</ion-button>-->
 </ion-content>

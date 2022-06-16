@@ -18,18 +18,22 @@ import {HttpClient} from "@angular/common/http";
 import {Category} from "../../modals/Category";
 import {Product} from "../../modals/Product";
 import format from 'date-fns/format';
+import {User} from "../../modals/User";
 @Component({
   selector: 'app-charts',
   templateUrl: './charts.page.html',
   styleUrls: ['./charts.page.scss'],
 })
 export class ChartsPage implements OnInit {
+  public currentUser:User;
   today2 =format(new Date(), "yyyy-MM-dd");
   badgecount:any;
   produits_commandes_list : Array<Panier> = [];
   compteurSiteStockDisponible:number=0;
   compteurSiteStockNonDisponible:number=0;
   compteurProductSolde:number=0;
+  compteurCommandeTot:number=0;
+  compteurCommandeParDate:number=0;
   compteurProductNonSolde:number=0;
   category_list: Array<Category> = [];
   product_active_list: Array<string> = [];
@@ -466,12 +470,55 @@ export class ChartsPage implements OnInit {
     this.getnumberSiteStockDisponible();
     this.getnumberProductSolde();
     this.getallCategory();
-  console.log('vvvvv  '+this.compteurSiteStockDisponible);
-  console.log('vvvvv  '+this.compteurSiteStockNonDisponible);
+    this.getCurrentUser();
+   // this.getsalesByPrchasingManager();
+  
 
 
   }
+  async CurrentUser():Promise<User>{
+    return this.http.get<User>(environmentApi.host+"/api/user/getCurretnUser").toPromise();
+  }
+   getCurrentUser(){
 
+
+    var cur_user,i;
+     this.CurrentUser().then((data) => {
+      this.currentUser=data;
+      this.getsalesByPrchasingManager(this.currentUser.id);
+      this.getsalesByPrchasingManagerAndDate(this.currentUser.id);
+      
+    });
+    
+  }
+  salesByPrchasingManager(iduser):Observable<number>{
+    
+    
+    return this.http.get<number>(environmentApi.host+"/api/statistique/salesByPrchasingManager/"+iduser);
+  }
+  getsalesByPrchasingManager(iduser){
+    var prod,i,j;
+    
+    this.salesByPrchasingManager(iduser).subscribe((data) => {
+      this.compteurCommandeTot = data;
+  });
+  }
+
+
+
+  salesByPrchasingManagerAndDate(iduser):Observable<number>{
+    
+    
+    return this.http.get<number>(environmentApi.host+"/api/statistique/salesByPrchasingManagerAndDate/"+iduser);
+  }
+  getsalesByPrchasingManagerAndDate(iduser){
+    var prod,i,j;
+    
+    this.salesByPrchasingManagerAndDate(iduser).subscribe((data) => {
+      console.log(data);
+      this.compteurCommandeParDate = data;
+  });
+  }
 
   addtocart(idprod){
 
